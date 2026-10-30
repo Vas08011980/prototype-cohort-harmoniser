@@ -1,0 +1,1125 @@
+table_name,name,branching_logic
+ab_p_demo,ab_p_demo__ethn_001__v01,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  [event_num] >= 4"
+ab_p_demo,ab_p_demo__ntvam_001a,[demo_race_a_p(12)] = '1' OR [demo_race_a_p(13)] = '1' OR ( [demo_race_a_p(12)] = '1' AND [demo_race_a_p(13)]= '1') | [demo_race_youth_acs_p(12)] = '1' AND ([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1')
+ab_p_demo,ab_p_demo__ntvam_001b,[demo_race_a_p(12)] = '1' OR [demo_race_a_p(13)] = '1' OR ( [demo_race_a_p(12)] = '1' AND [demo_race_a_p(13)]= '1') | [demo_race_youth_acs_p(12)] = '1' AND ([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1' )
+ab_p_demo,ab_p_demo__ntvam_001c,[demo_race_a_p(12)] = '1' OR [demo_race_a_p(13)] = '1' OR ( [demo_race_a_p(12)] = '1' AND [demo_race_a_p(13)]= '1') | [demo_race_youth_acs_p(12)] = '1' AND ([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1' )
+ab_p_demo,ab_p_demo__ntvam_002,[demo_race_a_p(12)] = '1' OR [demo_race_a_p(13)] = '1' OR ( [demo_race_a_p(12)] = '1' AND [demo_race_a_p(13)]= '1') | [demo_race_youth_acs_p(12)] = '1' AND ([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1' )
+ab_p_demo,ab_p_demo__ntvam_003,[demo_race_a_p(12)] = '1' OR [demo_race_a_p(13)] = '1' OR ( [demo_race_a_p(12)] = '1' AND [demo_race_a_p(13)]= '1') | [demo_race_youth_acs_p(12)] = '1' AND ([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1' )
+ab_p_demo,ab_p_demo__ntvam_004,[demo_race_a_p(12)] = '1' OR [demo_race_a_p(13)] = '1' OR ( [demo_race_a_p(12)] = '1' AND [demo_race_a_p(13)]= '1') | [demo_race_youth_acs_p(12)] = '1' AND ([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1' )
+ab_p_demo,ab_p_demo__ntvam_005,[demo_race_a_p(12)] = '1' OR [demo_race_a_p(13)] = '1' OR ( [demo_race_a_p(12)] = '1' AND [demo_race_a_p(13)]= '1') | [demo_race_youth_acs_p(12)] = '1' AND ([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1' )
+ab_p_demo,ab_p_demo__ntvam_006,[demo_race_a_p(12)] = '1' OR [demo_race_a_p(13)] = '1' OR ( [demo_race_a_p(12)] = '1' AND [demo_race_a_p(13)]= '1') | [demo_race_youth_acs_p(12)] = '1' AND ([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1' )
+ab_p_demo,ab_p_demo__ntvam_007,[demo_race_a_p(12)] = '1' OR [demo_race_a_p(13)] = '1' OR ( [demo_race_a_p(12)] = '1' AND [demo_race_a_p(13)]= '1') | [demo_race_youth_acs_p(12)] = '1' AND ([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1' )
+ab_p_demo,ab_p_demo__race_001__v01___10,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___11,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___12,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___13,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___14,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___15,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___16,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___17,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___18,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___19,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___20,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___21,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___22,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___23,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___24,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___777,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+ab_p_demo,ab_p_demo__race_001__v01___999,"([event-name] = ""2_year_follow_up_y_arm_1"" AND [baseline_year_1_arm_1][race_ethnicity] = """") OR  ([event_num] >= 4 AND [event_num] < 8)"
+fc_p_aclt,fc_p_aclt_002__02,[accult_q2_p] = '1' AND [event-name] != '1_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__expr_001,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__expr_002,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__expr_003,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__expr_004,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__expr_005,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__expr_006,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__expr_007,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__expr_008,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__expr_009,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__intelcult_001,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__intelcult_002,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__intelcult_003,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__intelcult_004,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__intelcult_005,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__intelcult_006,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__intelcult_007,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__intelcult_008,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__intelcult_009,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1'
+fc_p_fes,fc_p_fes__org_001,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__org_002,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__org_003,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__org_004,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__org_005,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__org_006,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__org_007,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__org_008,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__org_009,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__rec_001,[event_num] >= 2  AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__rec_002,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__rec_003,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__rec_004,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__rec_005,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__rec_006,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__rec_007,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__rec_008,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_fes,fc_p_fes__rec_009,[event_num] >= 2 AND [event-name] != '6_year_follow_up_y_arm_1' AND [event_num] < 8
+fc_p_hsf,fc_p_hsf_001,"[event-name] = ""5_year_follow_up_y_arm_1"""
+fc_p_hsf,fc_p_hsf_002,"[event-name] = ""5_year_follow_up_y_arm_1"""
+fc_p_hsf,fc_p_hsf_003,"[event-name] = ""5_year_follow_up_y_arm_1"""
+fc_p_hsf,fc_p_hsf_004,"[event-name] = ""5_year_follow_up_y_arm_1"""
+fc_p_hsf,fc_p_hsf_005,"[event-name] = ""5_year_follow_up_y_arm_1"""
+fc_p_hsf,fc_p_hsf_006,"[event-name] = ""5_year_follow_up_y_arm_1"""
+fc_p_hsf,fc_p_hsf_007,[event-name] = '5_year_follow_up_y_arm_1'
+fc_p_hsf,fc_p_hsf_008,[event-name] = '5_year_follow_up_y_arm_1'
+fc_p_hsf,fc_p_hsf_009,[event-name] = '5_year_follow_up_y_arm_1'
+fc_p_hsf,fc_p_hsf_010,[event-name] = '5_year_follow_up_y_arm_1'
+fc_y_aclt,fc_y_aclt_002__02,[accult_q2_y] = '1' and [event-name] != '1_year_follow_up_y_arm_1'
+fc_y_fes,fc_y_fes__cohes_001,"[event-name] = ""4_year_follow_up_y_arm_1"" OR [event-name] = ""7_year_follow_up_y_arm_1"" OR [event-name] = ""8_year_follow_up_y_arm_1"""
+fc_y_fes,fc_y_fes__cohes_002,"[event-name] = ""4_year_follow_up_y_arm_1"" OR [event-name] = ""7_year_follow_up_y_arm_1"" OR [event-name] = ""8_year_follow_up_y_arm_1"""
+fc_y_fes,fc_y_fes__cohes_003,"[event-name] = ""4_year_follow_up_y_arm_1"" OR [event-name] = ""7_year_follow_up_y_arm_1"" OR [event-name] = ""8_year_follow_up_y_arm_1"""
+fc_y_fes,fc_y_fes__cohes_004,"[event-name] = ""4_year_follow_up_y_arm_1"" OR [event-name] = ""7_year_follow_up_y_arm_1"" OR [event-name] = ""8_year_follow_up_y_arm_1"""
+fc_y_fes,fc_y_fes__cohes_005,"[event-name] = ""4_year_follow_up_y_arm_1"" OR [event-name] = ""7_year_follow_up_y_arm_1"" OR [event-name] = ""8_year_follow_up_y_arm_1"""
+fc_y_fes,fc_y_fes__cohes_006,"[event-name] = ""4_year_follow_up_y_arm_1"" OR [event-name] = ""7_year_follow_up_y_arm_1"" OR [event-name] = ""8_year_follow_up_y_arm_1"""
+fc_y_fes,fc_y_fes__cohes_007,"[event-name] = ""4_year_follow_up_y_arm_1"" OR [event-name] = ""7_year_follow_up_y_arm_1"" OR [event-name] = ""8_year_follow_up_y_arm_1"""
+fc_y_fes,fc_y_fes__cohes_008,"[event-name] = ""4_year_follow_up_y_arm_1"" OR [event-name] = ""7_year_follow_up_y_arm_1"" OR [event-name] = ""8_year_follow_up_y_arm_1"""
+fc_y_fes,fc_y_fes__cohes_009,"[event-name] = ""4_year_follow_up_y_arm_1"" OR [event-name] = ""7_year_follow_up_y_arm_1"" OR [event-name] = ""8_year_follow_up_y_arm_1"""
+fc_y_nsc,fc_y_nsc__pol_001a,"[event-name] = ""4_year_follow_up_y_arm_1"""
+fc_y_nsc,fc_y_nsc__pol_001b,"[event-name] = ""4_year_follow_up_y_arm_1"""
+fc_y_nsc,fc_y_nsc__pol_002a,"[event-name] = ""4_year_follow_up_y_arm_1"""
+fc_y_nsc,fc_y_nsc__pol_002b,"[event-name] = ""4_year_follow_up_y_arm_1"""
+fc_y_nsc,fc_y_nsc__pol__imp_001,"[event-name] = ""4_year_follow_up_y_arm_1"""
+fc_y_nsc,fc_y_nsc__pol__imp_002,"[event-name] = ""4_year_follow_up_y_arm_1"""
+fc_y_nsc,fc_y_nsc__pol__imp_003,"[event-name] = ""4_year_follow_up_y_arm_1"""
+fc_y_srpf,fc_y_srpf__env_002,[event-name] = '6_year_follow_up_y_arm_1' OR ([event_num] >= 8 AND [sched_school_type] = '1')
+fc_y_srpf,fc_y_srpf__env_003,[event-name] = '6_year_follow_up_y_arm_1' OR ([event_num] >= 8 AND [sched_school_type] = '1')
+fc_y_srpf,fc_y_srpf__env_004,[event-name] = '6_year_follow_up_y_arm_1' OR ([event_num] >= 8 AND [sched_school_type] = '1')
+fc_y_srpf,fc_y_srpf__env_005,[event-name] = '6_year_follow_up_y_arm_1' OR ([event_num] >= 8 AND [sched_school_type] = '1')
+fc_y_srpf,fc_y_srpf__env_006,[event-name] = '6_year_follow_up_y_arm_1' OR ([event_num] >= 8 AND [sched_school_type] = '1')
+fc_y_srpf,fc_y_srpf__involv_001,(([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1') AND [edu_voc_school_01_y] != '0') OR ([event_num] >= 8 AND [sched_school_type] = '1')
+fc_y_srpf,fc_y_srpf__involv_002,(([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1') AND [edu_voc_school_01_y] != '0') OR ([event_num] >= 8 AND [sched_school_type] = '1')
+fc_y_srpf,fc_y_srpf__involv_003,(([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1') AND [edu_voc_school_01_y] != '0') OR ([event_num] >= 8 AND [sched_school_type] = '1')
+fc_y_srpf,fc_y_srpf__involv_004,(([event-name] = '5_year_follow_up_y_arm_1' OR [event-name] = '7_year_follow_up_y_arm_1') AND [edu_voc_school_01_y] != '0') OR ([event_num] >= 8 AND [sched_school_type] = '1')
+fc_y_vs,fc_y_vs__obl_001,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1'
+fc_y_vs,fc_y_vs__obl_002,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1'
+fc_y_vs,fc_y_vs__obl_003,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1'
+fc_y_vs,fc_y_vs__obl_004,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1'
+fc_y_vs,fc_y_vs__obl_005,[event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1'
+mh_p_abcl,mh_p_abcl__cg2_002,([abcl_about_p] != '0' AND [abcl_about_p] != '') AND ([event-name] = '4_year_follow_up_y_arm_1')
+mh_p_asr,mh_p_asr__alc_001,"[asr_q127_p_dk] = """" AND [event-name] = '4_year_follow_up_y_arm_1'"
+mh_p_asr,mh_p_asr__alc_001__dk,"[asr_q124_p] = """" AND [event-name] = '4_year_follow_up_y_arm_1'"
+mh_p_asr,mh_p_asr__drunk_001__dk,"[asr_q125_p] = """" OR ([asr_q127_p] = """" AND [event-name] = '4_year_follow_up_y_arm_1')"
+mh_p_kbi,mh_p_kbi__school_001,"[event-name] = ""3_year_follow_up_y_arm_1"""
+mh_p_ple,mh_p_ple_008__02,[ple_sud_p] = '1' AND [event-name] = '5_year_follow_up_y_arm_1'
+mh_p_ple,mh_p_ple_015__02,[ple_mh_p] = '1'  AND [event-name] = '5_year_follow_up_y_arm_1'
+mh_p_ple,mh_p_ple_018__02,[ple_separ_p] = '1' AND [event-name] = '5_year_follow_up_y_arm_1'
+mh_p_ple,mh_p_ple_022__02,[ple_jail_p] = '1' AND [event-name] = '5_year_follow_up_y_arm_1'
+mh_p_ple,mh_p_ple_028__05,[ple_foster_care_p] = '1' AND [event-name] = '5_year_follow_up_y_arm_1'
+mh_p_ple,mh_p_ple_033__02,[ple_homeless_p] = '1' AND [event-name] = '5_year_follow_up_y_arm_1'
+mh_y_kbi,mh_y_kbi__school_001__01,"[kbi_y_grade_repeat] = '1' and ([event-name] = ""3_year_follow_up_y_arm_1"")"
+mh_y_kbi,mh_y_kbi__school_001__02,"[kbi_y_grade_repeat] = '1' and ([event-name] = ""3_year_follow_up_y_arm_1"")"
+mh_y_kbi,mh_y_kbi__school_001__03___1,"[kbi_y_grade_repeat] = '1' and ([event-name] = ""3_year_follow_up_y_arm_1"")"
+mh_y_kbi,mh_y_kbi__school_001__03___2,"[kbi_y_grade_repeat] = '1' and ([event-name] = ""3_year_follow_up_y_arm_1"")"
+mh_y_kbi,mh_y_kbi__school_001__03___3,"[kbi_y_grade_repeat] = '1' and ([event-name] = ""3_year_follow_up_y_arm_1"")"
+mh_y_kbi,mh_y_kbi__school_001__03___4,"[kbi_y_grade_repeat] = '1' and ([event-name] = ""3_year_follow_up_y_arm_1"")"
+mh_y_kbi,mh_y_kbi__school_001__03___5,"[kbi_y_grade_repeat] = '1' and ([event-name] = ""3_year_follow_up_y_arm_1"")"
+mh_y_kbi,mh_y_kbi__school_001__03___6,"[kbi_y_grade_repeat] = '1' and ([event-name] = ""3_year_follow_up_y_arm_1"")"
+mh_y_kbi,mh_y_kbi__school_001__03___7,"[kbi_y_grade_repeat] = '1' and ([event-name] = ""3_year_follow_up_y_arm_1"")"
+mh_y_kbi,mh_y_kbi__school_001__03___8,"[kbi_y_grade_repeat] = '1' and ([event-name] = ""3_year_follow_up_y_arm_1"")"
+mh_y_kbi,mh_y_kbi__school_001__03___777,"[kbi_y_grade_repeat] = '1' and ([event-name] = ""3_year_follow_up_y_arm_1"")"
+mh_y_ysr,mh_y_ysr__anxdep__dep_004,"[event-name] != ""54_month_follow_up_arm_1"" AND [event-name] != '66_month_follow_up_arm_1'"
+mh_y_ysr,mh_y_ysr__othpr_005,[event-name] != '54_month_follow_up_arm_1'
+mh_y_ysr,mh_y_ysr__tho__dep_001,"[event-name] != ""54_month_follow_up_arm_1"" AND [event-name] != '66_month_follow_up_arm_1'"
+nt_y_stq,nt_y_stq_001,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd_001,[event-name] = '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd_002,[event-name] = '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd_003,[event-name] = '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd_004,[event-name] = '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd_005,[event-name] = '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd_006,[event-name] = '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wkdy__hr_001,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wkdy__min_001,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wkdy__hr_001__v01,([event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1')
+nt_y_stq,nt_y_stq__screen__wkdy__min_001__v01,([event-name] = '3_year_follow_up_y_arm_1' OR [event-name] = '4_year_follow_up_y_arm_1')
+nt_y_stq,nt_y_stq__screen__wkdy__hr_002,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wkdy__min_002,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wkdy__hr_003,"([event-name] != ""1_year_follow_up_y_arm_1"" OR [screentime_phone_yn] = '1') AND [event_num] < 5"
+nt_y_stq,nt_y_stq__screen__wkdy__min_003,"([event-name] != ""1_year_follow_up_y_arm_1"" OR [screentime_phone_yn] = '1') AND [event_num] < 5"
+nt_y_stq,nt_y_stq__screen__wkdy__hr_004,([event-name] != '1_year_follow_up_y_arm_1' OR [screentime_phone_yn] = '1') AND [event_num] < 5
+nt_y_stq,nt_y_stq__screen__wkdy__min_004,([event-name] != '1_year_follow_up_y_arm_1' OR [screentime_phone_yn] = '1') AND [event_num] < 5
+nt_y_stq,nt_y_stq__screen__wkdy__min_004__01,([event-name] != '1_year_follow_up_y_arm_1' OR [screentime_phone_yn] = '1') AND [event-name] != '5_year_follow_up_y_arm_1' AND [event-name] != '6_year_follow_up_y_arm_1' AND [event-name] != '7_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wkdy__hr_005,([event-name] != '1_year_follow_up_y_arm_1' OR [screentime_phone_yn] = '1') AND [event_num] < 5
+nt_y_stq,nt_y_stq__screen__wkdy__min_005,([event-name] != '1_year_follow_up_y_arm_1' OR [screentime_phone_yn] = '1') AND  [event_num] < 5
+nt_y_stq,nt_y_stq__screen__wkdy__hr_006,([event-name] != '1_year_follow_up_y_arm_1' OR [screentime_phone_yn] = '1') AND  [event_num] < 5
+nt_y_stq,nt_y_stq__screen__wkdy__min_006,([event-name] != '1_year_follow_up_y_arm_1' OR [screentime_phone_yn] = '1') AND  [event_num] < 5
+nt_y_stq,nt_y_stq__screen__wkdy__hr_007,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wkdy__min_007,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wkdy__hr_008,([event-name] != '1_year_follow_up_y_arm_1' OR [screentime_phone_yn] = '1') AND [event_num] < 5
+nt_y_stq,nt_y_stq__screen__wkdy__min_008,([event-name] != '1_year_follow_up_y_arm_1' OR [screentime_phone_yn] = '1') AND [event_num] < 5
+nt_y_stq,nt_y_stq__screen__wkdy__school__hr_001,([event-name] = '3_year_follow_up_y_arm_1') OR ([screentime_phone_yn] = '1' AND [event_num] >= 4)
+nt_y_stq,nt_y_stq__screen__wkdy__school__min_001,([event-name] = '3_year_follow_up_y_arm_1') OR ([screentime_phone_yn] = '1' AND [event_num] >= 4)
+nt_y_stq,nt_y_stq__screen__wkdy__school__hr_002,(([event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '5_year_follow_up_y_arm_1' )  AND [screentime_phone_yn] = '1') and ([screentime_wkdy_school_hr] > '0' OR [screentime_wkdy_school_min] > '0')
+nt_y_stq,nt_y_stq__screen__wkdy__school__min_002,(([event-name] = '4_year_follow_up_y_arm_1' OR [event-name] = '5_year_follow_up_y_arm_1' ) AND [screentime_phone_yn] = '1') and ([screentime_wkdy_school_hr] > '0' OR [screentime_wkdy_school_min] > '0')
+nt_y_stq,nt_y_stq__screen__wkdy__tot__hr_001,[event-name] != '1_year_follow_up_y_arm_1' OR [screentime_phone_yn] = '1'
+nt_y_stq,nt_y_stq__screen__wkdy__tot__min_001,[event-name] != '1_year_follow_up_y_arm_1' OR [screentime_phone_yn] = '1'
+nt_y_stq,nt_y_stq__screen__wknd__hr_001,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__min_001,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__hr_002,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__min_002,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__hr_003,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__min_003,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__hr_004,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__min_004,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__hr_005,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__min_005,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__hr_006,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__min_006,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__hr_007,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__min_007,[event-name] = '2_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__hr_008,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__min_008,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__tot__hr_001,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__screen__wknd__tot__min_001,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__sleep_001,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__sleep_002,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__sleep_013,([event-name] != '1_year_follow_up_y_arm_1'  AND [screentime_sq1] = '1') OR [event_num] >= 5
+nt_y_stq,nt_y_stq__sleep_014,([event-name] != '1_year_follow_up_y_arm_1'  AND [screentime_sq1] = '1') OR [event_num] >= 5
+nt_y_stq,nt_y_stq__socmed_001,[event-name] != '1_year_follow_up_y_arm_1'
+nt_y_stq,nt_y_stq__socmed_001__01,[event-name] = '2_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_001__02,[event-name] = '2_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_001__03,[event-name] = '2_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_001__04,[event-name] = '2_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_001__05,[event-name] = '2_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_001__06,[event-name] = '2_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_001__07,[event-name] = '2_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_001__08,[event-name] = '2_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_001__09,[event-name] = '2_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_001__10,[event-name] = '2_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_001__11,[event-name] = '2_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_002___1,[event-name] = '3_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_002___2,[event-name] = '3_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_002___3,[event-name] = '3_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_002___4,[event-name] = '3_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_002___5,[event-name] = '3_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_002___6,[event-name] = '3_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_002___7,[event-name] = '3_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_002___8,[event-name] = '3_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_002___9,[event-name] = '3_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_002___10,[event-name] = '3_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_002___11,[event-name] = '3_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_004,([screentime_usesoc] = '1') AND ([event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1')
+nt_y_stq,nt_y_stq__socmed_005,"([screentime_usesoc] = '1' and [screentime_smq_followers_dk] = """") AND ([event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1')"
+nt_y_stq,nt_y_stq__socmed_005__dk,"| ([screentime_usesoc] = '1' and [screentime_smq_followers] = """") AND ([event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1')"
+nt_y_stq,nt_y_stq__socmed_006,"([screentime_usesoc] = '1' and [screentime_smq_following_dk] = """") AND ([event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1')"
+nt_y_stq,nt_y_stq__socmed_006__dk,"| ([screentime_usesoc] = '1' and [screentime_smq_following] = """") AND ([event-name] = '2_year_follow_up_y_arm_1' OR [event-name] = '3_year_follow_up_y_arm_1')"
+nt_y_stq,nt_y_stq__socmed_008,[event-name] != '1_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_009,[event-name] != '1_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_010,[event-name] != '1_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_011,[event-name] != '1_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_012,[event-name] != '1_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__socmed_013,[event-name] != '1_year_follow_up_y_arm_1' AND  [screentime_usesoc] = '1'
+nt_y_stq,nt_y_stq__vidgame_001,[event-name] != '1_year_follow_up_y_arm_1'  AND  ([screentime_3_wkdy_hr] > 0 or [screentime_3_wkdy_min] >0 or [screentime_9_wknd_hr] > 0 or [screentime_9_wknd_min] > 0 or [screentime_4_wkdy_hr] > 0 or [screentime_4_wkdy_min] >0 or [screentime_10_wknd_hr] > 0 or [screentime_10_wknd_min] > 0)
+nt_y_stq,nt_y_stq__vidgame_002,[event-name] != '1_year_follow_up_y_arm_1'  AND  ([screentime_3_wkdy_hr] > 0 or [screentime_3_wkdy_min] >0 or [screentime_9_wknd_hr] > 0 or [screentime_9_wknd_min] > 0 or [screentime_4_wkdy_hr] > 0 or [screentime_4_wkdy_min] >0 or [screentime_10_wknd_hr] > 0 or [screentime_10_wknd_min] > 0)
+nt_y_stq,nt_y_stq__vidgame_003,[event-name] != '1_year_follow_up_y_arm_1'  AND  ([screentime_3_wkdy_hr] > 0 or [screentime_3_wkdy_min] >0 or [screentime_9_wknd_hr] > 0 or [screentime_9_wknd_min] > 0 or [screentime_4_wkdy_hr] > 0 or [screentime_4_wkdy_min] >0 or [screentime_10_wknd_hr] > 0 or [screentime_10_wknd_min] > 0)
+nt_y_stq,nt_y_stq__vidgame_004,[event-name] != '1_year_follow_up_y_arm_1'  AND  ([screentime_3_wkdy_hr] > 0 or [screentime_3_wkdy_min] >0 or [screentime_9_wknd_hr] > 0 or [screentime_9_wknd_min] > 0 or [screentime_4_wkdy_hr] > 0 or [screentime_4_wkdy_min] >0 or [screentime_10_wknd_hr] > 0 or [screentime_10_wknd_min] > 0)
+nt_y_stq,nt_y_stq__vidgame_005,[event-name] != '1_year_follow_up_y_arm_1'  AND  ([screentime_3_wkdy_hr] > 0 or [screentime_3_wkdy_min] >0 or [screentime_9_wknd_hr] > 0 or [screentime_9_wknd_min] > 0 or [screentime_4_wkdy_hr] > 0 or [screentime_4_wkdy_min] >0 or [screentime_10_wknd_hr] > 0 or [screentime_10_wknd_min] > 0)
+nt_y_stq,nt_y_stq__vidgame_006,[event-name] != '1_year_follow_up_y_arm_1'  AND  ([screentime_3_wkdy_hr] > 0 or [screentime_3_wkdy_min] >0 or [screentime_9_wknd_hr] > 0 or [screentime_9_wknd_min] > 0 or [screentime_4_wkdy_hr] > 0 or [screentime_4_wkdy_min] >0 or [screentime_10_wknd_hr] > 0 or [screentime_10_wknd_min] > 0)
+nt_y_stq,nt_y_stq__dapp_001,[event-name] = '2_year_follow_up_y_arm_1' OR [event_num] >= 5
+ph_p_covid,ph_p_covid__behav_001,[event-name] = '4_year_follow_up_y_arm_1'
+ph_p_covid,ph_p_covid__behav_002,[event-name] = '4_year_follow_up_y_arm_1'
+ph_p_covid,ph_p_covid__behav_003,[event-name] = '4_year_follow_up_y_arm_1'
+ph_p_covid,ph_p_covid__behav_004,[event-name] = '4_year_follow_up_y_arm_1'
+ph_p_covid,ph_p_covid__behav_005,[event-name] = '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_002__01,[devhx_2_p_dk] = '' OR ([devhx_2_p_dk] = '' AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx_002__01__dk,[devhx_2_p] = '' OR ([devhx_2_p] = '' AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx_002__02,[devhx_2b_p_dk] = '' OR ([devhx_2b_p_dk] = '' AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx_002__02__dk,[devhx_2b_p] = '' OR ([devhx_2b_p] = '' AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx_003__01,[devhx_3_p_dk] = '' OR ([devhx_3_p_dk] = ''  AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx_003__01__dk,[devhx_3_p] = '' OR ([devhx_3_p] = '' AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx_004__01,[devhx_4_p_dk] = '' OR ([devhx_4_p_dk] = ''  AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx_004__01__dk,[devhx_4_p] = '' OR ([devhx_4_p] = '' AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx_005,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_006,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_007__01,[devhx_7_p_dk] = '' OR ([devhx_7_p_dk] = '' AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx_007__01__dk,[devhx_7_p] = '' OR ([devhx_7_p] = '' AND  [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx_008,[devhx_11_p_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_008__dk,[devhx_11_p] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_009,[devhx_15_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_009__dk,[devhx_15] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_010,[devhx_16_p_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_010__dk,[devhx_16_p] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_011,[devhx_17_p_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_011__dk,[devhx_17_p] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_012,[devhx_18_p_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_012__dk,[devhx_18_p] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_013,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_014,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx_015,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__birth_001,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__birth_002,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__birth_003,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__birth_004,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__birth_005,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__birth_006,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__birth_007,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__birth_008,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__birth_009,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__birth_010,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__first_001,[devhx_19a_p_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__first_001__dk,[devhx_19a_p] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__first_002,[devhx_19b_p_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__first_002__dk,[devhx_19b_p] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__first_003,[devhx_19c_p_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__first_003__dk,[devhx_19c_p] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__first_004,[devhx_19d_p_dk] = '' OR ([devhx_19d_p_dk] = '' AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx__first_004__dk,[devhx_19d_p] = '' OR ([devhx_19d_p] = '' AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx__med_001,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_002,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_004,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_005,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_006,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_007,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_008,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_009,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_010,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_011,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_012,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_013,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_014,[devhx_10c3_p] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_015,[devhx_10c3_p] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__med_016,[devhx_10c3_p] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001a,([event-name] = 'baseline_year_1_arm_1') OR (([devhx_1_p] = '1' OR [devhx_1_p] = '0' ) AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx__alc_001a__01,[devhx_8_alcohol] ='1' AND [devhx_8_alchohol_max_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001a__01__dk,[devhx_8_alcohol] ='1' AND [devhx_8_alchohol_max] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001a__02,[devhx_8_alcohol] ='1' AND [devhx_8_alchohol_avg_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001a__02__dk,[devhx_8_alcohol] ='1' AND [devhx_8_alchohol_avg] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001a__03,[devhx_8_alcohol] ='1' AND [devhx_8_alcohol_effects_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001a__03__dk,[devhx_8_alcohol] ='1' AND [devhx_8_alcohol_effects] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001b,([event-name] = 'baseline_year_1_arm_1') OR (([devhx_1_p] = '1' OR [devhx_1_p] = '0' ) AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx__alc_001b__01,[devhx_9_alcohol] ='1' AND [devhx_9_alchohol_max_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001b__01__dk,[devhx_9_alcohol] ='1' AND [devhx_9_alchohol_max] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001b__02,[devhx_9_alcohol] ='1' AND [devhx_9_alchohol_avg_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001b__02__dk,[devhx_9_alcohol] ='1' AND [devhx_9_alchohol_avg] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001b__03,[devhx_9_alcohol] ='1' AND [devhx_9_alcohol_effects_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__alc_001b__03__dk,[devhx_9_alcohol] ='1' AND [devhx_9_alcohol_effects] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__caff_001,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__coc_001a,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__coc_001b,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__mj_001a,([event-name] = 'baseline_year_1_arm_1') OR (([devhx_1_p] = '1' OR [devhx_1_p] = '0' ) AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx__mj_001a__01,[devhx_8_marijuana] = '1' AND [devhx_8_marijuana_amt_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__mj_001a__01__dk,[devhx_8_marijuana] = '1' AND [devhx_8_marijuana_amt] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__mj_001b,([event-name] = 'baseline_year_1_arm_1') OR (([devhx_1_p] = '1' OR [devhx_1_p] = '0' ) AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx__mj_001b__01,[devhx_9_marijuana] = '1' AND [devhx_9_marijuana_amt_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__mj_001b__01__dk,[devhx_9_marijuana] = '1' AND [devhx_9_marijuana_amt] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__nic_001a,([event-name] = 'baseline_year_1_arm_1') OR (([devhx_1_p] = '1' OR [devhx_1_p] = '0' ) AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx__nic_001a__01,[devhx_8_tobacco] = '1' AND [devhx_8_cigs_per_day_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__nic_001a__01__dk,[devhx_8_tobacco] = '1' AND [devhx_8_cigs_per_day] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__nic_001b,([event-name] = 'baseline_year_1_arm_1') OR (([devhx_1_p] = '1' OR [devhx_1_p] = '0' ) AND [event-name] = '4_year_follow_up_y_arm_1')
+ph_p_dhx,ph_p_dhx__nic_001b__01,[devhx_9_tobacco] = '1' AND [devhx_9_cigs_per_day_dk] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__nic_001b__01__dk,[devhx_9_tobacco] = '1' AND [devhx_9_cigs_per_day] = '' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__opi_001a,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__opi_001b,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__rxpain_001a,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__rxpain_001b,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_dhx,ph_p_dhx__vit_001,[event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__activs_000__v01,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__bowl_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__box_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__cheer_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__curl_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__cycle_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__field_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__fishing_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__frisbee_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__golf_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__orient_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__paddle_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__row_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__sail_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__activs__tblten_001,"[event-name] = ""3_year_follow_up_y_arm_1"" OR [event-name] = ""4_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__art_004__l,[sai_p_activities_l(24)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__art_005__l,[sai_p_activities_l(24)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__art_006__l,[sai_p_activities_l(24)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__art_007__l,[sai_p_activities_l(24)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__baseb_004__l,[sai_p_activities_l(1)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__baseb_005__l,[sai_p_activities_l(1)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__baseb_006__l,[sai_p_activities_l(1)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__baseb_007__l,[sai_p_activities_l(1)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__baseb_010,[sai_p_activities_l(1)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__basketb_004__l,[sai_p_activities_l(2)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__basketb_005__l,[sai_p_activities_l(2)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__basketb_006__l,[sai_p_activities_l(2)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__basketb_007__l,[sai_p_activities_l(2)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__basketb_010,[sai_p_activities_l(2)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_001,[sai_p_yr_3_activities(30)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_001__l,[sai_p_yr_3_activities(30)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_002,[sai_p_yr_3_activities(30)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_002__l,[sai_p_yr_3_activities(30)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_003,[sai_p_yr_3_activities(30)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_003__l,[sai_p_yr_3_activities(30)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_004,[sai_p_yr_3_activities(30)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_005,[sai_p_yr_3_activities(30)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_006,[sai_p_yr_3_activities(30)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_007,[sai_p_yr_3_activities(30)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_008,[sai_p_yr_3_activities(30)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__bowl_010,[sai_p_yr_3_activities(30)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_001,[sai_p_yr_3_activities(31)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_001__l,[sai_p_yr_3_activities(31)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_002,[sai_p_yr_3_activities(31)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_002__l,[sai_p_yr_3_activities(31)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_003,[sai_p_yr_3_activities(31)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_003__l,[sai_p_yr_3_activities(31)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_004,[sai_p_yr_3_activities(31)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_005,[sai_p_yr_3_activities(31)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_006,[sai_p_yr_3_activities(31)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_007,[sai_p_yr_3_activities(31)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_008,[sai_p_yr_3_activities(31)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__box_010,[sai_p_yr_3_activities(31)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_001,[sai_p_yr_3_activities(32)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_001__l,[sai_p_yr_3_activities(32)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_002,[sai_p_yr_3_activities(32)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_002__l,[sai_p_yr_3_activities(32)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_003,[sai_p_yr_3_activities(32)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_003__l,[sai_p_yr_3_activities(32)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_004,[sai_p_yr_3_activities(32)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_005,[sai_p_yr_3_activities(32)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_006,[sai_p_yr_3_activities(32)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_007,[sai_p_yr_3_activities(32)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_008,[sai_p_yr_3_activities(32)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cheer_010,[sai_p_yr_3_activities(32)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__climb_004__l,[sai_p_activities_l(3)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__climb_005__l,[sai_p_activities_l(3)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__climb_006__l,[sai_p_activities_l(3)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__climb_007__l,[sai_p_activities_l(3)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__climb_010,[sai_p_activities_l(3)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__collect_004__l,[sai_p_activities_l(28)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__collect_005__l,[sai_p_activities_l(28)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__collect_006__l,[sai_p_activities_l(28)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__collect_007__l,[sai_p_activities_l(28)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__craft_004__l,[sai_p_activities_l(26)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__craft_005__l,[sai_p_activities_l(26)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__craft_006__l,[sai_p_activities_l(26)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__craft_007__l,[sai_p_activities_l(26)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__craft_010,[sai_p_activities_l(26)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_001,[sai_p_yr_3_activities(33)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_001__l,[sai_p_yr_3_activities(33)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_002,[sai_p_yr_3_activities(33)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_002__l,[sai_p_yr_3_activities(33)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_003,[sai_p_yr_3_activities(33)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_003__l,[sai_p_yr_3_activities(33)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_004,[sai_p_yr_3_activities(33)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_005,[sai_p_yr_3_activities(33)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_006,[sai_p_yr_3_activities(33)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_007,[sai_p_yr_3_activities(33)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_008,[sai_p_yr_3_activities(33)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__curl_010,[sai_p_yr_3_activities(33)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_001,[sai_p_yr_3_activities(34)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_001__l,[sai_p_yr_3_activities(34)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_002,[sai_p_yr_3_activities(34)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_002__l,[sai_p_yr_3_activities(34)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_003,[sai_p_yr_3_activities(34)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_003__l,[sai_p_yr_3_activities(34)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_004,[sai_p_yr_3_activities(34)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_005,[sai_p_yr_3_activities(34)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_006,[sai_p_yr_3_activities(34)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_007,[sai_p_yr_3_activities(34)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_008,[sai_p_yr_3_activities(34)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__cycle_010,[sai_p_yr_3_activities(34)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__dance_007__l,[sai_p_activities_l(0)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__dance_010,[sai_p_activities_l(0)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__drama_006__l,[sai_p_activities_l(25)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__drama_007__l,[sai_p_activities_l(25)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fhock_004__l,[sai_p_activities_l(4)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fhock_005__l,[sai_p_activities_l(4)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fhock_006__l,[sai_p_activities_l(4)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fhock_007__l,[sai_p_activities_l(4)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fhock_010,[sai_p_activities_l(4)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_001,[sai_p_yr_3_activities(35)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_001__l,[sai_p_yr_3_activities(35)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_002,[sai_p_yr_3_activities(35)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_002__l,[sai_p_yr_3_activities(35)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_003,[sai_p_yr_3_activities(35)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_003__l,[sai_p_yr_3_activities(35)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_004,[sai_p_yr_3_activities(35)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_005,[sai_p_yr_3_activities(35)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_006,[sai_p_yr_3_activities(35)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_007,[sai_p_yr_3_activities(35)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_008,[sai_p_yr_3_activities(35)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__field_010,[sai_p_yr_3_activities(35)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_001,[sai_p_yr_3_activities(36)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_001__l,[sai_p_yr_3_activities(36)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_002,[sai_p_yr_3_activities(36)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_002__l,[sai_p_yr_3_activities(36)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_003,[sai_p_yr_3_activities(36)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_003__l,[sai_p_yr_3_activities(36)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_004,[sai_p_yr_3_activities(36)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_005,[sai_p_yr_3_activities(36)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_006,[sai_p_yr_3_activities(36)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_007,[sai_p_yr_3_activities(36)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_008,[sai_p_yr_3_activities(36)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__fishing_010,[sai_p_yr_3_activities(36)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__footb_004__l,[sai_p_activities_l(5)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__footb_005__l,[sai_p_activities_l(5)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__footb_006__l,[sai_p_activities_l(5)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__footb_007__l,[sai_p_activities_l(5)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__footb_010,[sai_p_activities_l(5)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_001,[sai_p_yr_3_activities(43)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_001__l,[sai_p_yr_3_activities(43)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_002,[sai_p_yr_3_activities(43)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_002__l,[sai_p_yr_3_activities(43)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_003,[sai_p_yr_3_activities(43)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_003__l,[sai_p_yr_3_activities(43)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_004,[sai_p_yr_3_activities(43)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_005,[sai_p_yr_3_activities(43)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_006,[sai_p_yr_3_activities(43)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_007,[sai_p_yr_3_activities(43)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_008,[sai_p_yr_3_activities(43)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__frisbee_010,[sai_p_yr_3_activities(43)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__games_004__l,[sai_p_activities_l(27)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__games_005__l,[sai_p_activities_l(27)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__games_006__l,[sai_p_activities_l(27)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__games_007__l,[sai_p_activities_l(27)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__games_010,[sai_p_activities_l(27)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_001,[sai_p_yr_3_activities(37)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_001__l,[sai_p_yr_3_activities(37)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_002,[sai_p_yr_3_activities(37)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_002__l,[sai_p_yr_3_activities(37)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_003,[sai_p_yr_3_activities(37)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_003__l,[sai_p_yr_3_activities(37)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_004,[sai_p_yr_3_activities(37)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_005,[sai_p_yr_3_activities(37)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_006,[sai_p_yr_3_activities(37)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_007,[sai_p_yr_3_activities(37)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_008,[sai_p_yr_3_activities(37)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__golf_010,[sai_p_yr_3_activities(37)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__gymnast_004__l,[sai_p_activities_l(6)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__gymnast_005__l,[sai_p_activities_l(6)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__gymnast_006__l,[sai_p_activities_l(6)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__gymnast_007__l,[sai_p_activities_l(6)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__gymnast_010,[sai_p_activities_l(6)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__horse_004__l,[sai_p_activities_l(8)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__horse_005__l,[sai_p_activities_l(8)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__horse_006__l,[sai_p_activities_l(8)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__horse_007__l,[sai_p_activities_l(8)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__horse_010,[sai_p_activities_l(8)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__ihock_004__l,[sai_p_activities_l(7)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__ihock_005__l,[sai_p_activities_l(7)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__ihock_006__l,[sai_p_activities_l(7)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__ihock_007__l,[sai_p_activities_l(7)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__ihock_010,[sai_p_activities_l(7)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__iskate_004__l,[sai_p_activities_l(9)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__iskate_005__l,[sai_p_activities_l(9)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__iskate_006__l,[sai_p_activities_l(9)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__iskate_007__l,[sai_p_activities_l(9)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__iskate_010,[sai_p_activities_l(9)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__lax_004__l,[sai_p_activities_l(11)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__lax_005__l,[sai_p_activities_l(11)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__lax_006__l,[sai_p_activities_l(11)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__lax_007__l,[sai_p_activities_l(11)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__lax_010,[sai_p_activities_l(11)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__lmusic_001__l,"[event-name] = ""3_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__martarts_004__l,[sai_p_activities_l(10)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__martarts_005__l,[sai_p_activities_l(10)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__martarts_006__l,[sai_p_activities_l(10)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__martarts_007__l,[sai_p_activities_l(10)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__martarts_010,[sai_p_activities_l(10)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__mma_004__l,[sai_p_activities_l(20)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__mma_005__l,[sai_p_activities_l(20)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__mma_006__l,[sai_p_activities_l(20)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__mma_007__l,[sai_p_activities_l(20)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__mma_010,[sai_p_activities_l(20)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__musicinstr_007__l,[sai_p_activities_l(23)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_001,[sai_p_yr_3_activities(38)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_001__l,[sai_p_yr_3_activities(38)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_002,[sai_p_yr_3_activities(38)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_002__l,[sai_p_yr_3_activities(38)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_003,[sai_p_yr_3_activities(38)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_003__l,[sai_p_yr_3_activities(38)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_004,[sai_p_yr_3_activities(38)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_005,[sai_p_yr_3_activities(38)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_006,[sai_p_yr_3_activities(38)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_007,[sai_p_yr_3_activities(38)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_008,[sai_p_yr_3_activities(38)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__orient_010,[sai_p_yr_3_activities(38)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_001,[sai_p_yr_3_activities(39)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_001__l,[sai_p_yr_3_activities(39)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_002,[sai_p_yr_3_activities(39)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_002__l,[sai_p_yr_3_activities(39)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_003,[sai_p_yr_3_activities(39)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_003__l,[sai_p_yr_3_activities(39)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_004,[sai_p_yr_3_activities(39)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_005,[sai_p_yr_3_activities(39)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_006,[sai_p_yr_3_activities(39)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_007,[sai_p_yr_3_activities(39)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_008,[sai_p_yr_3_activities(39)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__paddle_010,[sai_p_yr_3_activities(39)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__read_001__l,"[event-name] = ""3_year_follow_up_y_arm_1"""
+ph_p_saiq,ph_p_saiq__row_001,[sai_p_yr_3_activities(40)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__row_001__l,[sai_p_yr_3_activities(40)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__row_002,[sai_p_yr_3_activities(40)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__row_002__l,[sai_p_yr_3_activities(40)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__row_003,[sai_p_yr_3_activities(40)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__row_003__l,[sai_p_yr_3_activities(40)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__row_004,[sai_p_yr_3_activities(40)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__row_005,[sai_p_yr_3_activities(40)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__row_006,[sai_p_yr_3_activities(40)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__row_007,[sai_p_yr_3_activities(40)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__row_008,[sai_p_yr_3_activities(40)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__row_010,[sai_p_yr_3_activities(40)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__rugby_004__l,[sai_p_activities_l(12)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__rugby_005__l,[sai_p_activities_l(12)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__rugby_006__l,[sai_p_activities_l(12)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__rugby_007__l,[sai_p_activities_l(12)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__rugby_010,[sai_p_activities_l(12)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__run_004__l,[sai_p_activities_l(19)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__run_005__l,[sai_p_activities_l(19)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__run_006__l,[sai_p_activities_l(19)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__run_007__l,[sai_p_activities_l(19)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__run_010,[sai_p_activities_l(19)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_001,[sai_p_yr_3_activities(41)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_001__l,[sai_p_yr_3_activities(41)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_002,[sai_p_yr_3_activities(41)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_002__l,[sai_p_yr_3_activities(41)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_003,[sai_p_yr_3_activities(41)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_003__l,[sai_p_yr_3_activities(41)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_004,[sai_p_yr_3_activities(41)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_005,[sai_p_yr_3_activities(41)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_006,[sai_p_yr_3_activities(41)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_007,[sai_p_yr_3_activities(41)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_008,[sai_p_yr_3_activities(41)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__sail_010,[sai_p_yr_3_activities(41)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__skatebd_004__l,[sai_p_activities_l(13)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__skatebd_005__l,[sai_p_activities_l(13)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__skatebd_006__l,[sai_p_activities_l(13)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__skatebd_007__l,[sai_p_activities_l(13)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__skatebd_010,[sai_p_activities_l(13)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__ski_004__l,[sai_p_activities_l(14)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__ski_005__l,[sai_p_activities_l(14)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__ski_006__l,[sai_p_activities_l(14)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__ski_007__l,[sai_p_activities_l(14)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__ski_010,[sai_p_activities_l(14)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__soccer_004__l,[sai_p_activities_l(15)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__soccer_005__l,[sai_p_activities_l(15)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__soccer_006__l,[sai_p_activities_l(15)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__soccer_007__l,[sai_p_activities_l(15)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__soccer_010,[sai_p_activities_l(15)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__surf_004__l,[sai_p_activities_l(16)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__surf_005__l,[sai_p_activities_l(16)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__surf_006__l,[sai_p_activities_l(16)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__surf_007__l,[sai_p_activities_l(16)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__surf_010,[sai_p_activities_l(16)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__swim_004__l,[sai_p_activities_l(17)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__swim_005__l,[sai_p_activities_l(17)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__swim_006__l,[sai_p_activities_l(17)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__swim_007__l,[sai_p_activities_l(17)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__swim_010,[sai_p_activities_l(17)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_001,[sai_p_yr_3_activities(42)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_001__l,[sai_p_yr_3_activities(42)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_002,[sai_p_yr_3_activities(42)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_002__l,[sai_p_yr_3_activities(42)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_003,[sai_p_yr_3_activities(42)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_003__l,[sai_p_yr_3_activities(42)] = '1' AND [event-name] = '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_004,[sai_p_yr_3_activities(42)] = '1'  AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_005,[sai_p_yr_3_activities(42)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_006,[sai_p_yr_3_activities(42)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_007,[sai_p_yr_3_activities(42)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_008,[sai_p_yr_3_activities(42)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tblten_010,[sai_p_yr_3_activities(42)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tennis_004__l,[sai_p_activities_l(18)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tennis_005__l,[sai_p_activities_l(18)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tennis_006__l,[sai_p_activities_l(18)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tennis_007__l,[sai_p_activities_l(18)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__tennis_010,[sai_p_activities_l(18)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__volleyb_004__l,[sai_p_activities_l(21)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__volleyb_005__l,[sai_p_activities_l(21)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__volleyb_006__l,[sai_p_activities_l(21)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__volleyb_007__l,[sai_p_activities_l(21)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__volleyb_010,[sai_p_activities_l(21)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__yoga_004__l,[sai_p_activities_l(22)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__yoga_005__l,[sai_p_activities_l(22)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__yoga_006__l,[sai_p_activities_l(22)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_p_saiq,ph_p_saiq__yoga_007__l,[sai_p_activities_l(22)] = '1' AND [event-name] != '4_year_follow_up_y_arm_1'
+ph_y_covid,ph_y_covid__school_001,[event-name] = '4_year_follow_up_y_arm_1'
+ph_y_pds,ph_y_pds__f_002__05__01,"[pds_f5_y] = '4' AND [menstrualcycle4_y] = '1' AND [event-name] = ""3_year_follow_up_y_arm_1"""
+su_y_alcexp,su_y_alcexp__neg_001,"[tlfb_alc_l] = '1' OR ([tlfb_alc_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_alcexp,su_y_alcexp__neg_002,"[tlfb_alc_l] = '1' OR ([tlfb_alc_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_alcexp,su_y_alcexp__neg_003,"[tlfb_alc_l] = '1' OR ([tlfb_alc_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_alcexp,su_y_alcexp__pos_001,"[tlfb_alc_l] = '1' OR ([tlfb_alc_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_alcexp,su_y_alcexp__pos_002,"[tlfb_alc_l] = '1' OR ([tlfb_alc_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_alcexp,su_y_alcexp__pos_003,"[tlfb_alc_l] = '1' OR ([tlfb_alc_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_alcexp,su_y_alcexp__pos_004,"[tlfb_alc_l] = '1' OR ([tlfb_alc_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_caff,su_y_caff__coffee_001__l,"[tlfb_caff_l] = '1' OR ([tlfb_caff_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_caff_c_l] = '1' AND [event-name] =""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_caff,su_y_caff__energy_001__l,"[tlfb_caff_l] = '1' OR ([tlfb_caff_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_caff_c_l] = '1' AND [event-name] =""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_caff,su_y_caff__espres_001__l,"[tlfb_caff_l] = '1' OR ([tlfb_caff_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_caff_c_l] = '1' AND [event-name] =""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_caff,su_y_caff__oth_001__l,"[tlfb_caff_l] = '1' OR ([tlfb_caff_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_caff_c_l] = '1' AND [event-name] =""2_year_follow_up_y_arm_1"") OR [event_num] >= 6"
+su_y_caff,su_y_caff__soda_001__l,"[tlfb_caff_l] = '1' OR ([tlfb_caff_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_caff_c_l] = '1' AND [event-name] =""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_caff,su_y_caff__suppl_001__l,"[tlfb_caff_l] = '1' OR ([tlfb_caff_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_caff_c_l] = '1' AND [event-name] =""2_year_follow_up_y_arm_1"") OR [event_num] >= 6"
+su_y_caff,su_y_caff__tea_001__l,"[tlfb_caff_l] = '1' OR ([tlfb_caff_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_caff_c_l] = '1' AND [event-name] =""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_cigexp,su_y_cigexp_001,"(([tlfb_tob_l]  = '1' OR  [tlfb_tob_c_l]  = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR  [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1) AND [event_num] < 7"
+su_y_cigexp,su_y_cigexp__neg_001,"(([tlfb_tob_l]  = '1' OR  [tlfb_tob_c_l]  = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR  [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1) AND [event_num] < 7"
+su_y_cigexp,su_y_cigexp__neg_002,"(([tlfb_tob_l]  = '1' OR  [tlfb_tob_c_l]  = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR  [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1) AND [event_num] < 7"
+su_y_cigexp,su_y_cigexp__pos_001,"(([tlfb_tob_l]  = '1' OR  [tlfb_tob_c_l]  = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR  [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1) AND [event_num] < 7"
+su_y_cigexp,su_y_cigexp__pos_002,"(([tlfb_tob_l]  = '1' OR  [tlfb_tob_c_l]  = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR  [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1) AND [event_num] < 7"
+su_y_cigexp,su_y_cigexp__pos_003,"(([tlfb_tob_l]  = '1' OR  [tlfb_tob_c_l]  = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR  [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1) AND [event_num] < 7"
+su_y_cigexp,su_y_cigexp__pos_004,"(([tlfb_tob_l]  = '1' OR  [tlfb_tob_c_l]  = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR  [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1) AND [event_num] < 7"
+su_y_crpf,su_y_crpf__alc_001,"[tlfb_alc_l] = '1' OR ([tlfb_alc_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_crpf,su_y_crpf__illdrg_001,"[tlfb_list_yes_no_l] = '1' OR ([tlfb_list_yes_no_c_l] = '1' AND ([event-name] =""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_crpf,su_y_crpf__inh_001,"[tlfb_inhalant_l] = '1' OR ([tlfb_inhalant_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_crpf,su_y_crpf__mj_001,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1' OR [tlfb_mj_synth_l] = '1' OR [tlfb_mj_synth_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_crpf,su_y_crpf__mj__med_001,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1' OR [tlfb_mj_synth_l] = '1' OR [tlfb_mj_synth_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_crpf,su_y_crpf__nic__cig_001,"[tlfb_tob_l] = '1' OR ([tlfb_tob_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_crpf,su_y_crpf__nic__vape_001,"[tlfb_tob_l] = '1' OR ([tlfb_tob_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] =""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_crpf,su_y_crpf__rxopi_001,"[tlfb_rx_misuse_l] = '1' OR ([tlfb_rx_misuse_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_crpf,su_y_crpf__rxsed_001,"[tlfb_rx_misuse_l] = '1' OR ([tlfb_rx_misuse_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_crpf,su_y_crpf__rxstim_001,"[tlfb_rx_misuse_l] = '1' OR ([tlfb_rx_misuse_c_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_itu,su_y_itu__alc_001,[tlfb_alc] ='1' and [tlfb_alc_sip]='0' | (([tlfb_alc_l] = '1' OR [tlfb_alc_c_l] = '1') AND [tlfb_alc_sip_c_l] != '1' AND ([tlfb_alc_sip_l] != '1') AND [event-name] = '2_year_follow_up_y_arm_1') OR (([tlfb_alc_sip_c_l] != '1' AND [tlfb_alc_sip_l] != '1') AND [event_num] >= 3) AND [event_num] < 8
+su_y_itu,su_y_itu__alc_002,[tlfb_alc] ='1' and [tlfb_alc_sip] ='0' | (([tlfb_alc_l] = '1' OR [tlfb_alc_c_l] = '1') AND [tlfb_alc_sip_c_l] != '1' AND ([tlfb_alc_sip_l] != '1') AND [event-name] = '2_year_follow_up_y_arm_1') OR (([tlfb_alc_sip_c_l] != '1' AND [tlfb_alc_sip_l] != '1') AND  [event_num] >= 3) AND [event_num] < 8
+su_y_itu,su_y_itu__alc_003,[tlfb_alc] ='1' and [tlfb_alc_sip]='0' | (([tlfb_alc_l] = '1' OR [tlfb_alc_c_l] = '1') AND [tlfb_alc_sip_c_l] != '1' AND ([tlfb_alc_sip_l] != '1') AND [event-name] = '2_year_follow_up_y_arm_1') OR (([tlfb_alc_sip_c_l] != '1' AND [tlfb_alc_sip_l] != '1') AND [event_num] >= 3) AND [event_num] < 8
+su_y_itu,su_y_itu__mj_001,[tlfb_mj] = '1' and [tlfb_mj_puff]='0' and [tlfb_mj_conc_use]='0' and [tlfb_mj_drink_use]='0' and [tlfb_tincture_use]='0' or [tlfb_mj_synth_use]='0' | (([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1') AND ([tlfb_mj_puff_l] !='1' AND [tlfb_mj_conc_use_l]!='1' AND [tlfb_mj_drink_use_l]!='1' AND [tlfb_tincture_use_l]!='1' AND [tlfb_mj_puff_c_l]!='1' AND [tlfb_mj_conc_use_c_l]!='1' AND [tlfb_mj_drink_use_c_l]!='1' AND [tlfb_tincture_use_c_l]!='1' AND [event-name] ='2_year_follow_up_y_arm_1')) OR ([tlfb_mj_puff_l]!='1' AND [tlfb_mj_conc_use_l]!='1' AND [tlfb_mj_drink_use_l]!='1' AND [tlfb_tincture_use_l]!='1' AND [tlfb_mj_puff_c_l]!='1' AND [tlfb_mj_conc_use_c_l]!='1' AND [tlfb_mj_drink_use_c_l]!='1' AND [tlfb_tincture_use_c_l]!='1' AND [event_num] >= 3) AND [event_num] < 8
+su_y_itu,su_y_itu__mj_002,[tlfb_mj] = '1' and [tlfb_mj_puff]='0' and [tlfb_mj_conc_use]='0' and [tlfb_mj_drink_use]='0' and [tlfb_tincture_use]='0' or [tlfb_mj_synth_use]='0' | (([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1') AND ([tlfb_mj_puff_l] !='1' AND [tlfb_mj_conc_use_l]!='1' AND [tlfb_mj_drink_use_l]!='1' AND [tlfb_tincture_use_l]!='1' AND [tlfb_mj_puff_c_l]!='1' AND [tlfb_mj_conc_use_c_l]!='1' AND [tlfb_mj_drink_use_c_l]!='1' AND [tlfb_tincture_use_c_l]!='1' AND [event-name] ='2_year_follow_up_y_arm_1')) OR ([tlfb_mj_puff_l]!='1' AND [tlfb_mj_conc_use_l]!='1' AND [tlfb_mj_drink_use_l]!='1' AND [tlfb_tincture_use_l]!='1' AND [tlfb_mj_puff_c_l]!='1' AND [tlfb_mj_conc_use_c_l]!='1' AND [tlfb_mj_drink_use_c_l]!='1' AND [tlfb_tincture_use_c_l]!='1' AND  [event_num] >= 3) AND [event_num] < 8
+su_y_itu,su_y_itu__mj_003,[tlfb_mj] = '1' and [tlfb_mj_puff]='0' and [tlfb_mj_conc_use]='0' and [tlfb_mj_drink_use]='0' and [tlfb_tincture_use]='0' or [tlfb_mj_synth_use]='0' | (([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1') AND ([tlfb_mj_puff_l] !='1' AND [tlfb_mj_conc_use_l]!='1' AND [tlfb_mj_drink_use_l]!='1' AND [tlfb_tincture_use_l]!='1' AND [tlfb_mj_puff_c_l]!='1' AND [tlfb_mj_conc_use_c_l]!='1' AND [tlfb_mj_drink_use_c_l]!='1' AND [tlfb_tincture_use_c_l]!='1' AND [event-name] ='2_year_follow_up_y_arm_1') ) OR ([tlfb_mj_puff_l]!='1' AND [tlfb_mj_conc_use_l]!='1' AND [tlfb_mj_drink_use_l]!='1' AND [tlfb_tincture_use_l]!='1' AND [tlfb_mj_puff_c_l]!='1' AND [tlfb_mj_conc_use_c_l]!='1' AND [tlfb_mj_drink_use_c_l]!='1' AND [tlfb_tincture_use_c_l]!='1' AND  [event_num] >= 3) AND [event_num] < 8
+su_y_itu,su_y_itu__nic_001,[tlfb_tob_puff]='0' and [tlfb_chew_use]='0' and [tlfb_cigar_use]='0' and [tlfb_hookah_use]='0' and [tlfb_pipes_use]='0' and [tlfb_nicotine_use]='0' and [tlfb_tob] = '1' | ([tlfb_tob_l] = '1' OR [tlfb_tob_c_l] = '1') AND ([tlfb_tob_puff_l] !='1' AND [tlfb_chew_use_l] !='1' AND [tlfb_tob_puff_c_l] !='1' AND [tlfb_chew_use_c_l] !='1' AND [tlfb_ecig_use_l] != '1') AND [event-name] ='2_year_follow_up_y_arm_1' AND [event_num] < 8
+su_y_itu,su_y_itu__nic_002,[tlfb_tob_puff]='0' and [tlfb_chew_use]='0' and [tlfb_cigar_use]='0' and [tlfb_hookah_use]='0' and [tlfb_pipes_use]='0' and [tlfb_nicotine_use]='0' and [tlfb_tob] = '1' | ([tlfb_tob_l] = '1' or [tlfb_tob_c_l] = '1')  and  ( [tlfb_tob_puff_l] !='1' and [tlfb_chew_use_l] !='1'  and [tlfb_tob_puff_c_l] !='1' and [tlfb_chew_use_c_l] !='1' )  and  [event-name] = '2_year_follow_up_y_arm_1' AND [event_num] < 8
+su_y_itu,su_y_itu__nic_003,[tlfb_tob_puff]='0' and [tlfb_chew_use]='0' and [tlfb_cigar_use]='0' and [tlfb_hookah_use]='0' and [tlfb_pipes_use]='0' and [tlfb_nicotine_use]='0' and [tlfb_tob] = '1' | ([tlfb_tob_l] = '1' or [tlfb_tob_c_l] = '1') and ([tlfb_tob_puff_l] != '1' and [tlfb_chew_use_l] != '1' and [tlfb_tob_puff_c_l] !='1' and [tlfb_chew_use_c_l] !='1') and [event-name] = '2_year_follow_up_y_arm_1' AND [event_num] < 8
+su_y_mjexp,su_y_mjexp__neg_001,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1' OR [tlfb_mj_synth_l] = '1' OR [tlfb_mj_synth_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_mjexp,su_y_mjexp__neg_002,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1' OR [tlfb_mj_synth_l] = '1' OR [tlfb_mj_synth_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_mjexp,su_y_mjexp__neg_003,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1' OR [tlfb_mj_synth_l] = '1' OR [tlfb_mj_synth_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_mjexp,su_y_mjexp__pos_001,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1' OR [tlfb_mj_synth_l] = '1' OR [tlfb_mj_synth_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_mjexp,su_y_mjexp__pos_002,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1' OR [tlfb_mj_synth_l] = '1' OR [tlfb_mj_synth_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_mjexp,su_y_mjexp__pos_003,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1' OR [tlfb_mj_synth_l] = '1' OR [tlfb_mj_synth_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR ([event_num] >= 3 AND [event_odd_even] = 1)"
+su_y_mypi,su_y_mypi__school_002__dk,"[mypi_fav_class] = """" OR [event-name] != '54_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__hrd__alc_001,"[event-name] = ""6_month_follow_up_arm_1"" or [event-name] = ""18_month_follow_up_arm_1"""
+su_y_mysu,su_y_mysu__hrd__inh_001,"([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__hrd__mj_001,"([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__hrd__nic_001,"[event-name] = ""6_month_follow_up_arm_1"" or [event-name] = ""18_month_follow_up_arm_1"""
+su_y_mysu,su_y_mysu__hrd__nic__chew_001,"([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__hrd__rx_001,"([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__alc_001,"[mypi_alc_full_drink] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"" )"
+su_y_mysu,su_y_mysu__use__alc__1mo_001,"[mypi_alc_full_drink] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__alc__1wk_001,"[mypi_alc_drink_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__alc__6mo_001,"[mypi_alc] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"") or [event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__alc__6mo_002,"[mypi_alc_full_drink] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__alc__first_001,"([mypi_alc_sip] = '1' or [mypi_alc_full_drink] = '1') and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__alc__sip_001,"[mypi_alc_sip] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"" )"
+su_y_mysu,su_y_mysu__use__alc__sip__1mo_001,"[mypi_alc_sip] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__alc__sip__1wk_001,"[mypi_alc_sip_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__alc__sip__6mo_001,"[mypi_alc_full_drink] = '0' or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__alc__sip__6mo_002,"[mypi_alc_sip] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__cath__6mo_001,"[event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__cath__first_001,"[mypi_cathinones_used] = '1' and ([event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__coc__6mo_001,[event-name] = '30_month_follow_up_arm_1' or [event-name] = '42_month_follow_up_arm_1' OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'
+su_y_mysu,su_y_mysu__use__coc__first_001,[mypi_coke_used] = '1' and ([event-name] = '30_month_follow_up_arm_1' or  [event-name] = '42_month_follow_up_arm_1' OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')
+su_y_mysu,su_y_mysu__use__dxm__1mo_001,"[mypi_cold_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__dxm__1wk_001,"[mypi_cold_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__dxm__6mo_001,"[mypi_pills] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"") or ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = ""54_month_follow_up_arm_1"" OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__dxm__6mo_002,"[mypi_cold_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__dxm__first_001,"[mypi_cold_used] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = ""54_month_follow_up_arm_1"" OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__ghb__6mo_001,"[event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__ghb__first_001,"[mypi_ghb_used] = '1' and ([event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__hall__6mo_001,"[event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__hall__first_001,"[mypi_hallucinogen_used] = ""1"" and ([event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__illdrg_001,"([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__illdrg__1mo_001,"[mypi_high_other_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__illdrg__1wk_001,"[mypi_high_other_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__illdrg__6mo_001,"[mypi_high_other] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__illdrg__6mo_002,"[mypi_high_other_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__inh__1mo_001,"[mypi_sniff_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__inh__1wk_001,"[mypi_sniff_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__inh__6mo_001,"([mypi_sniff] = '1' and [event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"") or [event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__inh__6mo_002,"[mypi_sniff_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__inh__first_001,"[mypi_sniff_used] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__ket__6mo_001,"[event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__ket__first_001,"[mypi_ketamine_used] = '1' and ([event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__mdma__6mo_001,"[event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__mdma__first_001,"[mypi_ecstasy_used] = '1' and ([event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__meth__6mo_001,"[event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__meth__first_001,[mypi_meth_used] = '1' and ([event-name] = '30_month_follow_up_arm_1' or [event-name] = '42_month_follow_up_arm_1' OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')
+su_y_mysu,su_y_mysu__use__mj__6mo_001,[event-name] = '30_month_follow_up_arm_1' or [event-name] = '42_month_follow_up_arm_1' OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'
+su_y_mysu,su_y_mysu__use__mj__conc__1mo_001,"[mypi_mj_oils] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__conc__1wk_001,"[mypi_mj_oils_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__conc__6mo_002,"[mypi_mj_oils] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__conc__pipe__6mo_001,"[mypi_mj] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"") or [mypi_mj_30] = '1' OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__mj__conc__pipe__first_001,"[mypi_mj_oils] = '1' and ([event-name] = ""30_month_follow_up_arm_1""  or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__mj__conc__vape__6mo_001,"[mypi_mj] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"") or [mypi_mj_30] = '1' OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__mj__conc__vape__first_001,"[mypi_mj_oils_vaped] = '1' and ([event-name] = ""30_month_follow_up_arm_1""  or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__mj__drink__tinc__1mo_001,"[mypi_mj_tinc_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__drink__tinc__1wk_001,"[mypi_mj_tinc_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__drink__tinc__6mo_001,"[mypi_mj] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"") or ([mypi_mj_30] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'))"
+su_y_mysu,su_y_mysu__use__mj__drink__tinc__6mo_002,"[mypi_mj_tinc_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__drink__tinc__first_001,"[mypi_mj_tinc_used] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__mj__edbl__1mo_001,"[mypi_mj_edible] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__edbl__1wk_001,"[mypi_mj_edible_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__edbl__6mo_001,"([mypi_mj] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")) or [mypi_mj_30] = '1' OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__mj__edbl__6mo_002,"[mypi_mj_edible] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__edbl__first_001,"[mypi_mj_edible] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__mj__smoke__1mo_001,"[mypi_mj_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__smoke__1wk_001,"[mypi_mj_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__smoke__6mo_001,"[mypi_mj] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"") or ([mypi_mj_30] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'))"
+su_y_mysu,su_y_mysu__use__mj__smoke__6mo_002,"[mypi_mj_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__smoke__first_001,[mypi_mj_used] = '1' and ([event-name] = '30_month_follow_up_arm_1' or [event-name] = '42_month_follow_up_arm_1' OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')
+su_y_mysu,su_y_mysu__use__mj__synth__1mo_001,"[mypi_mj_synth_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__synth__1wk_001,"[mypi_mj_synth_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__synth__6mo_001,"[mypi_mj] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"") or [mypi_mj_30] = '1' OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__mj__synth__6mo_002,"[mypi_mj_synth_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__mj__synth__first_001,"[mypi_mj_synth_used] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__mj__vape__6mo_001,[mypi_mj_30] = '1' and ([event-name] = '30_month_follow_up_arm_1' or [event-name] = '42_month_follow_up_arm_1' OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')
+su_y_mysu,su_y_mysu__use__mj__vape__first_001,[mypi_mj_vape] = '1' and ([event-name] = '30_month_follow_up_arm_1' or [event-name] = '42_month_follow_up_arm_1' OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')
+su_y_mysu,su_y_mysu__use__nic_001,"[mypi_tob_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__nic__1mo_001,"[mypi_tob_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__nic__1wk_001,"[mypi_tob_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__nic__6mo_001,"(([mypi_tob] = '1') and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"" ))"
+su_y_mysu,su_y_mysu__use__nic__6mo_002,"[mypi_tob_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__nic__chew__1mo_001,"[mypi_chew_pst_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__nic__chew__1wk_001,"[mypi_chew_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__nic__chew__6mo_001,"([mypi_chew] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")) or [event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__nic__chew__6mo_002,"[mypi_chew_pst_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__nic__chew__first_001,"[mypi_chew_pst_used] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__nic__cig__6mo_001,"[mypi_ecig] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__nic__cig__first_001,"[mypi_full_cig] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__nic__cigar__6mo_001,"[mypi_ecig] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__nic__cigar__first_001,"[mypi_cigar_used] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__nic__puff_001,"[mypi_ecig] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__nic__puff__1mo_001,"[mypi_ecig] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__nic__puff__1wk_001,"[mypi_ecig_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__nic__puff__6mo_001,"([mypi_tob_used] = '0' or [event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__nic__puff__6mo_002,"[mypi_ecig] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__nic__vape__6mo_001,"[mypi_ecig] = '1' and ([event-name] = ""30_month_follow_up_arm_1""  or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__nic__vape__first_001,"[mypi_tobo_used] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__opi__6mo_001,"[event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__opi__first_001,"[mypi_heroin_used] = '1'  and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__qc__6mo_001,"[mypi_pills] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"") or ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__qc__first_001,"[mypi_bypho_used] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__roid__6mo_001,"[event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__roid__first_001,"[mypi_steroids_used] = ""1"" and ([event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__rxopi__1mo_001,"[mypi_pr_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__rxopi__1wk_001,"[mypi_pr_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__rxopi__6mo_001,"[mypi_pills] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"" or [event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__rxopi__6mo_002,"[mypi_pr_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__rxopi__first_001,"[mypi_pr_used]='1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__rxsed__1mo_001,"[mypi_pills_dep_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__rxsed__1wk_001,"[mypi_pills_dep_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__rxsed__6mo_001,"[mypi_pills] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"") or ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__rxsed__6mo_002,"[mypi_pills_dep_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__rxsed__first_001,"[mypi_pills_dep_used] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__rxstim__1mo_001,"[mypi_pills_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__rxstim__1wk_001,"[mypi_pills_pst_mo] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__rxstim__6mo_001,"[mypi_pills] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"") or ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__rxstim__6mo_002,"[mypi_pills_used] = '1' and ([event-name] = ""18_month_follow_up_arm_1"" or [event-name] = ""6_month_follow_up_arm_1"")"
+su_y_mysu,su_y_mysu__use__rxstim__first_001,"[mypi_pills_used] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__salv__6mo_001,"[event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__salv__first_001,"[mypi_salvia_used] = ""1"" and ([event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__shroom__6mo_001,"[event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__shroom__first_001,"[mypi_mushroom_used] = ""1"" and ([event-name] = ""42_month_follow_up_arm_1"" OR [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_mysu,su_y_mysu__use__vape__flav__6mo_001,"[event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1'"
+su_y_mysu,su_y_mysu__use__vape__flav__first_001,"[mypi_flavoring] = '1' and ([event-name] = ""30_month_follow_up_arm_1"" or [event-name] = ""42_month_follow_up_arm_1"" OR  [event-name] = '54_month_follow_up_arm_1' OR [event-name] = '66_month_follow_up_arm_1')"
+su_y_perc,su_y_perc__alc_001,"(([tlfb_alc_l] = '1' OR [tlfb_alc_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__alc_002,"(([tlfb_alc_l] = '1' OR [tlfb_alc_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR  [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__alc_003,"(([tlfb_alc_l] = '1' OR [tlfb_alc_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR  [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__inh_001,"(([tlfb_inhalant_l] = '1' OR [tlfb_inhalant_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__mj_001,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__mj_002,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__mj_003,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__nic__chew_001,"(([tlfb_tob_l] = '1' OR [tlfb_tob_c_l] = '1')  AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__nic__cig_001,"(([tlfb_tob_l] = '1' OR [tlfb_tob_c_l] = '1')  AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__nic__cig_002,"(([tlfb_tob_l] = '1' OR [tlfb_tob_c_l] = '1')  AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__nic__cig_003,"(([tlfb_tob_l] = '1' OR [tlfb_tob_c_l] = '1')  AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__nic__vape_001,"(([tlfb_tob_l] = '1' OR [tlfb_tob_c_l] = '1')  AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__rxopi_001,"(([tlfb_rx_misuse_l] = ""1"" OR [tlfb_rx_misuse_c_l] = ""1"") AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__rxsed_001,"(([tlfb_rx_misuse_l] = ""1"" OR [tlfb_rx_misuse_c_l] = ""1"") AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_perc,su_y_perc__rxstim_001,"(([tlfb_rx_misuse_l] = ""1"" OR [tlfb_rx_misuse_c_l] = ""1"") AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3 AND [event_num] < 8"
+su_y_pgd,su_y_pgd_001,"[tlfb_tob]='1' | ([tlfb_tob_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1'  AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_pgd,su_y_pgd_002,"[tlfb_alc]='1' | ([tlfb_alc_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_pgd,su_y_pgd_003,"[tlfb_alc]='1' | ([tlfb_alc_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_pgd,su_y_pgd_004,"[tlfb_alc]='1' or [tlfb_tob]='1' or [tlfb_mj]='1' or [tlfb_mj_synth]='1' or [tlfb_bitta]='1' or [tlfb_list_yes_no]='1' | ([tlfb_alc_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_pgd,su_y_pgd_005,"[tlfb_mj]='1' | ([tlfb_mj_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_mj_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_mj_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_mj_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_pgd,su_y_pgd_006,"[tlfb_inhalant] = '1' | ([tlfb_inhalant_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_inhalant_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_inhalant_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_inhalant_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_pgd,su_y_pgd_008,"[tlfb_alc]='1' or [tlfb_tob]='1' or [tlfb_mj]='1' or [tlfb_mj_synth]='1' or [tlfb_bitta]='1' or [tlfb_list_yes_no]='1' | (([tlfb_alc_l] = '1' OR [tlfb_alc_c_l] = '1' OR [tlfb_tob_l] = '1' OR [tlfb_tob_c_l] = '1' OR [tlfb_mj_l] = '1' OR [tlfb_mj_c_l] = '1' OR [tlfb_mj_synth_l] = '1' OR [tlfb_mj_synth_c_l] = '1' OR [tlfb_list_yes_no_l] = '1' OR [tlfb_list_yes_no_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR [event-name] = ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_pgd,su_y_pgd_009__v01,"(([tlfb_tob_l] = '1' OR [tlfb_tob_c_l] = '1') AND ([event-name] = ""1_year_follow_up_y_arm_1"" OR ""2_year_follow_up_y_arm_1"")) OR [event_num] >= 3"
+su_y_plus,su_y_plus__otc__rx__r01_001,"[baseline_visits_num] >= 1 AND [event-name] != ""6_year_follow_up_y_arm_1"""
+su_y_ptu,su_y_ptu__alc_001,"([tlfb_alc_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__alc_002,"([tlfb_alc_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__alc_003,"([tlfb_alc_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_alc_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__inh_001,"([tlfb_inhalant_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_inhalant_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_inhalant_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_inhalant_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__mj_001,"([tlfb_mj_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_mj_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_mj_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_mj_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__mj_002,"([tlfb_mj_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_mj_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_mj_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_mj_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__mj_003,"([tlfb_mj_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_mj_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_mj_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_mj_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__nic__chew_001,"([tlfb_tob_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1'  AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__nic__cig_001,"([tlfb_tob_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1'  AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__nic__cig_002,"([tlfb_tob_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1'  AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__nic__cig_003,"([tlfb_tob_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1'  AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__nic__vape_001,"([tlfb_tob_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_tob_c_l] = '1'  AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__rxopi_001,"([tlfb_rx_misuse_l] = ""1"" AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_rx_misuse_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_rx_misuse_c_l] = ""1"" AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_rx_misuse_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__rxsed_001,"([tlfb_rx_misuse_l] = ""1"" AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_rx_misuse_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_rx_misuse_c_l] = ""1"" AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_rx_misuse_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_ptu,su_y_ptu__rxstim_001,"([tlfb_rx_misuse_l] = ""1"" AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_rx_misuse_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR ([tlfb_rx_misuse_c_l] = ""1"" AND [event-name] = ""1_year_follow_up_y_arm_1"") OR ([tlfb_rx_misuse_c_l] = '1' AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3 AND [event_num] < 8"
+su_y_sui,su_y_sui__hrd__alc_001,"| ([tlfb_alc_c_l] = '0' and [event-name] = ""1_year_follow_up_y_arm_1"") or ([tlfb_alc_c_l] = '0' and [event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__caff_001,"| ([tlfb_caff_c_l] = '0' and [event-name] = ""1_year_follow_up_y_arm_1"") or ([tlfb_caff_c_l] = '0' and [event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__cath_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__coc_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__ghb_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__hall_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__inh_001,"| ([tlfb_inhalant_c_l] = '0' and [event-name] = ""1_year_follow_up_y_arm_1"") or ([tlfb_inhalant_c_l] = '0' and [event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__ket_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__mdma_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__meth_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__mj__synth_001,"| ([tlfb_mj_synth_c_l] = '0' and [event-name] = ""1_year_follow_up_y_arm_1"") or ([tlfb_mj_synth_c_l] = '0' and [event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__mj_001,"| ([tlfb_mj_c_l] = '0' and [event-name] = ""1_year_follow_up_y_arm_1"") or ([tlfb_mj_c_l] = '0' and [event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__nic_001,"| ([tlfb_tob_c_l] = '0' and [event-name] = ""1_year_follow_up_y_arm_1"") or ([tlfb_tob_c_l] = '0'  and [event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__opi_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__othdrg_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__qc_001,"| ([tlfb_bitta_c_l] = '0' and [event-name] = ""1_year_follow_up_y_arm_1"") or ([tlfb_bitta_c_l] = '0' and [event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__roid_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__rx_001,"| ([tlfb_rx_misuse_c_l] = ""0"" and [event-name] = ""1_year_follow_up_y_arm_1"") or ([tlfb_rx_misuse_c_l] = '0' and [event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__salv_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd__shroom_001,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd_001,"| ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__hrd_001__01,"[tlfb_list_yes_no] = '1' | [tlfb_list_yes_no_l] = '1' AND ([event-name] = ""1_year_follow_up_y_arm_1"") or ([event-name] = ""2_year_follow_up_y_arm_1"")"
+su_y_sui,su_y_sui__use__cbd_001__l,"(([tlfb_mj_l] = '1' OR [tlfb_mj_c_l]  = '1') AND [event-name] = ""2_year_follow_up_y_arm_1"") OR [event_num] >= 3"
+su_y_sui,su_y_sui__use__qc_001__l,"[tlfb_bitta_l] = '1' OR  ([tlfb_bitta_c_l] = '1' AND [event-name] = ""1_year_follow_up_y_arm_1"") OR  ([tlfb_bitta_c_l] = '1' AND [event-name] =""2_year_follow_up_y_arm_1"") OR  [event_num] >= 3"
+covid_p_qtn,covid_p_qtn__interfere_001,[caregiver_cv] = '2' AND ([event-name] = 'covid19_cv1_arm2' OR [event-name] = 'covid19_cv2_arm2' OR [event-name] = 'covid19_cv3_arm2' OR [event-name] = 'covid19_cv4_arm2' OR [event-name] = 'covid19_cv5_arm2')
+covid_p_qtn,covid_p_qtn__interfere_001__l,[caregiver_cv] = '2' AND [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__interfere_002,"([event-name] = ""covid19_cv1_arm_2"" OR [event-name] = ""covid19_cv2_arm_2"" OR [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv4_arm_2'  OR [event-name] = 'covid19_cv5_arm_2')"
+covid_p_qtn,covid_p_qtn__interfere_002__01___1,[child_separate_cv] = '2' OR ([mchild_separate_cv] = '2' AND [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__interfere_002__01___2,[child_separate_cv] = '2' OR ([mchild_separate_cv] = '2' AND [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__interfere_002__01___3,[child_separate_cv] = '2' OR ([mchild_separate_cv] = '2' AND [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__interfere_002__01___4,[child_separate_cv] = '2' OR ([mchild_separate_cv] = '2' AND [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__interfere_002__01___5,[child_separate_cv] = '2' OR ([mchild_separate_cv] = '2' AND [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__interfere_002__01___6,[child_separate_cv] = '2' OR ([mchild_separate_cv] = '2' AND [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__interfere_002__01___7,[child_separate_cv] = '2' OR ([mchild_separate_cv] = '2' AND [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__interfere_002__01___8,[child_separate_cv] = '2' OR ([mchild_separate_cv] = '2' AND [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__interfere_002__l,[event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__care_001,[school_close_cv] = '2' OR [school_at_home_cv] = '1' OR [event-name] = 'covid19_cv6_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_002___1,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_002___2,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_002___3,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_002___4,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_002___5,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_002___6,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_002___7,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_002___8,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_002___333,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_003___1,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_003___2,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_003___3,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_003___4,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_003___333,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_004___1,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_004___2,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_004___3,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__sympt_004___333,[child_symptoms_cv(1)] = '1' or [child_symptoms_cv(2)] = '1' or [child_symptoms_cv(3)] = '1' AND [event-name] != 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__extfamdiag_001,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__extfamdiag_002,[ext_fam_diag_cv]>0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__famdiag_001,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__famdiag_002,[fam_diag_cv]>0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__famdiag_003,[fam_diag_cv] > '0' and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__famdiag_004___1,"[fam_covid_yn_cv] = ""2"" and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')"
+covid_p_qtn,covid_p_qtn__famdiag_004___2,"[fam_covid_yn_cv] = ""2"" and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')"
+covid_p_qtn,covid_p_qtn__famdiag_004___3,"[fam_covid_yn_cv] = ""2"" and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')"
+covid_p_qtn,covid_p_qtn__famdiag_004___4,"[fam_covid_yn_cv] = ""2"" and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')"
+covid_p_qtn,covid_p_qtn__famdiag_004___5,"[fam_covid_yn_cv] = ""2"" and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')"
+covid_p_qtn,covid_p_qtn__famdiag_004___6,"[fam_covid_yn_cv] = ""2"" and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')"
+covid_p_qtn,covid_p_qtn__famdiag_005,[fam_member_relation_p_cv(1)] ='1' and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__famdiag_006,[fam_member_relation_p_cv(2)] = '1' and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__vax_001,([event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__vax_002,([event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__vax__child_001,([event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__vax__child_002,([event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__stim_001,[event-name] = 'covid19_cv7_arm_2' AND [record-dag-label] != 'libr_de'
+covid_p_qtn,covid_p_qtn__impact_001,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__impact_002,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__impact_003,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__impact_004,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__impact_005,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__impact_006,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__reassure_001,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_002,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_003,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_004,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_005,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_006,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_007,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_008,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_009,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_010,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_011,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_012,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__reassure_013,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__safety_003,([event-name] = 'covid19_cv3_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__think_001,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__think_002,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__think_003,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__think_004,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__worry_001,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__prep_001,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv3_arm_2'
+covid_p_qtn,covid_p_qtn__prep_002,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__school_001,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_p_qtn,covid_p_qtn__school_002,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv3_arm_2'
+covid_p_qtn,covid_p_qtn__school_002__01,[school_close_cv] = '1' or [school_close_cv] = '999' or ([school_close_cv] = '3' and [event-name] = 'covid19_cv1_arm_2')
+covid_p_qtn,covid_p_qtn__school_003,[school_at_home_cv] = '1' AND ([event-name] = 'covid19_cv1_arm_2' OR [event-name] = 'covid19_cv2_arm_2' OR [event-name] = 'covid19_cv3_arm_2' OR  [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__school_004,([school_close_cv] = '2' OR [school_at_home_cv] = '1') AND ([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv3_arm_2')
+covid_p_qtn,covid_p_qtn__school_005,[school_close_cv] = '2' or [school_at_home_cv] = '1' OR ([school_at_home_cv] = '1' AND [event-name] = 'covid19_cv5_arm_2')
+covid_p_qtn,covid_p_qtn__school_006,[school_close_cv] = '2' or [school_at_home_cv] = '1' OR ([school_at_home_cv] = '1' AND [event-name] = 'covid19_cv5_arm_2')
+covid_p_qtn,covid_p_qtn__school_012,[school_close_cv] = '2' OR ([school_at_home_cv] = '1' AND [event-name] = 'covid19_cv5_arm_2')
+covid_p_qtn,covid_p_qtn__screen_001__01,([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__screen_001__02,([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__screen_001__v01,([event-name] = 'covid19_cv3_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__screen_002__01,([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__screen_002__02,([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__screen_002__v01,([event-name] = 'covid19_cv3_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')  AND [child_avg_elec_time_2_cv] > '0'
+covid_p_qtn,covid_p_qtn__screen_003__01,([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__screen_003__02,([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__screen_003__v01,([event-name] = 'covid19_cv3_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')  AND [child_avg_elec_time_2_cv] > '0'
+covid_p_qtn,covid_p_qtn__screen_004__01,([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__screen_004__02,([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__screen_004__v01,([event-name] = 'covid19_cv3_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')  AND [child_avg_elec_time_2_cv] > '0'
+covid_p_qtn,covid_p_qtn__screen_005__01,([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__screen_005__02,([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__screen_005__v01,([event-name] = 'covid19_cv3_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')  AND [child_avg_elec_time_2_cv] > '0'
+covid_p_qtn,covid_p_qtn__sleep_003,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_p_qtn,covid_p_qtn__sleep_004,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_p_qtn,covid_p_qtn__sleep_005,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_p_qtn,covid_p_qtn__sleep_006,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_p_qtn,covid_p_qtn__sleep_007,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_p_qtn,covid_p_qtn__activs_002__01,[child_phys_activity_days_cv] != '8' AND ([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__activs_002__02,[child_phys_activity_days_cv] != '8' AND ([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_p_qtn,covid_p_qtn__activs_002__v01,"[child_phys_activity_days_cv] != '8' AND [child_phys_activity_days_cv] != """" AND ([event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')"
+covid_p_qtn,covid_p_qtn__asthma_002,"[child_diag_asthma_cv] = '2' AND ([event-name] = ""covid19_cv1_arm_2"" OR [event-name] = ""covid19_cv2_arm_2"" OR [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv4_arm_2'  OR [event-name] = 'covid19_cv5_arm_2')"
+covid_p_qtn,covid_p_qtn__asthma_002__v01,[child_diag_asthma_cv] = '2' AND ([event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__asthma_003,"[child_diag_asthma_cv] = '2' AND  ([event-name] = ""covid19_cv1_arm_2"" OR [event-name] = ""covid19_cv2_arm_2"" OR [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv4_arm_2'  OR [event-name] = 'covid19_cv5_arm_2')"
+covid_p_qtn,covid_p_qtn__asthma_003__01__v1,[mchild_asthma_medi_cv] = '2' AND ([event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__asthma_003__02__v1,[mchild_asthma_medi_cv] = '2' AND ([event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__asthma_003__03__v1,[mchild_asthma_medi_cv] = '2' AND ([event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__asthma_003__04__v1,[mchild_asthma_medi_cv] = '2' AND ([event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__asthma_003__05__v1,[mchild_asthma_medi_cv] = '2' AND ([event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__asthma_003__v01,[child_diag_asthma_cv] = '2' AND ([event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_p_qtn,covid_p_qtn__su__alc_001,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__alc_001__01,[su_p_alc_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__alc_001__02,[su_p_alc_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__mj_001,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__mj__smoke_001,[su_p_mj_use_cv]>0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__mj__vape_001,[su_p_mj_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__mj__vape_001__01___1,[su_p_mj_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__mj__vape_001__01___2,[su_p_mj_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__mj__vape_001__01___3,[su_p_mj_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__mj__vape_001__01___4,[su_p_mj_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__mj__vape_001__01___5,[su_p_mj_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__mj__vape_001__01___888,[su_p_mj_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__cig_001,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_p_qtn,covid_p_qtn__su__nic__cig_001__01___1,[su_p_cig_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__cig_001__01___2,[su_p_cig_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__cig_001__01___3,[su_p_cig_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__cig_001__01___4,[su_p_cig_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__cig_001__01___5,[su_p_cig_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__cig_001__01___888,[su_p_cig_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__vape_001,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__vape_001__01___1,[su_p_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__vape_001__01___2,[su_p_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__vape_001__01___3,[su_p_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__vape_001__01___4,[su_p_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__vape_001__01___5,[su_p_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__nic__vape_001__01___888,[su_p_vape_use_cv] > 0 and ([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__rxdrg_001,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__su__rxdrg_002,([event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2')
+covid_p_qtn,covid_p_qtn__future_001,[event-name] = 'covid19_cv2_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_p_qtn,covid_p_qtn__future_002,[event-name] = 'covid19_cv2_arm_2'
+covid_p_qtn,covid_p_qtn__worry_002,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__school_001,[event-name] = 'covid19_cv1_arm_2'  OR [event-name] = 'covid19_cv2_arm_2'  OR [event-name] = 'covid19_cv3_arm_2'
+covid_y_qtn,covid_y_qtn__school_002,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__school_010,"([school_cv] = ""1"" or [school_cv] = ""3"") AND ([event-name] != 'covid19_cv5_arm_2' OR [event-name] != 'covid19_cv6_arm_2' OR [event-name] != 'covid19_cv7_arm_2')"
+covid_y_qtn,covid_y_qtn__antimask_001,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__antimask_002,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__antimask_003,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__antimask_004,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__blm_001,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__blm_002,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__blm_003,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__blm_004,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__pol_001,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__pol_002,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__pol_003,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__pol_004,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__reopbus_001,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__reopbus_002,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__reopbus_003,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__reopbus_004,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2'
+covid_y_qtn,covid_y_qtn__comm__bef_001,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__comm__bef_002,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__comm__bef_003,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__comm__bef_004,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__comm__pastmo_001,[event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__comm__pastmo_002,[event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__comm__pastmo_003,[event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__comm__pastmo_004,[event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__comm__bef_005,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__comm__bef_006,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__comm__bef_007,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__emotion_001,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2'
+covid_y_qtn,covid_y_qtn__emotion_002,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_005,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_006,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_007,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_008,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_009,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_010,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_011,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_012,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_013,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_014,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_015,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_016,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_017,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_018,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_019,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_020,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_021,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_022,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_023,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv6_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_024,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_025,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_026,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_027,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_028,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_029,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_030,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_031,[event-name] = 'covid19_cv2_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_032,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_033,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_034,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_035,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_036,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_037,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_038,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_039,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__feelings_040,[event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__screen_012,[event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__screen_013,[event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__screen_014,[event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__screen_015,[event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__screen_016,[event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__screen_017,[event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__safety_001,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__safety_002,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__safety_003,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__safety_004,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__safety_005,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__safety_006,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__safety_007,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__safety_008,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__safety_009,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__safety_010,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__worry_004,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__worry_005,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__stress_001,[event-name] = 'covid19_cv2_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__stress_002,[event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv3_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv7_arm_2'
+covid_y_qtn,covid_y_qtn__sit_001,([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_y_qtn,covid_y_qtn__sit_001__v01,([event-name] = 'covid19_cv3_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_y_qtn,covid_y_qtn__activs_002__01,"([physical_activities_hr_cv] = ""1"" or [physical_activities_hr_cv] = ""2"" or [physical_activities_hr_cv] = ""3"" or [physical_activities_hr_cv] = ""4"" or [physical_activities_hr_cv] = ""5"" or [physical_activities_hr_cv] = ""6"" or [physical_activities_hr_cv] = ""7"") AND ([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')"
+covid_y_qtn,covid_y_qtn__activs_002__02,"([physical_activities_hr_cv] = ""1"" or [physical_activities_hr_cv] = ""2"" or [physical_activities_hr_cv] = ""3"" or [physical_activities_hr_cv] = ""4"" or [physical_activities_hr_cv] = ""5"" or [physical_activities_hr_cv] = ""6"" or [physical_activities_hr_cv] = ""7"") AND ([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')"
+covid_y_qtn,covid_y_qtn__activs_002__v01,"([physical_activities_hr_cv] = ""1"" or [physical_activities_hr_cv] = ""2"" or [physical_activities_hr_cv] = ""3"" or [physical_activities_hr_cv] = ""4"" or [physical_activities_hr_cv] = ""5"" or [physical_activities_hr_cv] = ""6"" or [physical_activities_hr_cv] = ""7"") AND ([event-name] = 'covid19_cv3_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')"
+covid_y_qtn,covid_y_qtn__walk_002__01,([walk_10_min_per_day_cv] = '1' or [walk_10_min_per_day_cv] = '2' or [walk_10_min_per_day_cv] = '3' or  [walk_10_min_per_day_cv] = '4' or [walk_10_min_per_day_cv] = '5' or [walk_10_min_per_day_cv] = '6' or [walk_10_min_per_day_cv] = '7') AND ([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_y_qtn,covid_y_qtn__walk_002__02,([walk_10_min_per_day_cv] = '1' or [walk_10_min_per_day_cv] = '2' or [walk_10_min_per_day_cv] = '3' or  [walk_10_min_per_day_cv] = '4' or [walk_10_min_per_day_cv] = '5' or [walk_10_min_per_day_cv] = '6' or [walk_10_min_per_day_cv] = '7') AND ([event-name] = 'covid19_cv1_arm_2' or [event-name] = 'covid19_cv2_arm_2')
+covid_y_qtn,covid_y_qtn__walk_002__v01,([walk_10_min_per_day_cv] = '1' or [walk_10_min_per_day_cv] = '2' or [walk_10_min_per_day_cv] = '3' or  [walk_10_min_per_day_cv] = '4' or [walk_10_min_per_day_cv] = '5' or [walk_10_min_per_day_cv] = '6' or [walk_10_min_per_day_cv] = '7') AND ([event-name] = 'covid19_cv3_arm_2' or [event-name] = 'covid19_cv4_arm_2' OR [event-name] = 'covid19_cv5_arm_2' OR [event-name] = 'covid19_cv6_arm_2' OR [event-name] = 'covid19_cv7_arm_2')
+covid_y_qtn,covid_y_qtn__su_002,[event-name] = 'covid19_cv7_arm_2'
+recover_p_cchs,recover_p_cchs_001,"([first-event-name][biosex]=""1"" or [first-event-name][biosex]=""2"") and ([visit_age]>=6) and ([visit_age]<18)"
+recover_p_ps,recover_p_ps_002,"if([cchs_mensyn]<>"""", [cchs_mensyn], if([previous-event-name][ps_mens]<>"""", [previous-event-name][ps_mens], 0))"
+recover_p_chscg,recover_p_chscg_001,"[first-event-name][demo_cgbiosex] = ""1"""
+sdev_p_rd,sdev_p_rd_038__l,"[event-name] = ""sd_wave1_arm_3"" OR [event-name] = ""sd_wave2_arm_3"" OR [event-name] = ""sd_wave3_arm_3"" OR [event-name] = ""sd_wave4_arm_3"""
+sdev_y_rd,sdev_y_rd_038__l,"[event-name] = ""sd_wave1_arm_3"" OR [event-name] = ""sd_wave2_arm_3"" OR [event-name] = ""sd_wave3_arm_3"" OR [event-name] = ""sd_wave4_arm_3"""

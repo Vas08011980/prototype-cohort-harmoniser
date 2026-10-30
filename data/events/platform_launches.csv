@@ -1,0 +1,20 @@
+date,precision,applies_to,kind,title,detail,source_url
+2004-02-04,day,GLOBAL,Social media,Facebook launches (Harvard),University-only network at launch.,https://en.wikipedia.org/wiki/Facebook
+2006-09-26,day,GLOBAL,Social media,Facebook opens to anyone 13+ with an email address,,https://about.fb.com/news/2006/09/facebook-expansion-enables-more-people-to-connect-with-friends-in-a-trusted-environment/
+2007-06-19,day,GBR;IRL,Video platform,YouTube local sites launch (UK and Ireland among 9 countries),,https://techcrunch.com/2007/06/19/youtube-goes-local-with-9-country-specific-versions/amp/
+2007-06-29,day,USA,Smartphone,iPhone goes on sale in the US,,https://appleinsider.com/articles/07/06/28/apple_sets_two_iphone_limit_says_stores_will_operate_till_midnight
+2007-10,month,AUS,Video platform,Localised YouTube Australia launches,Month inferred from Google's 15-year anniversary post (Oct 2022).,https://blog.google/intl/en-au/products/connect-communicate/15-years-of-youtube-in-australia/
+2007-10-24,day,NZL,Video platform,YouTube New Zealand portal launches,,https://lists.nznog.org/archives/list/nznog@lists.nznog.org/message/UHCBOTB7FQVR3YY4JWILGFSY2NZCXLWQ
+2007-11-09,day,GBR,Smartphone,iPhone goes on sale in the UK (O2),,https://www.apple.com/newsroom/2007/11/06iPhone-on-Sale-This-Friday-Night-at-Apple-O2-and-Carphone-Warehouse-Retail-Stores-in-the-UK
+2008-01-23,day,KOR,Video platform,YouTube Korea launches,,https://english.etnews.com/20080124200009
+2008-03-14,day,IRL,Smartphone,iPhone launches in Ireland (O2),Scheduled date reported Feb 2008.,https://www.macworld.com/article/189525/ireland-3.html
+2008-07-11,day,AUS;NZL;NOR,Smartphone,"iPhone 3G launches (first iPhone in Australia, New Zealand, Norway)",,https://techcrunch.com/2008/06/09/complete-list-of-countries-set-to-receive-iphone-3g
+2008-08-22,day,GRC,Smartphone,iPhone 3G launches in Greece,Second-wave countries.,https://www.macworld.com/article/192113/iphone3g_countries.html
+2009-11-28,day,KOR,Smartphone,iPhone launches in South Korea (KT),,https://www.iclarified.com/6236/south-korea-to-launch-iphone-november-28th
+2010-03-18,day,KOR,Messaging,KakaoTalk released,,https://en.wikipedia.org/wiki/KakaoTalk
+2010-10-06,day,GLOBAL,Social media,Instagram launches (iOS),Android 3 Apr 2012; acquired by Facebook 9 Apr 2012; Stories 2 Aug 2016.,https://en.wikipedia.org/wiki/Timeline_of_Instagram
+2011-09,month,GLOBAL,Social media,"Snapchat launches (relaunch of Picaboo, 8 Jul 2011)",Android 29 Oct 2012; Stories Oct 2013.,https://en.wikipedia.org/wiki/Snapchat
+2017-09,month,GLOBAL,Social media,TikTok launches internationally,Merged with Musical.ly 2 Aug 2018.,https://en.wikipedia.org/wiki/TikTok
+2017-09-26,day,GLOBAL,Gaming,Fortnite Battle Royale released (free-to-play),,https://shacknews.com/article/108330/when-was-fortnite-made-when-did-fortnite-come-out
+2018-08-02,day,GLOBAL,Social media,Musical.ly merges into TikTok,,https://en.wikipedia.org/wiki/TikTok
+2022-11-30,day,GLOBAL,Generative AI,ChatGPT released,,https://en.wikipedia.org/wiki/ChatGPT

@@ -1,0 +1,1216 @@
+iso3,year,indicator_id,value,unit,dimension,label,source,retrieved
+AUS,2000,itu_11624,46.756,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2001,itu_11624,52.689,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2005,itu_11624,63,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2006,itu_11624,66,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2007,itu_11624,69.45,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2008,itu_11624,71.67,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2009,itu_11624,74.25,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2010,itu_11624,76,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2011,itu_11624,79.488,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2012,itu_11624,79,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2013,itu_11624,83.453,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2014,itu_11624,84,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2015,itu_11624,84.561,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2016,itu_11624,86.54,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2017,itu_11624,86.545,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2018,itu_11624,90.008,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2019,itu_11624,93.61,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2020,itu_11624,94.693,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2021,itu_11624,96.972,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2022,itu_11624,96.119,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2023,itu_11624,96.116,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2024,itu_11624,96.131,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2000,itu_11624,26.822,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2001,itu_11624,33.481,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2002,itu_11624,56.48,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2003,itu_11624,64.82,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2004,itu_11624,65.61,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2005,itu_11624,70,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2006,itu_11624,68.82,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2007,itu_11624,75.09,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2008,itu_11624,78.39,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2009,itu_11624,83.56,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2010,itu_11624,85,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2011,itu_11624,85.38,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2012,itu_11624,87.48,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2013,itu_11624,89.844,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2014,itu_11624,91.613,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2015,itu_11624,92,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2016,itu_11624,94.776,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2017,itu_11624,90.425,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2018,itu_11624,90.692,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2019,itu_11624,92.517,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2020,itu_11624,94.818,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2021,itu_11624,96.197,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2022,itu_11624,95.465,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2023,itu_11624,95.447,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GBR,2024,itu_11624,95.472,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2000,itu_11624,9.139,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2001,itu_11624,10.935,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2002,itu_11624,14.67,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2003,itu_11624,17.8,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2004,itu_11624,21.42,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2005,itu_11624,24,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2006,itu_11624,32.25,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2007,itu_11624,35.88,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2008,itu_11624,38.2,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2009,itu_11624,42.4,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2010,itu_11624,44.4,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2011,itu_11624,51.65,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2012,itu_11624,55.07,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2013,itu_11624,59.866,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2014,itu_11624,63.207,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2015,itu_11624,66.835,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2016,itu_11624,69.088,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2017,itu_11624,69.893,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2018,itu_11624,72.238,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2019,itu_11624,75.671,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2020,itu_11624,78.116,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2021,itu_11624,78.494,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2022,itu_11624,83.171,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2023,itu_11624,85.01,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2024,itu_11624,86.27,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+GRC,2025,itu_11624,89.153,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2000,itu_11624,17.85,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2001,itu_11624,23.139,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2002,itu_11624,25.85,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2003,itu_11624,34.31,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2004,itu_11624,36.99,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2005,itu_11624,41.61,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2006,itu_11624,54.82,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2007,itu_11624,61.158,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2008,itu_11624,65.34,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2009,itu_11624,67.38,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2010,itu_11624,69.85,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2011,itu_11624,74.89,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2012,itu_11624,76.92,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2013,itu_11624,78.248,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2014,itu_11624,83.492,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2015,itu_11624,83.495,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2016,itu_11624,83.5,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2017,itu_11624,84.114,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2018,itu_11624,87,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2019,itu_11624,87,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2020,itu_11624,92,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2021,itu_11624,93.506,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2022,itu_11624,95.037,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2023,itu_11624,96.866,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+IRL,2024,itu_11624,97.188,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2000,itu_11624,44.7,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2001,itu_11624,56.6,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2002,itu_11624,59.4,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2003,itu_11624,65.5,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2004,itu_11624,72.7,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2005,itu_11624,73.5,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2006,itu_11624,78.1,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2007,itu_11624,78.8,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2008,itu_11624,81,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2009,itu_11624,81.6,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2010,itu_11624,83.7,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2011,itu_11624,83.759,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2012,itu_11624,84.07,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2013,itu_11624,84.77,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2014,itu_11624,87.557,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2015,itu_11624,89.896,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2016,itu_11624,92.843,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2017,itu_11624,95.069,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2018,itu_11624,96.023,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2019,itu_11624,96.158,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2020,itu_11624,96.505,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2021,itu_11624,97.571,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2022,itu_11624,97.169,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2023,itu_11624,97.416,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2024,itu_11624,97.896,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+KOR,2025,itu_11624,96.092,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2000,itu_11624,52,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2001,itu_11624,64,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2002,itu_11624,72.84,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2003,itu_11624,78.13,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2004,itu_11624,77.69,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2005,itu_11624,81.99,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2006,itu_11624,82.55,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2007,itu_11624,86.93,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2008,itu_11624,90.57,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2009,itu_11624,92.08,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2010,itu_11624,93.39,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2011,itu_11624,93.49,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2012,itu_11624,94.65,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2013,itu_11624,95.053,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2014,itu_11624,96.301,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2015,itu_11624,96.81,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2016,itu_11624,97.298,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2017,itu_11624,96.358,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2018,itu_11624,96.492,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2019,itu_11624,98,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2020,itu_11624,94.608,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2021,itu_11624,99,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2022,itu_11624,99,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2023,itu_11624,99,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NOR,2024,itu_11624,99,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2000,itu_11624,47.38,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2001,itu_11624,53.241,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2002,itu_11624,59.081,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2003,itu_11624,60.963,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2004,itu_11624,61.848,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2005,itu_11624,62.72,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2006,itu_11624,69,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2007,itu_11624,69.76,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2008,itu_11624,72.03,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2009,itu_11624,79.7,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2010,itu_11624,80.46,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2011,itu_11624,81.23,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2012,itu_11624,81.644,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2013,itu_11624,82.78,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2014,itu_11624,84,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2015,itu_11624,85.2,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2016,itu_11624,86.5,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2017,itu_11624,87.7,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2018,itu_11624,89,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2019,itu_11624,89.864,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2020,itu_11624,90.921,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2021,itu_11624,91.991,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2022,itu_11624,93.073,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2023,itu_11624,93.326,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+NZL,2024,itu_11624,93.519,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2000,itu_11624,43.079,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2001,itu_11624,49.081,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2002,itu_11624,58.785,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2003,itu_11624,61.697,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2004,itu_11624,64.758,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2005,itu_11624,67.968,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2006,itu_11624,68.931,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2007,itu_11624,75,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2008,itu_11624,74,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2009,itu_11624,71,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2010,itu_11624,71.69,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2011,itu_11624,69.729,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2012,itu_11624,74.7,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2013,itu_11624,71.4,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2014,itu_11624,73,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2015,itu_11624,74.554,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2016,itu_11624,85.544,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2017,itu_11624,87.275,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2018,itu_11624,88.499,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2019,itu_11624,89.43,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2020,itu_11624,90.345,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2021,itu_11624,91.268,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2022,itu_11624,92.729,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2023,itu_11624,93.526,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+USA,2024,itu_11624,94.694,% of individuals,Access,Internet users (ITU),ITU DataHub i99H (WTI); age frame varies by country,2026-10-23
+AUS,2000,itu_12047,33,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2001,itu_12047,42,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2002,itu_12047,46,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2003,itu_12047,53,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2004,itu_12047,54,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2005,itu_12047,56,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2006,itu_12047,60,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2007,itu_12047,63.66,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2008,itu_12047,66.618,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2009,itu_12047,71.77,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2010,itu_12047,74.07,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2011,itu_12047,78.917,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2012,itu_12047,79,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2013,itu_12047,82.688,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2014,itu_12047,84.3,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2015,itu_12047,85.887,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2016,itu_12047,86.115,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2017,itu_12047,86.115,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2018,itu_12047,86.744,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2019,itu_12047,87.378,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2020,itu_12047,97.15,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2021,itu_12047,97.181,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2022,itu_12047,97.458,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2023,itu_12047,97.767,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2024,itu_12047,97.803,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2000,itu_12047,30,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2001,itu_12047,45,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2002,itu_12047,49.72,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2003,itu_12047,55.11,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2004,itu_12047,55.899,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2005,itu_12047,60.232,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2006,itu_12047,62.641,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2007,itu_12047,66.718,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2008,itu_12047,71.143,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2009,itu_12047,76.693,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2010,itu_12047,79.6,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2011,itu_12047,82.7,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2012,itu_12047,86.8,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2013,itu_12047,88.446,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2014,itu_12047,89.93,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2015,itu_12047,91.252,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2017,itu_12047,89.632,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2018,itu_12047,90.203,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2019,itu_12047,92.893,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2020,itu_12047,95.244,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2021,itu_12047,96.281,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2022,itu_12047,96.34,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2023,itu_12047,96.397,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GBR,2024,itu_12047,96.441,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2001,itu_12047,9.9,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2002,itu_12047,12.151,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2003,itu_12047,16.301,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2004,itu_12047,16.544,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2005,itu_12047,21.731,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2006,itu_12047,23.123,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2007,itu_12047,25.397,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2008,itu_12047,30.963,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2009,itu_12047,38.065,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2010,itu_12047,46.4,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2011,itu_12047,50.17,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2012,itu_12047,53.58,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2013,itu_12047,56.313,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2014,itu_12047,65.551,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2015,itu_12047,68.091,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2016,itu_12047,69.126,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2017,itu_12047,70.958,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2018,itu_12047,76.493,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2019,itu_12047,78.54,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2020,itu_12047,80.382,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2021,itu_12047,85.071,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2022,itu_12047,85.494,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2023,itu_12047,86.901,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2024,itu_12047,84.576,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+GRC,2025,itu_12047,88.735,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2000,itu_12047,20.4,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2001,itu_12047,34,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2002,itu_12047,34.775,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2003,itu_12047,35.567,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2004,itu_12047,39.731,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2005,itu_12047,47.184,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2006,itu_12047,49.953,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2007,itu_12047,57.271,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2008,itu_12047,63.047,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2009,itu_12047,66.67,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2010,itu_12047,71.7,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2011,itu_12047,78.12,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2012,itu_12047,81.09,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2013,itu_12047,82.389,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2014,itu_12047,82,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2015,itu_12047,85,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2017,itu_12047,88.999,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2018,itu_12047,89,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2019,itu_12047,91,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2020,itu_12047,92,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2021,itu_12047,91.113,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2022,itu_12047,94.997,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2023,itu_12047,96.747,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+IRL,2024,itu_12047,97.067,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2000,itu_12047,49.8,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2001,itu_12047,63.2,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2002,itu_12047,70.23,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2003,itu_12047,78.1,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2004,itu_12047,86,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2005,itu_12047,92.73,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2006,itu_12047,93.99,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2007,itu_12047,94.13,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2008,itu_12047,94.27,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2009,itu_12047,95.905,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2010,itu_12047,96.8,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2011,itu_12047,97.232,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2012,itu_12047,97.35,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2013,itu_12047,98.14,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2014,itu_12047,98.487,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2015,itu_12047,98.794,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2016,itu_12047,99.194,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2017,itu_12047,99.505,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2018,itu_12047,99.478,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2019,itu_12047,99.689,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2020,itu_12047,99.749,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2021,itu_12047,99.932,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2022,itu_12047,99.961,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2023,itu_12047,99.966,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2024,itu_12047,99.971,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+KOR,2025,itu_12047,99.981,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2000,itu_12047,49,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2001,itu_12047,56,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2002,itu_12047,58,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2003,itu_12047,60.491,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2004,itu_12047,60.089,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2005,itu_12047,64.006,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2006,itu_12047,68.794,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2007,itu_12047,77.591,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2008,itu_12047,83.97,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2009,itu_12047,85.564,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2010,itu_12047,89.8,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2011,itu_12047,92.24,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2012,itu_12047,92.69,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2013,itu_12047,94.285,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2014,itu_12047,93.07,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2015,itu_12047,97.279,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2016,itu_12047,97,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2017,itu_12047,97,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2018,itu_12047,96,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2019,itu_12047,98,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2020,itu_12047,96.123,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2021,itu_12047,99,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2022,itu_12047,99,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2023,itu_12047,99,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NOR,2024,itu_12047,99.488,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2001,itu_12047,37.4,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2002,itu_12047,43,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2003,itu_12047,50,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2004,itu_12047,57,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2005,itu_12047,62.081,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2006,itu_12047,64.559,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2007,itu_12047,65.9,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2008,itu_12047,67.533,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2009,itu_12047,75.262,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2010,itu_12047,76.81,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2011,itu_12047,78.39,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2012,itu_12047,80.24,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2013,itu_12047,76.8,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2014,itu_12047,79.83,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2015,itu_12047,82.75,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2016,itu_12047,85.66,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2017,itu_12047,87.804,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2018,itu_12047,88.445,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2019,itu_12047,89.091,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2020,itu_12047,94.31,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2021,itu_12047,95.988,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2022,itu_12047,96.921,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2023,itu_12047,97.295,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+NZL,2024,itu_12047,97.283,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2000,itu_12047,41.5,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2001,itu_12047,50.5,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2002,itu_12047,52,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2003,itu_12047,54.7,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2004,itu_12047,56.4,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2005,itu_12047,58.1,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2006,itu_12047,59.9,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2007,itu_12047,61.7,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2008,itu_12047,63.6,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2009,itu_12047,68.685,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2010,itu_12047,71.06,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2011,itu_12047,71.7,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2012,itu_12047,74.8,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2013,itu_12047,78.58,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2014,itu_12047,79.875,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2015,itu_12047,81.475,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2016,itu_12047,81.867,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2017,itu_12047,83.847,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2018,itu_12047,85.35,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2019,itu_12047,86.612,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2020,itu_12047,90.554,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2021,itu_12047,94.352,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2022,itu_12047,92.663,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2023,itu_12047,94.772,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+USA,2024,itu_12047,94.855,% of households,Access,Households with internet at home (ITU),ITU DataHub xHH6_IDI,2026-10-23
+AUS,2010,itu_12066,56.121,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2011,itu_12066,80.557,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2012,itu_12066,96.505,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2013,itu_12066,111.012,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2014,itu_12066,114.547,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2015,itu_12066,126.357,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2016,itu_12066,129.651,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2017,itu_12066,133.355,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2018,itu_12066,128.457,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2019,itu_12066,128.495,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2020,itu_12066,123.024,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2021,itu_12066,121.843,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2022,itu_12066,126.285,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2023,itu_12066,128.501,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2024,itu_12066,129.03,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2025,itu_12066,127.69,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2009,itu_12066,36.473,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2010,itu_12066,42.52,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2011,itu_12066,61.59,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2012,itu_12066,75.599,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2013,itu_12066,85.494,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2014,itu_12066,86.915,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2015,itu_12066,85.453,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2016,itu_12066,83.138,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2017,itu_12066,87.75,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2018,itu_12066,99.112,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2019,itu_12066,104.43,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2020,itu_12066,108.53,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2021,itu_12066,125.279,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2022,itu_12066,127.106,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2023,itu_12066,129.799,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2024,itu_12066,130.174,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GBR,2025,itu_12066,130.929,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2009,itu_12066,12.375,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2010,itu_12066,25.048,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2011,itu_12066,30.554,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2012,itu_12066,34.621,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2013,itu_12066,36.593,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2014,itu_12066,41.861,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2015,itu_12066,46.935,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2016,itu_12066,55.198,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2017,itu_12066,65.792,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2018,itu_12066,79.801,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2019,itu_12066,85.109,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2020,itu_12066,86.278,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2021,itu_12066,93.344,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2022,itu_12066,89.368,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2023,itu_12066,93.843,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2024,itu_12066,97.293,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+GRC,2025,itu_12066,105.25,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2009,itu_12066,49.832,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2010,itu_12066,48.195,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2011,itu_12066,58.69,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2012,itu_12066,63.948,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2013,itu_12066,67.19,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2014,itu_12066,81.315,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2015,itu_12066,95.538,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2016,itu_12066,100.234,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2017,itu_12066,100.939,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2018,itu_12066,102.657,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2019,itu_12066,104.31,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2020,itu_12066,103.596,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2021,itu_12066,107.752,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2022,itu_12066,116.579,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2023,itu_12066,118.159,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2024,itu_12066,120.084,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+IRL,2025,itu_12066,122.032,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2008,itu_12066,73.072,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2009,itu_12066,87.866,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2010,itu_12066,97.035,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2011,itu_12066,103.478,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2012,itu_12066,103.876,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2013,itu_12066,103.637,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2014,itu_12066,106.356,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2015,itu_12066,107.018,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2016,itu_12066,108.608,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2017,itu_12066,111.662,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2018,itu_12066,112.585,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2019,itu_12066,113.697,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2020,itu_12066,115.569,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2021,itu_12066,117.113,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2022,itu_12066,120.211,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2023,itu_12066,121.796,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2024,itu_12066,125.397,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+KOR,2025,itu_12066,129.562,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2008,itu_12066,57.927,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2009,itu_12066,68.536,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2010,itu_12066,74.377,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2011,itu_12066,76.079,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2012,itu_12066,83.648,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2013,itu_12066,86.044,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2014,itu_12066,105.553,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2015,itu_12066,94.606,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2016,itu_12066,95.731,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2017,itu_12066,98.33,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2018,itu_12066,99.668,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2019,itu_12066,102.303,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2020,itu_12066,104.517,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2021,itu_12066,114.889,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2022,itu_12066,116.578,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2023,itu_12066,114.178,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2024,itu_12066,113.491,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NOR,2025,itu_12066,112.679,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2010,itu_12066,38.802,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2011,itu_12066,53.437,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2012,itu_12066,65.939,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2013,itu_12066,82.221,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2014,itu_12066,93.301,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2015,itu_12066,113.783,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2016,itu_12066,99.687,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2017,itu_12066,99.34,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2018,itu_12066,96,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2019,itu_12066,96.164,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2020,itu_12066,89.923,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2021,itu_12066,93.682,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2022,itu_12066,97.452,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2023,itu_12066,109.379,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2024,itu_12066,108.593,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+NZL,2025,itu_12066,106.971,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2008,itu_12066,8.7,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2009,itu_12066,40.162,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2010,itu_12066,60.283,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2011,itu_12066,77.22,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2012,itu_12066,89.224,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2013,itu_12066,97.983,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2014,itu_12066,102.556,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2015,itu_12066,115.141,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2016,itu_12066,124.301,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2017,itu_12066,129.874,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2018,itu_12066,138.215,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2019,itu_12066,145.918,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2020,itu_12066,154.347,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2021,itu_12066,164.246,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2022,itu_12066,173.686,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2023,itu_12066,184.683,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2024,itu_12066,196.707,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+USA,2025,itu_12066,204.702,per 100 inhabitants,Access,Active mobile-broadband subscriptions per 100 (ITU),ITU DataHub i911mw,2026-10-23
+AUS,2001,itu_19303,0.634,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2002,itu_19303,1.317,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2003,itu_19303,2.608,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2004,itu_19303,5.048,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2005,itu_19303,9.934,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2006,itu_19303,18.941,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2008,itu_19303,24.871,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2009,itu_19303,23.968,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2010,itu_19303,24.885,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2011,itu_19303,24.698,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2012,itu_19303,25.096,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2013,itu_19303,25.74,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2014,itu_19303,27.7,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2015,itu_19303,28.512,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2016,itu_19303,30.308,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2017,itu_19303,32.033,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2018,itu_19303,33.549,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2019,itu_19303,34.543,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2020,itu_19303,35.347,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2021,itu_19303,35.836,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2022,itu_19303,36.393,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2023,itu_19303,36.627,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2024,itu_19303,37.84,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2025,itu_19303,37.985,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2000,itu_19303,0.09,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2001,itu_19303,0.558,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2002,itu_19303,2.278,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2003,itu_19303,5.205,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2004,itu_19303,10.178,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2005,itu_19303,16.335,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2006,itu_19303,21.315,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2007,itu_19303,25.361,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2008,itu_19303,27.907,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2009,itu_19303,28.601,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2011,itu_19303,32.419,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2012,itu_19303,33.905,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2013,itu_19303,35.782,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2014,itu_19303,36.583,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2015,itu_19303,37.721,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2016,itu_19303,38.659,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2017,itu_19303,39.249,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2018,itu_19303,39.829,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2019,itu_19303,40.023,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2020,itu_19303,40.578,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2021,itu_19303,41.113,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2022,itu_19303,41.287,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2023,itu_19303,41.437,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GBR,2024,itu_19303,42.165,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2003,itu_19303,0.096,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2004,itu_19303,0.47,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2005,itu_19303,1.458,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2006,itu_19303,4.432,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2007,itu_19303,9.211,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2008,itu_19303,13.605,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2009,itu_19303,17.254,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2010,itu_19303,20.249,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2011,itu_19303,22.183,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2012,itu_19303,24.342,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2013,itu_19303,26.562,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2014,itu_19303,28.973,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2015,itu_19303,31.781,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2016,itu_19303,33.549,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2017,itu_19303,35.135,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2018,itu_19303,36.92,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2019,itu_19303,38.357,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2020,itu_19303,39.788,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2021,itu_19303,41.921,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2022,itu_19303,42.923,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2023,itu_19303,43.854,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2024,itu_19303,44.676,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+GRC,2025,itu_19303,44.589,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2002,itu_19303,0.27,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2003,itu_19303,1.047,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2004,itu_19303,3.741,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2005,itu_19303,7.761,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2006,itu_19303,13.158,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2007,itu_19303,17.269,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2008,itu_19303,19.867,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2009,itu_19303,21.536,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2010,itu_19303,22.372,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2011,itu_19303,23.381,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2012,itu_19303,24.175,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2013,itu_19303,25.714,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2014,itu_19303,27.022,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2015,itu_19303,27.846,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2016,itu_19303,28.615,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2017,itu_19303,29.079,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2018,itu_19303,29.351,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2019,itu_19303,29.645,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2020,itu_19303,30.435,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2021,itu_19303,31.362,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2022,itu_19303,31.536,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2023,itu_19303,31.891,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2024,itu_19303,32.302,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+IRL,2025,itu_19303,33.253,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2000,itu_19303,8.275,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2001,itu_19303,16.619,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2002,itu_19303,21.999,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2003,itu_19303,23.527,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2004,itu_19303,24.994,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2005,itu_19303,25.476,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2006,itu_19303,29.252,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2007,itu_19303,30.533,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2008,itu_19303,32.002,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2009,itu_19303,33.676,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2010,itu_19303,35.256,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2011,itu_19303,36.353,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2012,itu_19303,36.8,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2013,itu_19303,37.422,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2014,itu_19303,37.988,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2015,itu_19303,39.276,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2016,itu_19303,40.071,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2017,itu_19303,41.168,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2018,itu_19303,41.219,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2019,itu_19303,42.037,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2020,itu_19303,43.054,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2021,itu_19303,44.253,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2022,itu_19303,45.454,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2023,itu_19303,46.568,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2024,itu_19303,47.801,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+KOR,2025,itu_19303,48.839,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2000,itu_19303,0.519,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2001,itu_19303,1.962,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2002,itu_19303,4.524,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2003,itu_19303,8.736,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2004,itu_19303,14.628,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2005,itu_19303,21.443,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2006,itu_19303,26.704,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2007,itu_19303,30.946,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2008,itu_19303,33.083,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2009,itu_19303,34.549,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2010,itu_19303,35.248,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2011,itu_19303,36.053,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2012,itu_19303,37.018,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2013,itu_19303,37.612,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2014,itu_19303,38.485,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2015,itu_19303,39.51,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2016,itu_19303,40.24,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2017,itu_19303,41.033,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2018,itu_19303,41.528,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2019,itu_19303,42.272,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2020,itu_19303,44.386,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2021,itu_19303,44.939,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2022,itu_19303,45.664,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2023,itu_19303,45.438,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2024,itu_19303,45.163,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NOR,2025,itu_19303,46.754,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2000,itu_19303,0.121,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2001,itu_19303,0.444,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2002,itu_19303,1.101,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2003,itu_19303,2.063,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2004,itu_19303,4.694,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2005,itu_19303,7.763,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2006,itu_19303,11.244,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2007,itu_19303,20.198,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2008,itu_19303,21.469,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2009,itu_19303,23.751,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2010,itu_19303,25.116,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2011,itu_19303,26.878,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2012,itu_19303,28.833,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2013,itu_19303,29.547,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2014,itu_19303,31.174,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2015,itu_19303,31.445,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2016,itu_19303,32.462,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2017,itu_19303,32.892,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2018,itu_19303,33.619,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2019,itu_19303,34.023,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2020,itu_19303,34.813,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2021,itu_19303,35.263,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2022,itu_19303,36.304,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2023,itu_19303,37.853,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2024,itu_19303,38.045,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+NZL,2025,itu_19303,38.308,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2000,itu_19303,2.512,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2001,itu_19303,4.5,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2002,itu_19303,6.925,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2003,itu_19303,9.57,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2004,itu_19303,12.758,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2005,itu_19303,17.299,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2006,itu_19303,20.165,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2007,itu_19303,23.755,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2008,itu_19303,25.291,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2009,itu_19303,25.969,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2010,itu_19303,27.172,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2011,itu_19303,28.117,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2012,itu_19303,29.174,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2013,itu_19303,30,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2014,itu_19303,30.271,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2015,itu_19303,31.341,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2016,itu_19303,32.114,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2017,itu_19303,32.57,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2018,itu_19303,33.056,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2019,itu_19303,33.835,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2020,itu_19303,35.716,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2021,itu_19303,37.007,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2022,itu_19303,37.489,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2023,itu_19303,38.094,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2024,itu_19303,38.857,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+USA,2025,itu_19303,39.106,per 100 inhabitants,Access,Fixed broadband subscriptions per 100 (ITU),ITU DataHub i992b,2026-10-23
+AUS,2012,itu_19306,52.21,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2013,itu_19306,85,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2014,itu_19306,95,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2015,itu_19306,94,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2016,itu_19306,98,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2017,itu_19306,99,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2018,itu_19306,99.2,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2019,itu_19306,99.4,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2020,itu_19306,99.5,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2021,itu_19306,99.5,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2022,itu_19306,99.5,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2025,itu_19306,99.7,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2012,itu_19306,43,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2013,itu_19306,70,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2014,itu_19306,80,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2015,itu_19306,97.8,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2016,itu_19306,98.5,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2017,itu_19306,99.3,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2018,itu_19306,99.7,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2019,itu_19306,99.7,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2020,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2021,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2022,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2023,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2024,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GBR,2025,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2012,itu_19306,35.13,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2013,itu_19306,55,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2014,itu_19306,55,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2015,itu_19306,83,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2016,itu_19306,93,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2017,itu_19306,98,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2018,itu_19306,98.8,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2019,itu_19306,98.8,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2020,itu_19306,98.8,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2021,itu_19306,99,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2022,itu_19306,99.2,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2023,itu_19306,99.8,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2024,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+GRC,2025,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2013,itu_19306,40,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2014,itu_19306,87,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2015,itu_19306,90,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2016,itu_19306,90,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2017,itu_19306,90,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2018,itu_19306,90,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2019,itu_19306,90,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2020,itu_19306,90,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2021,itu_19306,90,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2022,itu_19306,90,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2023,itu_19306,99.8,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2024,itu_19306,99.8,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+IRL,2025,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2014,itu_19306,99,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2015,itu_19306,99,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2016,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2017,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2018,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2019,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2020,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2021,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2022,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2023,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2024,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+KOR,2025,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2012,itu_19306,54.92,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2013,itu_19306,68.95,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2014,itu_19306,85,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2015,itu_19306,99,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2016,itu_19306,99.2,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2017,itu_19306,99.8,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2018,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2019,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2020,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2021,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2022,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NOR,2024,itu_19306,100,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2014,itu_19306,50,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2015,itu_19306,88,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2016,itu_19306,90,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2017,itu_19306,94,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2018,itu_19306,97,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2019,itu_19306,97.33,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2020,itu_19306,97.5,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2021,itu_19306,97.5,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2022,itu_19306,97.54,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2023,itu_19306,97.7,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2024,itu_19306,98.5,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+NZL,2025,itu_19306,99.01,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2012,itu_19306,89,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2013,itu_19306,97,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2014,itu_19306,98.5,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2015,itu_19306,99.6,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2016,itu_19306,99.6,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2017,itu_19306,99.8,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2018,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2019,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2020,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2021,itu_19306,99.9,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2022,itu_19306,99.5,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2023,itu_19306,99,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2024,itu_19306,99,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+USA,2025,itu_19306,99,% of population,Access,Population covered by at least LTE/4G (ITU),"ITU DataHub 19306; AUS 2023-24 values dropped (identical to 5G, suspected entry error)",2026-10-23
+AUS,2018,itu_33331,1.166,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+AUS,2019,itu_33331,1.143,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+AUS,2020,itu_33331,1.147,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+AUS,2021,itu_33331,1.268,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+AUS,2022,itu_33331,1.207,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+AUS,2023,itu_33331,1.12,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+AUS,2024,itu_33331,1.11,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+AUS,2025,itu_33331,1.12,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GBR,2018,itu_33331,1.245,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GBR,2019,itu_33331,1.215,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GBR,2020,itu_33331,2.063,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GBR,2021,itu_33331,1.279,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GBR,2022,itu_33331,1.157,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GBR,2023,itu_33331,1.06,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GBR,2024,itu_33331,1.08,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GBR,2025,itu_33331,1,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GRC,2018,itu_33331,1.381,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GRC,2019,itu_33331,1.339,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GRC,2020,itu_33331,1.597,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GRC,2021,itu_33331,2.736,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GRC,2022,itu_33331,1.876,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GRC,2023,itu_33331,1.65,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GRC,2024,itu_33331,1.59,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+GRC,2025,itu_33331,1.5,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+IRL,2018,itu_33331,1.265,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+IRL,2019,itu_33331,1.186,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+IRL,2020,itu_33331,1.366,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+IRL,2021,itu_33331,1.296,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+IRL,2022,itu_33331,1.457,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+IRL,2023,itu_33331,0.59,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+IRL,2024,itu_33331,0.57,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+IRL,2025,itu_33331,0.56,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+KOR,2018,itu_33331,1.153,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+KOR,2019,itu_33331,1.117,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+KOR,2020,itu_33331,1.048,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+KOR,2021,itu_33331,1.11,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+KOR,2022,itu_33331,1.033,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+KOR,2023,itu_33331,0.99,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+KOR,2024,itu_33331,0.94,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+KOR,2025,itu_33331,0.94,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NOR,2018,itu_33331,0.659,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NOR,2019,itu_33331,0.685,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NOR,2020,itu_33331,0.751,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NOR,2021,itu_33331,1.195,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NOR,2022,itu_33331,1.121,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NOR,2023,itu_33331,0.91,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NOR,2024,itu_33331,1.07,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NOR,2025,itu_33331,1.17,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NZL,2018,itu_33331,1.295,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NZL,2019,itu_33331,1.259,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NZL,2020,itu_33331,1.26,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NZL,2021,itu_33331,1.28,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NZL,2022,itu_33331,0.799,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NZL,2023,itu_33331,0.73,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NZL,2024,itu_33331,0.7,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+NZL,2025,itu_33331,1,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+USA,2018,itu_33331,0.823,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+USA,2019,itu_33331,0.792,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+USA,2020,itu_33331,1.018,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+USA,2021,itu_33331,1.011,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+USA,2022,itu_33331,0.927,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+USA,2023,itu_33331,0.84,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+USA,2024,itu_33331,0.71,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+USA,2025,itu_33331,0.76,% of GNI per capita,Access,Affordability: fixed broadband 5GB basket (ITU),ITU ICT price baskets 33331 (2018+),2026-10-23
+AUS,2020,itu_34236,50,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+AUS,2021,itu_34236,77.5,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+AUS,2022,itu_34236,80,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+AUS,2023,itu_34236,85,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+AUS,2024,itu_34236,89,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+AUS,2025,itu_34236,95,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+GBR,2021,itu_34236,46,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+GBR,2022,itu_34236,67,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+GBR,2023,itu_34236,85,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+GRC,2021,itu_34236,60,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+GRC,2022,itu_34236,89.4,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+GRC,2023,itu_34236,99,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+GRC,2024,itu_34236,99.6,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+GRC,2025,itu_34236,99.5,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+IRL,2021,itu_34236,79,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+IRL,2022,itu_34236,79,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+IRL,2023,itu_34236,85,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+IRL,2024,itu_34236,86,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+IRL,2025,itu_34236,99,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+KOR,2020,itu_34236,90,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+KOR,2023,itu_34236,94,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+NOR,2020,itu_34236,5.4,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+NOR,2021,itu_34236,23.3,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+NOR,2022,itu_34236,81.5,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+NOR,2023,itu_34236,83.4,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+NOR,2024,itu_34236,99.7,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+NZL,2022,itu_34236,13.91,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+NZL,2023,itu_34236,26.77,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+NZL,2024,itu_34236,40.44,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+NZL,2025,itu_34236,51.06,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+USA,2021,itu_34236,94,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+USA,2022,itu_34236,97,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+USA,2023,itu_34236,96,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+USA,2024,itu_34236,96,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+USA,2025,itu_34236,97,% of population,Access,Population covered by at least 5G (ITU),ITU DataHub 34236,2026-10-23
+AUS,2023,itu_36056,0.35,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+AUS,2024,itu_36056,0.33,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+AUS,2025,itu_36056,0.32,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+GBR,2023,itu_36056,0.32,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+GBR,2024,itu_36056,0.31,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+GBR,2025,itu_36056,0.29,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+GRC,2023,itu_36056,0.77,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+GRC,2024,itu_36056,0.63,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+GRC,2025,itu_36056,0.53,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+IRL,2023,itu_36056,0.34,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+IRL,2024,itu_36056,0.32,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+IRL,2025,itu_36056,0.32,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+KOR,2023,itu_36056,0.47,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+KOR,2024,itu_36056,0.45,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+KOR,2025,itu_36056,0.45,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+NOR,2023,itu_36056,0.34,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+NOR,2024,itu_36056,0.37,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+NOR,2025,itu_36056,0.37,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+NZL,2023,itu_36056,1.14,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+NZL,2024,itu_36056,1.09,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+NZL,2025,itu_36056,0.63,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+USA,2023,itu_36056,0.67,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+USA,2024,itu_36056,0.64,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+USA,2025,itu_36056,0.61,% of GNI per capita,Access,Affordability: 5GB mobile data basket (ITU),ITU ICT price baskets 36056 (2023+),2026-10-23
+AUS,2013,itu_37470,53.476,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+AUS,2015,itu_37470,60.923,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+AUS,2017,itu_37470,69.155,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GBR,2011,itu_37470,49.681,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GBR,2013,itu_37470,58.123,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GBR,2014,itu_37470,59.822,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GBR,2015,itu_37470,65.656,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GBR,2016,itu_37470,68.755,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GBR,2020,itu_37470,70.473,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GRC,2011,itu_37470,28.063,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GRC,2013,itu_37470,36.114,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GRC,2014,itu_37470,40.654,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GRC,2015,itu_37470,43.907,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GRC,2016,itu_37470,46.654,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GRC,2020,itu_37470,59.406,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GRC,2021,itu_37470,62.051,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GRC,2022,itu_37470,67.034,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GRC,2023,itu_37470,68.096,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GRC,2024,itu_37470,68.379,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+GRC,2025,itu_37470,73.039,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+IRL,2011,itu_37470,40.266,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+IRL,2013,itu_37470,47.512,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+IRL,2014,itu_37470,52.841,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+IRL,2015,itu_37470,54.762,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2013,itu_37470,43.53,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2014,itu_37470,54.093,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2015,itu_37470,57.232,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2016,itu_37470,60.221,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2017,itu_37470,67.868,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2018,itu_37470,65.481,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2019,itu_37470,63.202,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2020,itu_37470,65.532,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2021,itu_37470,68.355,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2022,itu_37470,66.408,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2023,itu_37470,66.747,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2024,itu_37470,71.215,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+KOR,2025,itu_37470,65.335,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+NOR,2011,itu_37470,58.957,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+NOR,2013,itu_37470,67.58,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+NOR,2014,itu_37470,70.667,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+NOR,2015,itu_37470,73.216,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+NOR,2016,itu_37470,76.159,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+NOR,2017,itu_37470,80.413,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+NOR,2020,itu_37470,86,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+NOR,2021,itu_37470,87,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+NOR,2022,itu_37470,88,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+NOR,2023,itu_37470,88,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+USA,2015,itu_37470,45.135,% of population,Participation,"Social networking, all ages (ITU)",ITU DataHub HHU4212asn-%_POP--,2026-10-23
+AUS,2000,itu_392,44.751,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2001,itu_392,57.484,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2002,itu_392,64.658,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2003,itu_392,72.388,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2004,itu_392,82.208,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2005,itu_392,90.764,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2006,itu_392,95.966,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2007,itu_392,101.458,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2008,itu_392,103.507,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2009,itu_392,101.914,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2010,itu_392,101.619,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2011,itu_392,105.824,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2012,itu_392,106.5,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2013,itu_392,107.332,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2014,itu_392,106.206,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2015,itu_392,107.608,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2016,itu_392,109.129,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2017,itu_392,107.8,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2018,itu_392,110.033,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2019,itu_392,109.753,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2020,itu_392,104.93,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2021,itu_392,105.119,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2022,itu_392,109.469,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2023,itu_392,112.513,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2024,itu_392,113.708,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+AUS,2025,itu_392,112.671,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2000,itu_392,73.576,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2001,itu_392,78.065,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2002,itu_392,82.679,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2003,itu_392,90.699,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2004,itu_392,99.199,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2005,itu_392,108.046,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2006,itu_392,114.786,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2007,itu_392,119.989,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2008,itu_392,120.819,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2009,itu_392,122.357,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2010,itu_392,121.781,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2011,itu_392,121.498,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2012,itu_392,122.465,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2013,itu_392,122.185,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2014,itu_392,120.958,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2015,itu_392,121.212,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2016,itu_392,119.787,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2017,itu_392,119.207,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2018,itu_392,118.184,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2019,itu_392,120.25,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2020,itu_392,117.305,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2021,itu_392,117.887,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2022,itu_392,119.834,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2023,itu_392,122.782,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2024,itu_392,122.887,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GBR,2025,itu_392,123.243,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2000,itu_392,55.018,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2001,itu_392,73.445,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2002,itu_392,85.528,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2003,itu_392,81.845,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2004,itu_392,85.174,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2005,itu_392,93.435,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2006,itu_392,99.671,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2007,itu_392,111.309,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2008,itu_392,124.578,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2009,itu_392,119.689,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2010,itu_392,110.5,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2011,itu_392,109.174,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2012,itu_392,120.926,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2013,itu_392,114.143,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2014,itu_392,111.488,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2015,itu_392,116.133,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2016,itu_392,116.365,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2017,itu_392,120.306,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2018,itu_392,113.418,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2019,itu_392,110.855,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2020,itu_392,106.67,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2021,itu_392,108.644,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2022,itu_392,109.027,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2023,itu_392,110.792,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2024,itu_392,113.598,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+GRC,2025,itu_392,115.739,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2000,itu_392,64.719,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2001,itu_392,76.884,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2002,itu_392,76.366,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2003,itu_392,87.655,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2004,itu_392,94.932,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2005,itu_392,102.761,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2006,itu_392,109.871,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2007,itu_392,113.138,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2008,itu_392,112.531,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2009,itu_392,103.766,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2010,itu_392,103.123,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2011,itu_392,107.135,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2012,itu_392,108.99,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2013,itu_392,105.538,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2014,itu_392,105.461,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2015,itu_392,104.243,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2016,itu_392,102.558,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2017,itu_392,101.842,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2018,itu_392,102.03,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2019,itu_392,104.598,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2020,itu_392,105.046,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2021,itu_392,106.87,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2022,itu_392,110.609,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2023,itu_392,110.798,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2024,itu_392,112.639,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+IRL,2025,itu_392,114.61,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2000,itu_392,57.341,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2001,itu_392,61.742,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2002,itu_392,68.379,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2003,itu_392,70.698,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2004,itu_392,76.705,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2005,itu_392,80.127,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2006,itu_392,83.733,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2007,itu_392,92.094,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2008,itu_392,94.314,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2009,itu_392,98.759,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2010,itu_392,104.097,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2011,itu_392,106.878,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2012,itu_392,108.115,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2013,itu_392,109.206,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2014,itu_392,113.359,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2015,itu_392,115.595,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2016,itu_392,119.49,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2017,itu_392,123.642,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2018,itu_392,128.495,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2019,itu_392,133.08,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2020,itu_392,135.973,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2021,itu_392,140.516,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2022,itu_392,148.684,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2023,itu_392,162.114,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2024,itu_392,172.52,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+KOR,2025,itu_392,180.722,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2000,itu_392,71.79,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2001,itu_392,79.603,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2002,itu_392,83.517,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2003,itu_392,88.962,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2004,itu_392,98.541,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2005,itu_392,102.841,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2006,itu_392,104.472,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2007,itu_392,106.979,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2008,itu_392,109.293,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2009,itu_392,110.892,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2010,itu_392,114.524,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2011,itu_392,115.596,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2012,itu_392,115.524,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2013,itu_392,112.046,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2014,itu_392,111.69,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2015,itu_392,110.118,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2016,itu_392,109.427,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2017,itu_392,108.393,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2018,itu_392,107.703,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2019,itu_392,108.005,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2020,itu_392,108.297,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2021,itu_392,109.586,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2022,itu_392,111.657,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2023,itu_392,109.654,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2024,itu_392,109.349,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NOR,2025,itu_392,108.837,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2000,itu_392,39.973,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2001,itu_392,58.791,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2002,itu_392,61.982,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2003,itu_392,64.61,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2004,itu_392,74.12,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2005,itu_392,85.369,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2006,itu_392,90.922,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2007,itu_392,100.662,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2008,itu_392,108.404,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2009,itu_392,109.193,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2010,itu_392,108.331,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2011,itu_392,109.978,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2012,itu_392,111.568,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2013,itu_392,107.009,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2014,itu_392,112.757,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2015,itu_392,121.369,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2016,itu_392,129.381,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2017,itu_392,132.98,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2018,itu_392,128.937,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2019,itu_392,120.475,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2020,itu_392,123.001,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2021,itu_392,114.455,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2022,itu_392,115.984,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2023,itu_392,126.855,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2024,itu_392,130.093,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+NZL,2025,itu_392,130.924,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2000,itu_392,38.893,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2001,itu_392,45.202,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2002,itu_392,49.393,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2003,itu_392,55.41,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2004,itu_392,63.124,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2005,itu_392,68.884,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2006,itu_392,76.859,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2007,itu_392,82.592,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2008,itu_392,85.68,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2009,itu_392,89.046,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2010,itu_392,91.659,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2011,itu_392,94.683,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2012,itu_392,96.128,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2013,itu_392,97.06,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2014,itu_392,99.84,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2015,itu_392,101.832,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2016,itu_392,102.752,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2017,itu_392,102.381,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2018,itu_392,103.935,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2019,itu_392,105.321,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2020,itu_392,103.855,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2021,itu_392,106.325,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2022,itu_392,108.786,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2023,itu_392,112.411,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2024,itu_392,113.19,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23
+USA,2025,itu_392,114.309,per 100 inhabitants,Access,Mobile-cellular subscriptions per 100 (ITU),ITU DataHub i911,2026-10-23

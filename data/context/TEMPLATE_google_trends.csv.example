@@ -1,0 +1,3 @@
+iso3,year,indicator_id,value,unit,dimension,label,source,retrieved
+AUS,2012,gt_instagram,,index 0-100 (yearly mean of monthly),Attention,Google Trends: Instagram (topic),Google Trends web export; anchor term = YouTube,YYYY-MM-DD
+GBR,2012,gt_instagram,,index 0-100 (yearly mean of monthly),Attention,Google Trends: Instagram (topic),Google Trends web export; anchor term = YouTube,YYYY-MM-DD

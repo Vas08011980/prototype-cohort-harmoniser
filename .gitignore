@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+/raw/
+/astra/
+.DS_Store
+# local ABCD wave-presence counts (never distributed)
+data/abcd_item_waves.csv

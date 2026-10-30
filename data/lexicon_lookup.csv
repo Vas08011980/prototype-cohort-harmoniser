@@ -1,0 +1,34 @@
+key,column,value
+S01,source,ABCD_7.0_dictionary_with_waves.xlsx
+S02,source,AStRA1-data-dictionary.spv
+S03,source,AStRA2-data-dictionary.spv
+S04,source,AStRA3-data-dictionary.spv
+S05,source,"DataDictionary_All_v1.03.xlsx (GUiNZ, full, 44 tabs)"
+S06,source,GUI_All_Cohorts_Overview_and_Alignment.xlsx
+S07,source,HILDA_R24_Data_Dictionary.xlsx
+S08,source,"KCYPS 2018 – Variable Dictionary (English, W1–W7) + Korean scale names"
+S09,source,"LSAC-Data-Dictionary-Release-10.1.xlsx (full, 77,039 rows)"
+S10,source,MCS_Full_Data_Dictionary_Harmoniser_2026-10-13.xlsx
+S11,source,"PSKC SPSS files W1–W16 (Korean variable labels, metadata only)"
+S12,source,"Study lead confirmation (V. Stavropoulos, 29 Oct 2026)"
+S13,source,TESS instruments T1-T10_CleanVersion.docx (rev. 27 Oct 2026)
+S14,source,Ten to Men 2025 Release Data Dictionary.xlsx
+S15,source,UKHLS_Targeted_Harmoniser_Dictionary_2026-10-27.xlsx
+T01,timing,"C1/C2: M age 12.6 at W1 (Motti-Stefanidi et al., 2017), annual; C3: Gymnasium grades 1–3 at W1"
+T02,timing,SPSS file per wave; age = years since birth (approx.)
+T03,timing,"design (baseline 2016–18, age 9–10)"
+T04,timing,dictionary
+T05,timing,dictionary (Population = asked age group)
+T06,timing,dictionary (age approx. from grade)
+T07,timing,dictionary (fieldwork years per wave)
+T08,timing,dictionary (fieldwork years per wave); not a wave-based design
+T09,timing,dictionary (file = cohort × age; wave fieldwork year)
+T10,timing,dictionary (survey year)
+T11,timing,dictionary tab = data collection wave × informant; years from fieldwork window (approx.)
+T12,timing,"instrument overview, time points aligned (T1 4y … T10 22y; biennial)"
+T13,timing,item-level: REDCap branching logic (ABCD 7.0 dictionary)
+T14,timing,item-level: answered in the data (wave presence only)
+T15,timing,item-level: answered in the data (wave presence only) (later waves from table coverage)
+T16,timing,"objective log, 7 days before the visit"
+T17,timing,"objective log, matched per wave – verify coverage window with TESS"
+T18,timing,table-level wave coverage (no item-level information yet)

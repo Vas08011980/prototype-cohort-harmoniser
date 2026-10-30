@@ -1,0 +1,63 @@
+iso3,year,indicator_id,value,unit,dimension,label,source,retrieved
+AUS,2006,aus_abs_child_internet,65,% of children 5-14,Participation,"Children 5-14 who used the internet (AUS, ABS)",ABS 4901.0 Children's Participation in Cultural and Leisure Activities,2026-10-23
+AUS,2009,aus_abs_child_internet,79,% of children 5-14,Participation,"Children 5-14 who used the internet (AUS, ABS)",ABS 4901.0 Children's Participation in Cultural and Leisure Activities,2026-10-23
+AUS,2012,aus_abs_child_internet,90,% of children 5-14,Participation,"Children 5-14 who used the internet (AUS, ABS)",ABS 4901.0 Children's Participation in Cultural and Leisure Activities,2026-10-23
+AUS,2009,aus_abs_child_internet_12_14,96,% of children 12-14,Participation,"Children 12-14 who used the internet (AUS, ABS)",ABS 4901.0,2026-10-23
+AUS,2012,aus_abs_child_internet_12_14,98,% of children 12-14,Participation,"Children 12-14 who used the internet (AUS, ABS)",ABS 4901.0,2026-10-23
+AUS,2009,aus_abs_child_mobile_12_14,76,% of children 12-14,Access,"Children 12-14 with a mobile phone (AUS, ABS)",ABS 4901.0,2026-10-23
+AUS,2012,aus_abs_child_mobile_12_14,73,% of children 12-14,Access,"Children 12-14 with a mobile phone (AUS, ABS)",ABS 4901.0,2026-10-23
+KOR,2015,kor_youth_overdependence,31.6,% of 10-19 smartphone users,Participation,"Youth 10-19 smartphone overdependence risk (KOR, MSIT)","MSIT/NIA Smartphone Overdependence Survey; population prevalence, outcome-like - not an exposure",2026-10-23
+KOR,2016,kor_youth_overdependence,30.6,% of 10-19 smartphone users,Participation,"Youth 10-19 smartphone overdependence risk (KOR, MSIT)","MSIT/NIA Smartphone Overdependence Survey; population prevalence, outcome-like - not an exposure",2026-10-23
+KOR,2017,kor_youth_overdependence,30.3,% of 10-19 smartphone users,Participation,"Youth 10-19 smartphone overdependence risk (KOR, MSIT)","MSIT/NIA Smartphone Overdependence Survey; population prevalence, outcome-like - not an exposure",2026-10-23
+KOR,2018,kor_youth_overdependence,29.3,% of 10-19 smartphone users,Participation,"Youth 10-19 smartphone overdependence risk (KOR, MSIT)","MSIT/NIA Smartphone Overdependence Survey; population prevalence, outcome-like - not an exposure",2026-10-23
+KOR,2019,kor_youth_overdependence,30.2,% of 10-19 smartphone users,Participation,"Youth 10-19 smartphone overdependence risk (KOR, MSIT)","MSIT/NIA Smartphone Overdependence Survey; population prevalence, outcome-like - not an exposure",2026-10-23
+KOR,2020,kor_youth_overdependence,35.8,% of 10-19 smartphone users,Participation,"Youth 10-19 smartphone overdependence risk (KOR, MSIT)","MSIT/NIA Smartphone Overdependence Survey; population prevalence, outcome-like - not an exposure",2026-10-23
+KOR,2021,kor_youth_overdependence,37.0,% of 10-19 smartphone users,Participation,"Youth 10-19 smartphone overdependence risk (KOR, MSIT)","MSIT/NIA Smartphone Overdependence Survey; population prevalence, outcome-like - not an exposure",2026-10-23
+KOR,2022,kor_youth_overdependence,40.1,% of 10-19 smartphone users,Participation,"Youth 10-19 smartphone overdependence risk (KOR, MSIT)","MSIT/NIA Smartphone Overdependence Survey; population prevalence, outcome-like - not an exposure",2026-10-23
+KOR,2023,kor_youth_overdependence,40.1,% of 10-19 smartphone users,Participation,"Youth 10-19 smartphone overdependence risk (KOR, MSIT)","MSIT/NIA Smartphone Overdependence Survey; population prevalence, outcome-like - not an exposure",2026-10-23
+KOR,2024,kor_youth_overdependence,42.6,% of 10-19 smartphone users,Participation,"Youth 10-19 smartphone overdependence risk (KOR, MSIT)","MSIT/NIA Smartphone Overdependence Survey; population prevalence, outcome-like - not an exposure",2026-10-23
+NZL,2020,nzl_nzonair_child_youtube,51,"% daily reach, children",Attention,"Children under 14 using YouTube daily (NZL, NZ On Air)",NZ On Air / BSA Children's Media Use 2020 (single year),2026-10-23
+USA,2015,usa_pew_constant,24,% of teens 13-17,Participation,"Teens 13-17 online almost constantly (USA, Pew)","Pew Research Center Teens, Social Media & Technology; 2015 = 2014-15 survey",2026-10-23
+USA,2022,usa_pew_constant,46,% of teens 13-17,Participation,"Teens 13-17 online almost constantly (USA, Pew)","Pew Research Center Teens, Social Media & Technology; 2015 = 2014-15 survey",2026-10-23
+USA,2023,usa_pew_constant,46,% of teens 13-17,Participation,"Teens 13-17 online almost constantly (USA, Pew)","Pew Research Center Teens, Social Media & Technology; 2015 = 2014-15 survey",2026-10-23
+USA,2024,usa_pew_constant,46,% of teens 13-17,Participation,"Teens 13-17 online almost constantly (USA, Pew)","Pew Research Center Teens, Social Media & Technology; 2015 = 2014-15 survey",2026-10-23
+USA,2015,usa_pew_facebook,71,% of teens 13-17,Platform environment,"Teens 13-17 using Facebook (USA, Pew)",Pew Research Center,2026-10-23
+USA,2022,usa_pew_facebook,32,% of teens 13-17,Platform environment,"Teens 13-17 using Facebook (USA, Pew)",Pew Research Center,2026-10-23
+USA,2023,usa_pew_facebook,33,% of teens 13-17,Platform environment,"Teens 13-17 using Facebook (USA, Pew)",Pew Research Center,2026-10-23
+USA,2024,usa_pew_facebook,32,% of teens 13-17,Platform environment,"Teens 13-17 using Facebook (USA, Pew)",Pew Research Center,2026-10-23
+USA,2015,usa_pew_instagram,52,% of teens 13-17,Platform environment,"Teens 13-17 using Instagram (USA, Pew)",Pew Research Center,2026-10-23
+USA,2022,usa_pew_instagram,62,% of teens 13-17,Platform environment,"Teens 13-17 using Instagram (USA, Pew)",Pew Research Center,2026-10-23
+USA,2023,usa_pew_instagram,59,% of teens 13-17,Platform environment,"Teens 13-17 using Instagram (USA, Pew)",Pew Research Center,2026-10-23
+USA,2024,usa_pew_instagram,61,% of teens 13-17,Platform environment,"Teens 13-17 using Instagram (USA, Pew)",Pew Research Center,2026-10-23
+USA,2015,usa_pew_smartphone,73,% of teens 13-17,Access,"Teens 13-17 with smartphone access (USA, Pew)",Pew Research Center; 2015 = 2014-15 survey,2026-10-23
+USA,2022,usa_pew_smartphone,95,% of teens 13-17,Access,"Teens 13-17 with smartphone access (USA, Pew)",Pew Research Center; 2015 = 2014-15 survey,2026-10-23
+USA,2023,usa_pew_smartphone,95,% of teens 13-17,Access,"Teens 13-17 with smartphone access (USA, Pew)",Pew Research Center; 2015 = 2014-15 survey,2026-10-23
+USA,2024,usa_pew_smartphone,95,% of teens 13-17,Access,"Teens 13-17 with smartphone access (USA, Pew)",Pew Research Center; 2015 = 2014-15 survey,2026-10-23
+USA,2015,usa_pew_snapchat,41,% of teens 13-17,Platform environment,"Teens 13-17 using Snapchat (USA, Pew)",Pew Research Center,2026-10-23
+USA,2022,usa_pew_snapchat,59,% of teens 13-17,Platform environment,"Teens 13-17 using Snapchat (USA, Pew)",Pew Research Center,2026-10-23
+USA,2023,usa_pew_snapchat,60,% of teens 13-17,Platform environment,"Teens 13-17 using Snapchat (USA, Pew)",Pew Research Center,2026-10-23
+USA,2024,usa_pew_snapchat,55,% of teens 13-17,Platform environment,"Teens 13-17 using Snapchat (USA, Pew)",Pew Research Center,2026-10-23
+USA,2022,usa_pew_tiktok,67,% of teens 13-17,Platform environment,"Teens 13-17 using TikTok (USA, Pew)",Pew Research Center,2026-10-23
+USA,2023,usa_pew_tiktok,63,% of teens 13-17,Platform environment,"Teens 13-17 using TikTok (USA, Pew)",Pew Research Center,2026-10-23
+USA,2024,usa_pew_tiktok,63,% of teens 13-17,Platform environment,"Teens 13-17 using TikTok (USA, Pew)",Pew Research Center,2026-10-23
+USA,2022,usa_pew_youtube,95,% of teens 13-17,Platform environment,"Teens 13-17 using YouTube (USA, Pew)",Pew Research Center,2026-10-23
+USA,2023,usa_pew_youtube,93,% of teens 13-17,Platform environment,"Teens 13-17 using YouTube (USA, Pew)",Pew Research Center,2026-10-23
+USA,2024,usa_pew_youtube,90,% of teens 13-17,Platform environment,"Teens 13-17 using YouTube (USA, Pew)",Pew Research Center,2026-10-23
+USA,2003,usa_yrbs_screen3h,22.1,% of grades 9-12,Participation,"High-school students using computer/games 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2005,usa_yrbs_screen3h,21.1,% of grades 9-12,Participation,"High-school students using computer/games 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2007,usa_yrbs_screen3h,24.9,% of grades 9-12,Participation,"High-school students using computer/games 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2009,usa_yrbs_screen3h,24.9,% of grades 9-12,Participation,"High-school students using computer/games 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2011,usa_yrbs_screen3h,31.1,% of grades 9-12,Participation,"High-school students using computer/games 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2013,usa_yrbs_screen3h,41.3,% of grades 9-12,Participation,"High-school students using computer/games 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2015,usa_yrbs_screen3h,41.7,% of grades 9-12,Participation,"High-school students using computer/games 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2017,usa_yrbs_screen3h,43.0,% of grades 9-12,Participation,"High-school students using computer/games 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2019,usa_yrbs_screen3h,46.1,% of grades 9-12,Participation,"High-school students using computer/games 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2003,usa_yrbs_tv3h,38.2,% of grades 9-12,Participation,"High-school students watching TV 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2005,usa_yrbs_tv3h,37.2,% of grades 9-12,Participation,"High-school students watching TV 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2007,usa_yrbs_tv3h,35.4,% of grades 9-12,Participation,"High-school students watching TV 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2009,usa_yrbs_tv3h,32.8,% of grades 9-12,Participation,"High-school students watching TV 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2011,usa_yrbs_tv3h,32.4,% of grades 9-12,Participation,"High-school students watching TV 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2013,usa_yrbs_tv3h,32.5,% of grades 9-12,Participation,"High-school students watching TV 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2015,usa_yrbs_tv3h,24.7,% of grades 9-12,Participation,"High-school students watching TV 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2017,usa_yrbs_tv3h,20.7,% of grades 9-12,Participation,"High-school students watching TV 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23
+USA,2019,usa_yrbs_tv3h,19.8,% of grades 9-12,Participation,"High-school students watching TV 3+ h/day (USA, YRBS)",CDC national YRBS trend factsheet 2003-2019,2026-10-23

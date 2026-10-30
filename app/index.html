@@ -1,0 +1,637 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Prototype Cohort Harmoniser</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a research instrument. Sticky masthead + view tabs; each view is a full-width working surface with a side panel for detail. */
+:root{
+  --bg:#f4f5f2; --panel:#ffffff; --ink:#1c2422; --muted:#5d6864; --line:#d9ded8; --soft:#e9ece6;
+  --accent:#0e6b6f; --accent-soft:#d6ebea;
+  --wb:#b0721a; --wb-soft:#f3e4cc; --dm:#4453c4; --dm-soft:#dfe2f8; --pc:#9b4656; --pc-soft:#f2dde1;
+  --ok:#2f7d4f; --warn:#a86a00; --bad:#b03a2e;
+  --room0:#eef1f6; --room1:#2a3f8f;
+  --f-display:"Literata",Georgia,"Times New Roman",serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121816; --panel:#1a2220; --ink:#e3e9e6; --muted:#9aa7a2; --line:#2e3a37; --soft:#222c29;
+  --accent:#5cc2c4; --accent-soft:#1d3a3b;
+  --wb:#e0a24a; --wb-soft:#3a2e1a; --dm:#8e9bf2; --dm-soft:#262b4d; --pc:#d98393; --pc-soft:#3d2228;
+  --ok:#6cc08f; --warn:#e1a84a; --bad:#ef7d70; --room0:#1f2733; --room1:#9fb4ff; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121816; --panel:#1a2220; --ink:#e3e9e6; --muted:#9aa7a2; --line:#2e3a37; --soft:#222c29;
+  --accent:#5cc2c4; --accent-soft:#1d3a3b;
+  --wb:#e0a24a; --wb-soft:#3a2e1a; --dm:#8e9bf2; --dm-soft:#262b4d; --pc:#d98393; --pc-soft:#3d2228;
+  --ok:#6cc08f; --warn:#e1a84a; --bad:#ef7d70; --room0:#1f2733; --room1:#9fb4ff; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--panel)}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));max-width:1440px;margin:0 auto}
+header.mast{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--panel);border-bottom:1px solid var(--line)}
+.mast .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px;padding-block:12px 0}
+.brand{display:flex;flex-direction:column;gap:2px;min-width:0}
+.brand h1{font-family:var(--f-display);font-weight:650;font-size:22px;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.brand p{margin:0;color:var(--muted);font-size:12.5px}
+.status{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:var(--bg);white-space:nowrap}
+.pill b{color:var(--ink);font-weight:600}
+nav.tabs{flex-basis:100%;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+nav.tabs button{font:500 13px var(--f-body);background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:10px 12px;cursor:pointer;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+nav.tabs button:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+main{padding-block:20px 60px}
+section.view{display:grid;gap:16px}
+.lede{max-width:78ch;color:var(--muted);margin:0}
+.lede strong{color:var(--ink);font-weight:600}
+h2{font-family:var(--f-display);font-weight:650;font-size:20px;margin:0;text-wrap:balance}
+h3{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0;font-weight:600}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.ctrl{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--muted)}
+select,input[type=search],input[type=number]{font:13px var(--f-body);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
+button.btn{font:500 12.5px var(--f-body);border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;padding:6px 10px;cursor:pointer}
+button.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--panel)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px}
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:16px;align-items:start}
+@media (max-width:1000px){.split{grid-template-columns:minmax(0,1fr)}}
+.scrollx{overflow-x:auto}
+/* atlas */
+table.atlas{border-collapse:separate;border-spacing:3px;font-size:12px}
+table.atlas th{font-weight:500;color:var(--muted);text-align:left;vertical-align:bottom}
+table.atlas th.study{writing-mode:vertical-rl;transform:rotate(180deg);height:128px;padding:4px 2px;white-space:nowrap}
+table.atlas th.study span{display:block}
+table.atlas th.study .cty{color:var(--muted);font-size:10.5px}
+table.atlas th.study .nm{color:var(--ink);font-weight:600}
+table.atlas td.con{white-space:nowrap;padding-right:10px;font-weight:500}
+table.atlas td.dom{font-family:var(--f-display);font-weight:650;font-size:14px;padding:10px 0 2px}
+td.cell{width:50px;min-width:46px;height:42px;border-radius:6px;cursor:pointer;position:relative;text-align:center;vertical-align:middle;border:1px solid transparent;font-family:var(--f-mono);font-size:12px}
+td.cell.empty{background:var(--soft);color:var(--muted);cursor:default}
+td.cell.sel{outline:2px solid var(--ink);outline-offset:1px}
+td.cell .n{display:block;font-weight:500}
+td.cell .inf{display:block;font-size:9.5px;letter-spacing:.04em;opacity:.85}
+td.cell.st-partial,td.cell.st-crosswalk{border-style:dashed;border-color:var(--muted)}
+td.cell.st-instrument,td.cell.st-construct{border-style:dotted;border-color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:-3px;margin-right:5px;border:1px solid var(--line)}
+.chip{display:inline-block;font-size:11px;padding:1px 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted);margin:1px 3px 1px 0;white-space:nowrap}
+.chip.Youth{border-color:var(--accent);color:var(--accent)}
+.chip.Parent{border-color:var(--pc);color:var(--pc)}
+.chip.Teacher\/School,.chip.Peers{border-color:var(--wb);color:var(--wb)}
+.status-full{color:var(--ok)} .status-partial,.status-crosswalk{color:var(--warn)} .status-instrument,.status-construct{color:var(--warn)}
+/* side panel */
+.panel{padding:14px 16px;display:grid;gap:10px;min-width:0}
+.panel .hd{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.items{display:grid;gap:8px;max-height:640px;overflow:auto;padding-right:4px}
+.item{border-top:1px solid var(--line);padding-top:8px;display:grid;gap:3px;min-width:0}
+.item .t{font-size:13px}
+.item .meta{font-size:11.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 10px}
+.item .meta code{font-family:var(--f-mono);font-size:11px;color:var(--ink)}
+.note{font-size:12px;color:var(--muted);background:var(--soft);border-radius:8px;padding:8px 10px}
+.note.warn{background:color-mix(in srgb,var(--warn) 12%,var(--panel));color:var(--ink)}
+/* compare */
+.cmp{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.cmp .col{padding:12px;min-width:0}
+/* timeline */
+.tlwrap{padding:12px}
+svg text{fill:var(--muted);font-family:var(--f-body);font-size:11px}
+svg .axis line,svg .axis path{stroke:var(--line)}
+svg .grid line{stroke:var(--soft)}
+.tip{position:fixed;pointer-events:none;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12px;max-width:320px;box-shadow:0 6px 24px rgba(0,0,0,.12);z-index:20}
+/* room */
+.roomgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.dim{padding:12px 14px;display:grid;gap:6px;min-width:0;align-content:start}
+.dim .lvl{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.dim ul{margin:4px 0 0;padding-left:18px;display:grid;gap:2px}
+.dim.todo{border:2px dashed var(--warn);background:color-mix(in srgb,var(--warn) 6%,var(--panel))}
+.dim.howto{border:2px solid var(--accent);background:color-mix(in srgb,var(--accent) 6%,var(--panel))}
+.tag{display:inline-block;font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.tag.add{color:var(--panel);background:var(--warn);padding:1px 6px;border-radius:4px}
+code{font-family:var(--f-mono);font-size:11.5px}
+.lvl.on{color:var(--ok)} .lvl.part{color:var(--warn)} .lvl.off{color:var(--muted)}
+.big{font-family:var(--f-display);font-size:28px;font-weight:650;font-variant-numeric:tabular-nums}
+table.data{border-collapse:collapse;font-size:12.5px;width:100%}
+table.data th,table.data td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+table.data th{color:var(--muted);font-weight:500;font-size:11.5px;text-transform:uppercase;letter-spacing:.04em}
+table.data td.num{font-variant-numeric:tabular-nums;font-family:var(--f-mono)}
+.bar{height:8px;border-radius:4px;background:var(--soft);position:relative;min-width:80px}
+.bar span{position:absolute;inset:0 auto 0 0;border-radius:4px;background:var(--room1)}
+/* planner */
+.plan{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.opt{padding:12px 14px;display:grid;gap:4px;border-left:4px solid var(--line);min-width:0}
+.opt.ok{border-left-color:var(--ok)} .opt.cond{border-left-color:var(--warn)} .opt.no{border-left-color:var(--bad)}
+.opt .k{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.opt .v{font-weight:600}
+.opt .s{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.opt.ok .s{color:var(--ok)} .opt.cond .s{color:var(--warn)} .opt.no .s{color:var(--bad)}
+pre.code{font-family:var(--f-mono);font-size:11.5px;background:var(--soft);border-radius:8px;padding:12px;overflow:auto;max-height:420px;margin:0;white-space:pre}
+.studypick{display:flex;flex-wrap:wrap;gap:6px}
+.studypick label{display:inline-flex;gap:5px;align-items:center;border:1px solid var(--line);border-radius:6px;padding:4px 8px;font-size:12.5px;background:var(--panel);cursor:pointer}
+.studypick input{accent-color:var(--accent)}
+footer{color:var(--muted);font-size:12px;padding-block:24px;border-top:1px solid var(--line)}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Prototype Cohort Harmoniser</h1>
+      <p>Wellbeing · digital media use · proximate context, across 12 longitudinal studies, read against the digital world of each country and year (the “invisible room”)</p>
+    </div>
+    <div class="status" id="status"></div>
+    <nav class="tabs" role="tablist" id="tabs">
+      <button role="tab" data-v="atlas" aria-selected="true">Atlas</button>
+      <button role="tab" data-v="compare">Item compare</button>
+      <button role="tab" data-v="timeline">Two clocks</button>
+      <button role="tab" data-v="room">Invisible room</button>
+      <button role="tab" data-v="planner">Harmonisation planner</button>
+      <button role="tab" data-v="sources">Sources &amp; gaps</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="note warn" id="disclaimer" role="note" style="margin-bottom:16px"><b>Prototype – not a validated resource.</b> This harmoniser is a working prototype that needs further improvement and independent checking. Construct assignments are candidates from a keyword screen of each study’s data dictionary, not verified mappings; no measurement equivalence has been tested; some dictionaries are incomplete (see Sources &amp; gaps). Check every item against the study’s own documentation before using it in analysis, a paper or a funding application. It uses study metadata only, not participant data.</div>
+  <div id="loading" class="note">Loading the lexicon…</div>
+
+  <!-- ATLAS -->
+  <section class="view" id="v-atlas" hidden>
+    <p class="lede"><strong>Which study measured what, and who answered.</strong> Each cell counts candidate items for a construct, found by a keyword screen of that study's own dictionary. The letters under the count show the informants: Y youth self-report, P parent, T teacher or school, A adult self-report (household panels), H household, O observed/coded, S passive sensing or objective digital trace, D derived score. Click a cell to read the items. A dashed border means a partial dictionary; a dotted border means instrument- or construct-level only. For the Australian cohorts (LSAC, HILDA, Ten to Men), the Australian Digital Inclusion Index (ADII, 2014–2024) is part of the invisible room: see Item compare, Two clocks and Invisible room.</p>
+    <div class="row">
+      <label class="ctrl" for="youthOnly"><input type="checkbox" id="youthOnly"> Youth self-report only</label>
+      <div class="legend"><span><i style="background:var(--wb-soft)"></i>Wellbeing</span><span><i style="background:var(--dm-soft)"></i>Digital media use</span><span><i style="background:var(--pc-soft)"></i>Proximate context</span></div>
+    </div>
+    <div class="split">
+      <div class="card scrollx" style="padding:10px 12px"><table class="atlas" id="atlas"></table></div>
+      <aside class="card panel" id="cellPanel"></aside>
+    </div>
+  </section>
+
+  <!-- COMPARE -->
+  <section class="view" id="v-compare" hidden>
+    <p class="lede"><strong>Read the items side by side before calling anything equivalent.</strong> Pick a construct and up to three studies. Wording, informant, reference period and response scale decide whether you have an anchor (Table 2, option d) or only a shared concept (options a–c).</p>
+    <div class="row">
+      <label class="ctrl" for="cmpCon">Construct <select id="cmpCon"></select></label>
+      <label class="ctrl" for="cmpQ">Filter <input type="search" id="cmpQ" placeholder="e.g. weekday, hours, happy"></label>
+    </div>
+    <div class="studypick" id="cmpStudies"></div>
+    <div class="cmp" id="cmpCols"></div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="view" id="v-timeline" hidden>
+    <p class="lede"><strong>Two clocks on one page.</strong> The horizontal axis is calendar year (the digital world's clock); the vertical axis is age (the developmental clock). Each mark is a wave that measured the selected construct; shape is the informant. Behind the marks, each study's band is shaded by internet use in its country that year (ITU), or by any indicator from the invisible room, including the Australian Digital Inclusion Index for the Australian cohorts. Same age, different room: follow a horizontal line.</p>
+    <div class="row">
+      <label class="ctrl" for="tlCon">Construct <select id="tlCon"></select></label>
+      <label class="ctrl" for="tlMode">View <select id="tlMode"><option value="lexis">Year × age</option><option value="age">Age alignment (time harmonisation, method 1)</option></select></label>
+      <label class="ctrl" for="tlInd">Shading <select id="tlInd"><option value="net">Internet users (% of population)</option><option value="bb">Fixed broadband per 100</option><option value="mob">Mobile subscriptions per 100</option></select></label>
+    </div>
+    <div class="card tlwrap scrollx"><svg id="tl" role="img" aria-label="Waves by calendar year and age"></svg></div>
+    <div class="legend" id="tlLegend"></div>
+    <div class="note" id="tlNote"></div>
+  </section>
+
+  <!-- ROOM -->
+  <section class="view" id="v-room" hidden>
+    <p class="lede"><strong>The invisible room: the digital space each wave was collected in, which the cohort studies themselves leave largely unmeasured.</strong> These are country-year (and, for Australia, state and remoteness) opportunity indicators, not anyone's exposure. Pick an age to see which room each study's young people were in when they reached it.</p>
+    <div class="row">
+      <label class="ctrl" for="roomAge">Age <input type="number" id="roomAge" min="2" max="25" value="13" style="width:70px"></label>
+      <label class="ctrl" for="roomCon">Construct measured <select id="roomCon"></select></label>
+    </div>
+    <div class="card scrollx"><table class="data" id="roomTable"></table></div>
+    <h3>Regulation and platform timeline: dates and sources</h3>
+    <div class="row">
+      <label class="ctrl" for="evIso">Country <select id="evIso"><option value="">All eight</option><option>AUS</option><option>GBR</option><option>GRC</option><option>IRL</option><option>KOR</option><option>NOR</option><option>NZL</option><option>USA</option></select></label>
+      <label class="ctrl" for="evKind">Show <select id="evKind"><option value="">Regulation and launches</option><option value="reg">Regulation only</option><option value="launch">Launches only</option></select></label>
+      <span class="note" style="flex:1;min-width:240px">Events are dated to the day where the source allows; "month" or "year" precision is shown. Proposed or announced measures are not laws. EU instruments are listed for Ireland and Greece; the DSA and AI Act are not yet incorporated in Norway (EEA).</span>
+    </div>
+    <div class="card scrollx"><table class="data" id="evTable"></table></div>
+    <h3>Australian Digital Inclusion Index (ADII): the invisible room for LSAC, HILDA and Ten to Men</h3>
+    <div class="card panel" id="adiiPanel"></div>
+    <h3>Five dimensions of the room: what is loaded and what to add</h3>
+    <div class="roomgrid" id="dims"></div>
+  </section>
+
+  <!-- PLANNER -->
+  <section class="view" id="v-planner" hidden>
+    <p class="lede"><strong>From what exists to what is defensible.</strong> Choose a construct and the studies you want to compare. The planner applies the Table 2 rules (0, a–e) and the five timing strategies to the metadata. It recommends; it does not show equivalence. Anything it marks conditional needs a test on the data first.</p>
+    <div class="row">
+      <label class="ctrl" for="plCon">Construct <select id="plCon"></select></label>
+      <label class="ctrl" for="plCon2">Paired with (for cross-lagged aims) <select id="plCon2"></select></label>
+      <label class="ctrl" for="plEx">Worked example <select id="plEx"></select></label>
+    </div>
+    <div class="studypick" id="plStudies"></div>
+    <div id="plSummary" class="card scrollx"></div>
+    <h3>Measurement harmonisation (Table 2)</h3>
+    <div class="plan" id="plMeasure"></div>
+    <h3>Misaligned assessment lags</h3>
+    <div class="plan" id="plTime"></div>
+    <div class="row"><h3 style="flex:1">R template (untested: written from metadata, never run on data)</h3><button class="btn" id="copyR">Copy R template</button></div>
+    <pre class="code" id="plR"></pre>
+  </section>
+
+  <!-- SOURCES -->
+  <section class="view" id="v-sources" hidden>
+    <p class="lede"><strong>What this prototype stands on, and what it doesn't yet.</strong> Every row in the lexicon carries its source file. Construct assignment is a keyword screen, so treat counts as candidates for review, not mappings.</p>
+    <div class="card scrollx"><table class="data" id="srcTable"></table></div>
+    <div class="card panel" id="anchorsPanel"></div>
+    <div class="card panel" id="decisions"></div>
+  </section>
+</main>
+
+<footer class="wrap" id="foot"></footer>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+(function(){
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+let D=null;
+const ISO_NAME={USA:'USA',AUS:'Australia',GRC:'Greece',GBR:'UK',NOR:'Norway',IRL:'Ireland',NZL:'New Zealand',KOR:'South Korea'};
+const DOMC={'Wellbeing':['--wb','--wb-soft'],'Digital media use':['--dm','--dm-soft'],'Proximate context':['--pc','--pc-soft']};
+const INF_ABBR={Youth:'Y',Parent:'P','Teacher/School':'T','Passive sensing':'S','Digital trace':'S','Adult (self)':'A',Household:'H',Observed:'O','Peers (sociometric)':'Pe',Other:'?',Derived:'D'};
+const PLATFORMS=[[2006.74,'Facebook opens to all'],[2010.76,'Instagram'],[2011.7,'Snapchat'],[2017.7,'TikTok (intl.)'],[2022.91,'ChatGPT']];
+const decY=d=>{const p=String(d).split('-').map(Number);return p[0]+((p[1]||7)-1)/12+((p[2]||15)-1)/365};
+const EVKIND={reg:'Regulation',launch:'Platform / device launch'};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const fmtAge=a=>a==null?'age n/v':(a[0]==null?'age n/v':(Math.abs(a[0]-a[1])<.05?`${+a[0].toFixed(1)}y`:`${+a[0].toFixed(1)}–${+a[1].toFixed(1)}y`));
+let ALLEV=[];
+function evFor(iso){return ALLEV.filter(e=>e.applies_to!=='GLOBAL'&&e.applies_to.split(';').includes(iso))}
+function inForce(iso,y){return ALLEV.filter(e=>e.t==='reg'&&/In force/.test(e.status)&&e.applies_to.split(';').includes(iso)&&decY(e.date)<=y+0.5)}
+function adiiNat(y){const A=D&&D.adii;if(!A)return null;const k=String(Math.round(y)),a=A.aius||{},L=(A.legacy||{});
+  if(a['ADII score']&&a['ADII score'][k]!=null)return{v:a['ADII score'][k],lab:'ADII total (AIUS series)'};
+  if(L.TOTAL&&L.TOTAL.Australia&&L.TOTAL.Australia[k]!=null)return{v:L.TOTAL.Australia[k],lab:'ADII total (legacy series)'};
+  if(a['Access']&&a['Access'][k]!=null)return{v:a['Access'][k],lab:'ADII Access (AIUS series)'+(a['Digital Ability']&&a['Digital Ability'][k]!=null?'; Digital Ability '+a['Digital Ability'][k]:'')};
+  return null}
+function adiiYears(ys){const out=new Set();ys.forEach(t=>{const m=String(t).match(/(19|20)\d\d/g);if(!m)return;const a=+m[0],b=+m[m.length-1];for(let y=Math.min(a,b);y<=Math.max(a,b);y++)out.add(y)});return [...out].sort()}
+function adiiLine(ys){const yy=adiiYears(ys);if(!yy.length)return'';const hits=yy.map(y=>[y,adiiNat(y)]).filter(x=>x[1]);
+  if(!hits.length)return `<div class="meta adii"><span>ADII: not available for ${yy[0]}${yy.length>1?'–'+yy[yy.length-1]:''} (series starts 2014)</span></div>`;
+  return `<div class="meta adii"><span title="Australian Digital Inclusion Index, adults 18+, national. Context, not the young person’s own exposure.">ADII (national, adults): ${hits.slice(0,6).map(([y,h])=>`${y} <b>${h.v.toFixed(1)}</b>`).join(' · ')}${hits.length>6?' …':''}</span></div>`}
+function store(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+
+fetch('gchn_data.json').then(r=>r.json()).then(d=>{D=d;init()}).catch(e=>{$('#loading').textContent='Could not load the lexicon file: '+e.message});
+
+function init(){
+  $('#loading').remove();
+  const EV=D.events||{reg:[],launch:[]};ALLEV=[...EV.reg.map(e=>({...e,t:'reg'})),...EV.launch.map(e=>({...e,t:'launch'}))].sort((a,b)=>a.date.localeCompare(b.date)).map((e,i)=>({...e,i}));
+  const S=D.studies, nItems=Object.values(D.items).reduce((a,b)=>a+b.length,0);
+  const full=S.filter(s=>s.status==='full').length;
+  $('#status').innerHTML=`<span class="pill"><b>${S.length}</b> cohorts</span>`;
+  const CX=D.context||{};Object.entries(CX).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=`${v.label} (${v.dimension})`;$('#tlInd').appendChild(o)});
+  const conOpts=Object.entries(D.constructs).map(([k,v])=>`<option value="${k}">${esc(v[0])} · ${esc(v[1])}</option>`).join('');
+  ['#cmpCon','#tlCon','#plCon','#roomCon'].forEach(s=>$(s).innerHTML=conOpts);
+  $('#plCon2').innerHTML='<option value="">None</option>'+conOpts;
+  $('#roomCon').innerHTML='<option value="">Any of the three domains</option>'+conOpts;
+  $('#tlCon').value='DM_ST'; $('#cmpCon').value='DM_ST';
+  buildAtlas(); buildCompare(); buildTimeline(); buildRoom(); buildPlanner(); buildSources();
+  $$('#tabs button').forEach(b=>b.addEventListener('click',()=>show(b.dataset.v)));
+  const h=(location.hash||'').slice(1); show(['atlas','compare','timeline','room','planner','sources'].includes(h)?h:(store('gchn.tab')||'atlas'));
+  $('#foot').innerHTML=`<b>Prototype Cohort Harmoniser.</b> A prototype that requires further improvement and verification. It uses study metadata only, not participant data. Lexicon: keyword screen of each study's dictionary in the Data Dictionaries folder, with targeted harmoniser dictionaries where the full dictionary is too large; counts are candidates for review. Digital context (the “invisible room”: the digital space young people grow up in, which cohort studies leave largely unmeasured), retrieved 23–27 Oct 2026: ITU DataHub direct (2000–2025), Google Trends topics (2004–2025), Statcounter (2009–2025), GDELT news attention (2017–2025), Eurostat youth 16–24, national youth series (MSIT Korea, CDC YRBS and Pew USA, ABS Australia, NZ On Air) and the Australian Digital Inclusion Index (2014–2024, national, state, remoteness and subgroups). Years with no published value show n/a (no interpolation); every series is archived with source notes in the Data Dictionaries folder. Regulation and launch events are dated from cited sources (see Invisible room); dashed global launch lines are approximate to the month. Metadata only: no participant data is used or shown. Build ${esc(D.generated)}.`;
+}
+function show(v){
+  $$('section.view').forEach(s=>s.hidden=s.id!=='v-'+v);
+  $$('#tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.v===v));
+  store('gchn.tab',v);
+  if(v==='timeline')drawTimeline();
+}
+
+/* ---------- ATLAS ---------- */
+let sel=null;
+function cellData(st,c){
+  const a=(D.atlas[st]||{})[c]; if(!a)return null;
+  if(!$('#youthOnly').checked)return a;
+  const its=(D.items[st+'|'+c]||[]).filter(i=>i.i.includes('Youth'));
+  if(!its.length)return null;
+  return {...a,n:its.length,inf:['Youth']};
+}
+function buildAtlas(){
+  const S=D.studies, C=D.constructs;
+  let h='<thead><tr><th></th>'+S.map(s=>`<th class="study" title="${esc(s.design)}"><span class="nm">${esc(s.id==='Understanding Society'?'UKHLS':s.id)}</span><span class="cty">${esc(s.country)} · <span class="status-${s.status}">${s.status}</span></span></th>`).join('')+'</tr></thead><tbody>';
+  let dom='';
+  for(const [k,[d,n]] of Object.entries(C)){
+    if(d!==dom){dom=d;h+=`<tr><td class="dom" colspan="${S.length+1}" style="color:var(${DOMC[d][0]})">${esc(d)}</td></tr>`}
+    h+=`<tr><td class="con">${esc(n)}</td>`+S.map(s=>`<td class="cell" data-s="${esc(s.id)}" data-c="${k}"></td>`).join('')+'</tr>';
+  }
+  $('#atlas').innerHTML=h+'</tbody>';
+  paintAtlas();
+  $('#atlas').addEventListener('click',e=>{const td=e.target.closest('td.cell');if(!td||td.classList.contains('empty'))return;sel=[td.dataset.s,td.dataset.c];paintAtlas();cellPanel()});
+  $('#youthOnly').addEventListener('change',()=>{paintAtlas();cellPanel()});
+  sel=['ABCD','DM_PU']; paintAtlas(); cellPanel();
+}
+function paintAtlas(){
+  const max=Math.log(400);
+  $$('#atlas td.cell').forEach(td=>{
+    const s=td.dataset.s,c=td.dataset.c,a=cellData(s,c),st=D.studies.find(x=>x.id===s);
+    td.className='cell st-'+st.status+(sel&&sel[0]===s&&sel[1]===c?' sel':'');
+    if(!a){td.classList.add('empty');td.innerHTML='·';td.style.background='';td.title='No candidate items found';return}
+    const [col,soft]=DOMC[D.constructs[c][0]];
+    const t=Math.min(1,Math.log(a.n+1)/max);
+    td.style.background=`color-mix(in srgb, var(${col}) ${Math.round(12+t*55)}%, var(--panel))`;
+    td.style.color=t>.55?'var(--panel)':'var(--ink)';
+    td.innerHTML=`<span class="n">${a.n}</span><span class="inf">${a.inf.map(x=>INF_ABBR[x]).filter((v,i,ar)=>v&&v!=='?'&&ar.indexOf(v)===i).join(' ')}</span>`;
+    td.title=`${s} · ${D.constructs[c][1]}: ${a.n} candidate items; waves ${a.waves.slice(0,8).join(', ')}${a.waves.length>8?'…':''}`;
+  });
+}
+function itemHTML(i,iso){
+  return `<div class="item"><div class="t">${esc(i.t)}</div><div class="meta">${i.v?`<code>${esc(i.v)}</code>`:''}${i.i.map(x=>`<span class="chip ${esc(x.split(' ')[0])}">${esc(x)}</span>`).join('')}<span>${esc(i.w.slice(0,8).join(', '))}${i.w.length>8?' …':''}</span><span>${fmtAge(i.a)}</span><span>${esc(i.y.slice(0,3).join('; '))}</span></div><div class="meta"><span>${esc(i.ins)}</span><span>Source: ${esc(i.src)}</span>${i.lvl!=='item'?`<span>Level: ${esc(i.lvl)}</span>`:''}</div>${iso==='AUS'?adiiLine(i.y):''}</div>`;
+}
+function cellPanel(){
+  const p=$('#cellPanel'); if(!sel){p.innerHTML='<p class="lede">Select a cell.</p>';return}
+  const [s,c]=sel, st=D.studies.find(x=>x.id===s), a=cellData(s,c);
+  let its=(D.items[s+'|'+c]||[]); if($('#youthOnly').checked)its=its.filter(i=>i.i.includes('Youth'));
+  p.innerHTML=`<div class="hd"><h2>${esc(st.name)}</h2><span class="chip">${esc(st.country)}</span></div>
+   <div><b>${esc(D.constructs[c][1])}</b> <span style="color:var(--muted)">· ${esc(D.constructs[c][0])}</span></div>
+   ${a?`<div class="meta" style="font-size:12px;color:var(--muted)">${a.n} candidate items · ${a.ninst} instruments/sections · ${fmtAge(a.age)} · waves ${esc(a.waves.join(', '))}</div>`:''}
+   ${st.note?`<div class="note ${st.status!=='full'?'warn':''}">${esc(st.note)}</div>`:''}
+   <div class="row"><input type="search" id="cellQ" placeholder="Filter these items" style="flex:1"><button class="btn" id="cellCopy">Copy as CSV</button></div>
+   <div class="items" id="cellItems"></div>`;
+  const render=()=>{const q=($('#cellQ').value||'').toLowerCase();const f=its.filter(i=>!q||(i.t+' '+i.v+' '+i.ins).toLowerCase().includes(q));
+    $('#cellItems').innerHTML=f.length?f.map(x=>itemHTML(x,st.iso)).join('')+(its.length>=60?'<div class="note">Showing the first 60 items for this cell (youth self-report first).</div>':''):'<div class="note">No items match.</div>'};
+  $('#cellQ').addEventListener('input',render); render();
+  $('#cellCopy').addEventListener('click',()=>copy(toCSV(its.map(i=>({study:s,construct:D.constructs[c][1],variable:i.v,text:i.t,informant:i.i.join('/'),waves:i.w.join(' '),age:fmtAge(i.a),years:i.y.join(' '),instrument:i.ins,source:i.src}))),$('#cellCopy')));
+}
+function toCSV(rows){if(!rows.length)return'';const k=Object.keys(rows[0]);return[k.join(',')].concat(rows.map(r=>k.map(x=>'"'+String(r[x]??'').replace(/"/g,'""')+'"').join(','))).join('\n')}
+function copy(text,btn){const done=()=>{const o=btn.textContent;btn.textContent='Copied';setTimeout(()=>btn.textContent=o,1400)};
+  try{navigator.clipboard.writeText(text).then(done,()=>fallback())}catch(e){fallback()}
+  function fallback(){const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(e){}ta.remove()}}
+
+/* ---------- COMPARE ---------- */
+function buildCompare(){
+  $('#cmpStudies').innerHTML=D.studies.map(s=>`<label><input type="checkbox" value="${esc(s.id)}" ${['ABCD','Understanding Society','KCYPS'].includes(s.id)?'checked':''}> ${esc(s.id)}</label>`).join('');
+  const r=()=>{const c=$('#cmpCon').value,q=($('#cmpQ').value||'').toLowerCase();
+    const picks=$$('#cmpStudies input:checked').map(x=>x.value).slice(0,3);
+    $('#cmpCols').innerHTML=picks.map(s=>{const st=D.studies.find(x=>x.id===s);let its=(D.items[s+'|'+c]||[]).filter(i=>!q||(i.t+' '+i.ins).toLowerCase().includes(q));
+      const ad=st.iso==='AUS'&&D.adii?`<div class="note" style="margin:6px 0">Invisible room for this Australian cohort: the Australian Digital Inclusion Index (adults 18+, so the household and parental digital environment) is shown under each item for the item’s fieldwork years. Legacy series 2014–2020 and AIUS series 2020–2024 must not be spliced. State, capital/rest-of-state and remoteness values are in Invisible room.</div>`:'';
+      return `<div class="card col"><div class="hd"><h2 style="font-size:17px">${esc(s)}</h2> <span class="chip">${esc(st.country)}</span> <span class="chip status-${st.status}">${st.status}</span></div>${ad}${its.length?its.slice(0,25).map(x=>itemHTML(x,st.iso)).join(''):'<div class="note">No candidate items for this construct.</div>'}</div>`}).join('')||'<div class="note">Pick up to three studies.</div>';};
+  ['#cmpCon','#cmpQ'].forEach(s=>$(s).addEventListener('input',r)); $('#cmpStudies').addEventListener('change',e=>{const ch=$$('#cmpStudies input:checked');if(ch.length>3)e.target.checked=false;r()}); r();
+}
+
+/* ---------- TIMELINE ---------- */
+function series(ind,iso){return D.itu[ind]?D.itu[ind][iso]:(D.context&&D.context[ind]?D.context[ind].values[iso]:null)}
+function ituVal(iso,ind,y){const s=series(ind,iso);if(!s)return null;const i=Math.round(y)-2000;if(i<0||i>=s.length)return null;const v=s[i];return v==null?null:v}
+function ituMax(ind){if(ind==='net')return 100;if(ind==='bb')return 50;if(ind==='mob')return 200;const c=D.context&&D.context[ind];if(!c)return 100;let m=0;Object.values(c.values).forEach(a=>a.forEach(v=>{if(v!=null&&v>m)m=v}));return m||1}
+function buildTimeline(){['#tlCon','#tlMode','#tlInd'].forEach(s=>$(s).addEventListener('change',drawTimeline));window.addEventListener('resize',()=>{if(!$('#v-timeline').hidden)drawTimeline()})}
+function drawTimeline(){
+  const c=$('#tlCon').value, mode=$('#tlMode').value, ind=$('#tlInd').value;
+  const studies=D.studies.map(s=>s.id);
+  const pts=D.timeline.filter(p=>p.c[c]);
+  const W=Math.max(760,$('.tlwrap').clientWidth-24), svg=$('#tl');
+  const room0=css('--room0'),room1=css('--room1'),ink=css('--ink'),muted=css('--muted'),line=css('--line');
+  const col=css(DOMC[D.constructs[c][0]][0]);
+  const shape=(inf,x,y,r)=>{if(inf.includes('Youth'))return `<circle cx="${x}" cy="${y}" r="${r}" fill="${col}" stroke="${css('--panel')}" stroke-width="1"/>`;
+    if(inf.includes('Parent'))return `<rect x="${x-r}" y="${y-r}" width="${2*r}" height="${2*r}" fill="${col}" stroke="${css('--panel')}"/>`;
+    if(inf.includes('Passive sensing'))return `<path d="M${x} ${y-r-1}L${x+r+1} ${y}L${x} ${y+r+1}L${x-r-1} ${y}Z" fill="${col}"/>`;
+    return `<path d="M${x} ${y-r-1}L${x+r+1} ${y+r}L${x-r-1} ${y+r}Z" fill="${col}"/>`};
+  const tip=$('#tip');
+  let h='';
+  if(mode==='lexis'){
+    const H=560,m={l:44,r:16,t:16,b:118},x0=2000,x1=2027,a0=0,a1=30;
+    const X=y=>m.l+(y-x0)/(x1-x0)*(W-m.l-m.r), Y=a=>m.t+(a1-a)/(a1-a0)*(H-m.t-m.b);
+    svg.setAttribute('viewBox',`0 0 ${W} ${H}`);svg.setAttribute('width',W);svg.setAttribute('height',H);
+    for(let y=2000;y<=2026;y+=2)h+=`<line x1="${X(y)}" x2="${X(y)}" y1="${m.t}" y2="${H-m.b}" stroke="${css('--soft')}"/><text x="${X(y)}" y="${H-m.b+14}" text-anchor="middle">${y}</text>`;
+    for(let a=0;a<=30;a+=5)h+=`<line x1="${m.l}" x2="${W-m.r}" y1="${Y(a)}" y2="${Y(a)}" stroke="${css('--soft')}"/><text x="${m.l-6}" y="${Y(a)+4}" text-anchor="end">${a}</text>`;
+    h+=`<text x="${m.l-34}" y="${m.t+8}" transform="rotate(-90 ${m.l-34} ${m.t+8})" text-anchor="end">Age (years)</text>`;
+    PLATFORMS.forEach(([y,l],i)=>{h+=`<line x1="${X(y)}" x2="${X(y)}" y1="${m.t}" y2="${H-m.b}" stroke="${muted}" stroke-dasharray="2 4" opacity=".6"/><text x="${X(y)+3}" y="${m.t+10+ (i%2)*12}" font-size="10">${esc(l)}</text>`});
+    // country strips under axis
+    const isos=[...new Set(D.studies.map(s=>s.iso))];
+    isos.forEach((iso,k)=>{const yy=H-m.b+26+k*11;for(let y=2000;y<2026;y++){const v=ituVal(iso,ind,y);if(v==null)continue;h+=`<rect x="${X(y)}" y="${yy}" width="${X(y+1)-X(y)+.5}" height="9" fill="${room1}" opacity="${Math.max(.04,Math.min(1,v/ituMax(ind)))}"/>`}
+      h+=`<text x="${m.l-6}" y="${yy+8}" text-anchor="end" font-size="9.5">${iso}</text>`;
+      evFor(iso).forEach(e=>{const x=X(decY(e.date));if(x<m.l||x>W-m.r)return;
+        h+=e.t==='reg'?`<g class="ev" data-e="${e.i}"><path d="M${x} ${yy-1}L${x+4} ${yy+9}L${x-4} ${yy+9}Z" fill="${css('--bad')}" stroke="${css('--panel')}" stroke-width=".6"/></g>`:`<g class="ev" data-e="${e.i}"><circle cx="${x}" cy="${yy+4.5}" r="3.4" fill="${css('--accent')}" stroke="${css('--panel')}" stroke-width=".6"/></g>`});});
+    // cohort paths + points
+    const byCo={};pts.forEach(p=>(byCo[p.s+'|'+p.co]=byCo[p.s+'|'+p.co]||[]).push(p));
+    Object.values(byCo).forEach(arr=>{arr=arr.filter(p=>p.a[0]!=null&&p.a[1]-p.a[0]<=3).sort((a,b)=>a.y-b.y);if(arr.length<2)return;
+      h+=`<path d="${arr.map((p,i)=>(i?'L':'M')+X(p.y)+' '+Y((p.a[0]+p.a[1])/2)).join('')}" fill="none" stroke="${col}" stroke-opacity=".35" stroke-width="1.5"/>`});
+    const SHORT={'Understanding Society':'UKHLS','Ten to Men':'T2M'};
+    Object.entries(byCo).forEach(([k,arr])=>{arr=arr.filter(p=>p.a[0]!=null).sort((a,b)=>a.y-b.y);if(!arr.length)return;const p=arr[arr.length-1];
+      const lab=(SHORT[p.s]||p.s)+(/Cohort|cohort|C\d/.test(p.co)&&p.s!=='HILDA'?' '+(p.co.match(/'\d\d|E4|M1|Cohort \d|B cohort|K cohort/)||[''])[0]:'');
+      h+=`<text x="${Math.min(X(p.y)+7,W-m.r-60)}" y="${Y((p.a[0]+p.a[1])/2)-6}" font-size="10" fill="${ink}">${esc(lab)}</text>`});
+    pts.forEach((p,i)=>{if(p.a[0]==null)return;const st=D.studies.find(s=>s.id===p.s);const am=(p.a[0]+p.a[1])/2;
+      if(p.a[1]-p.a[0]>0.6)h+=`<line x1="${X(p.y)}" x2="${X(p.y)}" y1="${Y(p.a[0])}" y2="${Y(p.a[1])}" stroke="${col}" stroke-opacity=".5" stroke-width="3"/>`;
+      h+=`<g class="pt" data-i="${i}">${shape(p.c[c],X(p.y),Y(am),4.5)}</g>`});
+    const unp=pts.filter(p=>p.a[0]==null).map(p=>p.s+' '+p.w);
+    $('#tlNote').innerHTML=`Marks with a vertical bar span an age range within a wave (panels, multi-grade cohorts). The strips under the axis show the shading indicator by country (${esc($('#tlInd').selectedOptions[0].text)}); on each strip, red triangles are regulation events and teal dots are national platform or smartphone launches (hover for date and source). Dashed lines are global launches, not national availability.${unp.length?` Not plotted (age at wave not yet verified): ${esc([...new Set(unp)].join(', '))}.`:''}`;
+    svg.innerHTML=h;
+    svg.onmousemove=e=>{const ge=e.target.closest('g.ev');if(ge){const ev=ALLEV[+ge.dataset.e];tip.innerHTML=`<b>${esc(ev.title)}</b><br>${esc(ev.date)} · ${esc(ev.applies_to.replace(/;/g,', '))}${ev.status?' · '+esc(ev.status):''}<br><span style="color:var(--muted)">${esc(EVKIND[ev.t])}${ev.detail?': '+esc(ev.detail):''}</span>`;tip.hidden=false;tip.style.left=Math.min(e.clientX+14,innerWidth-330)+'px';tip.style.top=(e.clientY+14)+'px';return}
+      const g=e.target.closest('g.pt');if(!g){tip.hidden=true;return}const p=pts[+g.dataset.i],st=D.studies.find(s=>s.id===p.s);const v=ituVal(st.iso,'net',p.y);
+      tip.innerHTML=`<b>${esc(p.s)}</b> · ${esc(p.co)} · ${esc(p.w)}<br>${fmtAge(p.a)} · ${Math.round(p.y)}<br>Informant: ${esc(p.c[c].join(', '))}<br>${esc(ISO_NAME[st.iso])} internet users that year: <b>${v!=null?v.toFixed(0)+'%':'n/a'}</b>${st.iso==='AUS'?(()=>{const a=adiiNat(p.y);return `<br>${a?esc(a.lab)+': <b>'+a.v.toFixed(1)+'</b>':'ADII: not measured that year'}`})():''}`;tip.hidden=false;tip.style.left=Math.min(e.clientX+14,innerWidth-330)+'px';tip.style.top=(e.clientY+14)+'px'};
+    svg.onmouseleave=()=>tip.hidden=true;
+  }else{
+    const rows=D.studies.map(s=>s.id), H=rows.length*34+60,m={l:150,r:16,t:20,b:30},a0=0,a1=30;
+    const X=a=>m.l+(a-a0)/(a1-a0)*(W-m.l-m.r), Y=i=>m.t+i*34+17;
+    svg.setAttribute('viewBox',`0 0 ${W} ${H}`);svg.setAttribute('width',W);svg.setAttribute('height',H);
+    const bands=[[9,11,'9–11'],[12,14,'12–14'],[15,17,'15–17'],[18,21,'18–21'],[22,25,'22–25']];
+    bands.forEach(([lo,hi,l],k)=>{h+=`<rect x="${X(lo-.5)}" y="${m.t-6}" width="${X(hi+.5)-X(lo-.5)}" height="${rows.length*34+6}" fill="${k%2?css('--soft'):'none'}"/><text x="${(X(lo-.5)+X(hi+.5))/2}" y="${m.t-8}" text-anchor="middle" font-size="10">${l}</text>`});
+    for(let a=0;a<=30;a+=5)h+=`<text x="${X(a)}" y="${H-10}" text-anchor="middle">${a}</text>`;
+    rows.forEach((s,i)=>{h+=`<text x="${m.l-8}" y="${Y(i)+4}" text-anchor="end" fill="${ink}">${esc(s)}</text><line x1="${m.l}" x2="${W-m.r}" y1="${Y(i)}" y2="${Y(i)}" stroke="${line}"/>`});
+    pts.forEach((p,k)=>{if(p.a[0]==null)return;const i=rows.indexOf(p.s);const st=D.studies.find(x=>x.id===p.s);const v=ituVal(st.iso,ind,p.y);
+      h+=`<g class="pt" data-i="${k}"><rect x="${X(p.a[0])-5}" y="${Y(i)-9}" width="${Math.max(10,X(p.a[1])-X(p.a[0])+10)}" height="18" rx="4" fill="${room1}" opacity="${v==null?.08:Math.max(.08,v/ituMax(ind))*.55}"/>${shape(p.c[c],(X(p.a[0])+X(p.a[1]))/2,Y(i),4.5)}</g>`});
+    svg.innerHTML=h;
+    $('#tlNote').innerHTML=`Waves aligned on age, grouped into developmental bands (method 1 of the timing strategy). The shaded box behind each mark is the ${esc($('#tlInd').selectedOptions[0].text.toLowerCase())} in that study's country and year, so equal ages with different shading are the age–period contrast the harmoniser is built to expose. For Australian cohorts, choose an ADII indicator in Shading.`;
+    svg.onmousemove=e=>{const g=e.target.closest('g.pt');if(!g){tip.hidden=true;return}const p=pts[+g.dataset.i],st=D.studies.find(s=>s.id===p.s);const v=ituVal(st.iso,'net',p.y);
+      tip.innerHTML=`<b>${esc(p.s)}</b> · ${esc(p.co)} · ${esc(p.w)}<br>${fmtAge(p.a)} · ${Math.round(p.y)}<br>Informant: ${esc(p.c[c].join(', '))}<br>Internet users: <b>${v!=null?v.toFixed(0)+'%':'n/a'}</b>${st.iso==='AUS'?(()=>{const a=adiiNat(p.y);return `<br>${a?esc(a.lab)+': <b>'+a.v.toFixed(1)+'</b>':'ADII: not measured that year'}`})():''}`;tip.hidden=false;tip.style.left=Math.min(e.clientX+14,innerWidth-330)+'px';tip.style.top=(e.clientY+14)+'px'};
+    svg.onmouseleave=()=>tip.hidden=true;
+  }
+  $('#tlLegend').innerHTML=`<span><svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="${col}"/></svg> Youth self-report</span><span><svg width="12" height="12"><rect x="1" y="1" width="10" height="10" fill="${col}"/></svg> Parent</span><span><svg width="12" height="12"><path d="M6 1L11 11L1 11Z" fill="${col}"/></svg> Teacher / school / other</span><span><svg width="12" height="12"><path d="M6 0L12 6L6 12L0 6Z" fill="${col}"/></svg> Passive sensing</span>`;
+}
+
+/* ---------- ROOM ---------- */
+function buildRoom(){
+  const r=()=>{const A=+$('#roomAge').value,c=$('#roomCon').value;const rows=[];
+    const byCo={};D.timeline.forEach(p=>{if(p.a[0]==null)return;if(c&&!p.c[c])return;(byCo[p.s+'|'+p.co]=byCo[p.s+'|'+p.co]||[]).push(p)});
+    Object.entries(byCo).forEach(([k,arr])=>{let best=null,bd=9;arr.forEach(p=>{const d=A<p.a[0]?p.a[0]-A:A>p.a[1]?A-p.a[1]:0;if(d<bd){bd=d;best=p}});if(best&&bd<=1)rows.push([best,bd])});
+    rows.sort((a,b)=>a[0].y-b[0].y);
+    $('#roomTable').innerHTML=`<thead><tr><th>Study · cohort</th><th>Wave</th><th>Age</th><th>Year</th><th>Country</th><th>Internet users</th><th></th><th>Broadband /100</th><th>Mobile /100</th><th>Digital inclusion (ADII, AUS)</th><th>Youth-relevant rules in force</th><th>Measured here</th></tr></thead><tbody>`+
+      (rows.length?rows.map(([p,d])=>{const st=D.studies.find(s=>s.id===p.s);const n=ituVal(st.iso,'net',p.y),b=ituVal(st.iso,'bb',p.y),mo=ituVal(st.iso,'mob',p.y);
+        return `<tr><td><b>${esc(p.s)}</b><br><span style="color:var(--muted);font-size:11.5px">${esc(p.co)}</span></td><td>${esc(p.w)}</td><td class="num">${fmtAge(p.a)}${d?' *':''}</td><td class="num">${Math.round(p.y)}</td><td>${esc(st.country)}</td><td class="num">${n!=null?n.toFixed(0)+'%':'n/a'}</td><td><div class="bar"><span style="width:${n||0}%"></span></div></td><td class="num">${b!=null?b.toFixed(0):'n/a'}</td><td class="num">${mo!=null?mo.toFixed(0):'n/a'}</td><td class="num" style="font-size:11.5px">${st.iso==='AUS'?(()=>{const a=adiiNat(p.y);return a?`<b>${a.v.toFixed(1)}</b><br><span style="color:var(--muted)">${esc(a.lab)}</span>`:'<span style="color:var(--muted)">not measured</span>'})():'<span style="color:var(--muted)">–</span>'}</td><td style="font-size:11.5px;min-width:180px">${(()=>{const r=inForce(st.iso,p.y);return r.length?r.slice(-3).reverse().map(e=>`<div title="${esc(e.date+' · '+e.title)}">${esc(e.date.slice(0,4))} ${esc(e.title.length>58?e.title.slice(0,56)+'…':e.title)}</div>`).join('')+(r.length>3?`<div style="color:var(--muted)">+${r.length-3} earlier</div>`:''):'<span style="color:var(--muted)">none recorded</span>'})()}</td><td>${Object.keys(p.c).filter(k=>!c||k===c).map(k=>`<span class="chip">${esc(D.constructs[k][1])}</span>`).join('')}</td></tr>`}).join(''):'<tr><td colspan="12">No wave within one year of this age.</td></tr>')+'</tbody>';
+  };
+  ['#roomAge','#roomCon'].forEach(s=>$(s).addEventListener('input',r)); r();
+  const er=()=>{const iso=$('#evIso').value,k=$('#evKind').value;const rows=ALLEV.filter(e=>(!k||e.t===k)&&(!iso||e.applies_to==='GLOBAL'||e.applies_to.split(';').includes(iso)));
+    $('#evTable').innerHTML=`<thead><tr><th>Date</th><th>Where</th><th>Type</th><th>Status</th><th>Event</th><th>Source</th></tr></thead><tbody>${rows.map(e=>`<tr><td class="num" style="white-space:nowrap">${esc(e.date)}${e.precision!=='day'?` <span style="color:var(--muted);font-size:10.5px">(${esc(e.precision)})</span>`:''}</td><td>${esc(e.jurisdiction||e.applies_to.replace(/;/g,', '))}</td><td><span class="chip" style="${e.t==='reg'?'border-color:var(--bad);color:var(--bad)':'border-color:var(--accent);color:var(--accent)'}">${esc(e.kind)}</span></td><td style="font-size:12px">${esc(e.status||'Launch')}</td><td><b>${esc(e.title)}</b>${e.detail?`<br><span style="color:var(--muted);font-size:12px">${esc(e.detail)}</span>`:''}</td><td style="font-size:11.5px"><a href="${esc(e.source_url)}" target="_blank" rel="noopener">${esc((e.source_url.match(/\/\/([^\/]+)/)||['',''])[1].replace(/^www\./,''))}</a></td></tr>`).join('')}</tbody>`};
+  ['#evIso','#evKind'].forEach(s=>$(s).addEventListener('change',er)); er();
+  adiiPanel();
+  const CX=D.context||{};
+  const loaded=dim=>Object.values(CX).filter(c=>c.dimension===dim).map(c=>c.label);
+  const dims=[
+    {n:'Access',l:'on',d:'How widespread, fast and affordable internet was.',now:['Australia: Australian Digital Inclusion Index (ADII) – national, state, capital vs rest of state, remoteness and subgroup scores (legacy 2014–2020; AIUS 2020–2024), panel above'],
+     add:['Youth smartphone ownership for GBR, IRL, NOR, GRC, NZL','ADII 2021 and 2022 state/remoteness values (dashboard year selector) and LGA small-area estimates (request to ADM+S)','Equivalent national digital-inclusion indices for the other seven countries where they exist'],who:'Spiros / Yifei',src:'datahub.itu.int · Pew · ABS · digitalinclusionindex.org.au'},
+    {n:'Participation',l:'part',d:'Use of social media, smartphones and online services.',now:[],
+     add:['Youth participation series for NZL (only a single 2020 point so far)','Annual ABS/eSafety youth series for AUS after 2012','MSIT age-band internet use for KOR (10–19)','Note: Korean overdependence is a population prevalence (outcome-like), not an exposure'],who:'Spiros / Yifei',src:'Eurostat · MSIT · CDC YRBS · Pew · ABS · NZ On Air'},
+    {n:'Attention',l:'part',d:'Which technologies, platforms and topics drew public interest.',now:[],
+     add:['Note: "comparable across countries" series share one scale, but Google’s search share differs by country (Naver dominates in Korea), so KOR levels are understated','Video-game topic shows a one-year 2017 dip in every country (Google artefact)','Optional: Roblox, Fortnite and Discord topics'],who:'Spiros / Yifei',src:'trends.google.com'},
+    {n:'Platform environment',l:'part',d:'Which platforms and features were available.',now:['Global launch years on the timeline (hand-coded, not country-specific)'],
+     add:['Country launch / availability dates for major platforms, each with a source','Statcounter misses TikTok, Snapchat, Naver, Kakao; KOR 2018–19 and 2024–25 shares look like artefacts'],who:'Spiros / Yifei',src:'gs.statcounter.com · Pew'},
+    {n:'Information environment',l:'part',d:'Online discourse, content and regulation of the period.',now:[`Regulation timeline: ${(D.events&&D.events.reg||[]).length} dated, sourced events across 8 countries + EU (table above and red triangles on Two clocks)`,`Platform and smartphone launches: ${(D.events&&D.events.launch||[]).length} dated events`],
+     add:['Check GDELT news attention (6 topics, 2017–2025, all 8 countries; loaded): Greek, Korean and Norwegian keywords need native-speaker checking; KOR and NOR counts are small, so treat year-to-year swings cautiously; compare trends within a country, not levels across countries','Generative-AI topic is shown from 2022 only','Sub-national regulation (US states, Australian states) beyond the examples listed','Exact commencement dates where only month/year is verified (Norway Personal Data Act; Greek Law 4624/2019 publication)'],who:'Spiros / Yifei',src:'gdeltproject.org · legislation registers'},
+  ];
+  $('#dims').innerHTML=dims.map(x=>{const extra=loaded(x.n);const lvl=extra.length&&x.l==='off'?'part':x.l;
+    return `<div class="card dim ${lvl!=='on'?'todo':''}"><span class="lvl ${lvl}">${lvl==='on'?'Loaded':lvl==='part'?'Partly loaded':'Not yet loaded'}</span><b style="font-size:15px">${x.n}</b><span style="color:var(--muted);font-size:12.5px">${x.d}</span>
+    <div style="font-size:12px"><span class="tag">In the page now</span><ul>${(extra.length?x.now.filter(t=>t!=='Nothing loaded yet'):x.now).concat(extra).map(t=>`<li>${esc(t)}</li>`).join('')}</ul></div>
+    <div style="font-size:12px"><span class="tag add">To add</span><ul>${x.add.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></div>
+    <div style="font-size:11.5px;color:var(--muted)">Source: ${esc(x.src)} · Owner: ${esc(x.who)}</div></div>`}).join('')+
+   `<div class="card dim howto"><span class="lvl part">How to add an indicator</span><b style="font-size:15px">One CSV per source, one command</b>
+    <ol style="margin:0;padding-left:18px;font-size:12px;display:grid;gap:3px"><li>Save a CSV in <code>data/context/</code> with columns <code>iso3, year, indicator_id, value, unit, dimension, label, source, retrieved</code> (one row per country-year).</li>
+    <li><code>dimension</code> is one of Access, Participation, Attention, Platform environment, Information environment.</li>
+    <li>Run <code>python scripts/add_context.py</code>. It merges every CSV into <code>app/gchn_data.json</code>.</li>
+    <li>The indicator appears in the Shading menu on Two clocks and is listed here under its dimension.</li></ol>
+    <span style="font-size:11.5px;color:var(--muted)">Country-year values are opportunity indicators: never treat them as a young person's own exposure.</span></div>`;
+}
+
+function adiiPanel(){
+  const A=D.adii,el=$('#adiiPanel');if(!A){el.innerHTML='<div class="note">ADII not loaded.</div>';return}
+  const L=A.legacy||{},a=A.aius||{},f=v=>v==null?'<span style="color:var(--muted)">–</span>':(+v).toFixed(1);
+  const yrs=[2014,2015,2016,2017,2018,2019,2020,2021,2022,2024];
+  const nat=`<table class="data"><thead><tr><th>Data year</th><th>Series</th><th>Total</th><th>Access</th><th>Affordability</th><th>Digital Ability</th></tr></thead><tbody>${yrs.map(y=>{const k=String(y);const leg=y<=2020&&L.TOTAL&&L.TOTAL.Australia[k]!=null;
+    const rows=[];if(leg)rows.push(`<tr><td class="num">${y}</td><td>Legacy (Roy Morgan)</td><td class="num">${f(L.TOTAL.Australia[k])}</td><td class="num">${f(L.ACCESS.Australia[k])}</td><td class="num">${f(L.AFFORDABILITY.Australia[k])}</td><td class="num">${f(L['DIGITAL ABILITY'].Australia[k])}</td></tr>`);
+    const g=m=>a[m]&&a[m][k]!=null?a[m][k]:null;if(g('Access')!=null||g('ADII score')!=null)rows.push(`<tr><td class="num">${y}</td><td>AIUS${y===2020?' (pilot)':''}</td><td class="num">${f(g('ADII score'))}</td><td class="num">${f(g('Access'))}</td><td class="num">${f(g('Affordability'))}</td><td class="num">${f(g('Digital Ability'))}</td></tr>`);return rows.join('')}).join('')}</tbody></table>`;
+  const groups=['Australia','Capitals','Rural','NSW','VIC','QLD','SA','WA','TAS','ACT','NT','14-24','Indigenous Australians'];
+  const ly=['2014','2015','2016','2017','2018','2019','2020'];
+  const leg=`<table class="data"><thead><tr><th>Legacy ADII total</th>${ly.map(y=>`<th>${y}</th>`).join('')}</tr></thead><tbody>${groups.filter(g=>L.TOTAL&&L.TOTAL[g]).map(g=>`<tr><td>${esc(g==='14-24'?'Age 14–24':g==='Rural'?'Rest of state (rural)':g)}</td>${ly.map(y=>`<td class="num">${f(L.TOTAL[g][y])}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+  const byT={};(A.geo2024||[]).forEach(r=>(byT[r.type]=byT[r.type]||[]).push(r));
+  const geo=`<table class="data"><thead><tr><th>2024 ADII total by</th><th>Values (0–100)</th></tr></thead><tbody>${Object.entries(byT).map(([t,rs])=>`<tr><td>${esc(t)}</td><td style="font-size:12px">${rs.map(r=>`${esc(r.cat)} <b>${r.v.toFixed(1)}</b>`).join(' · ')}</td></tr>`).join('')}</tbody></table>`;
+  const aus=D.timeline.filter(p=>D.studies.find(s=>s.id===p.s).iso==='AUS'&&p.y>=2014).sort((x,y)=>x.y-y.y);
+  const seen=new Set();const waves=aus.filter(p=>{const k=p.s+p.co+p.w;if(seen.has(k))return false;seen.add(k);return true}).map(p=>{const h=adiiNat(p.y);return `<span class="chip">${esc(p.s)} ${esc(p.w)} · ${Math.round(p.y)}${h?' · ADII '+h.v.toFixed(1):''}</span>`}).join('');
+  el.innerHTML=`<p class="lede" style="max-width:none">${esc(A.about)}</p>
+   <div class="split" style="grid-template-columns:minmax(0,1fr) minmax(0,1fr)"><div class="scrollx">${nat}</div><div class="scrollx">${geo}</div></div>
+   <div class="scrollx">${leg}</div>
+   <div class="note"><b>Linkage.</b> ${esc(A.link)} For children and adolescents ADII is the household and parental digital environment; the legacy age 14–24 band is the closest youth signal (2014–2020 only).</div>
+   <div><span class="tag">Australian cohort waves from 2014 with a matching ADII year</span><div style="margin-top:4px">${waves||'<span style="color:var(--muted)">none</span>'}</div></div>
+   <div style="font-size:11.5px;color:var(--muted)">Source: ${esc(A.source_folder)}. Cite: ${esc(A.cite)}</div>`;
+}
+
+/* ---------- PLANNER ---------- */
+const CUTOFFS=/sdq|strengths and difficulties|kessler|\bk6\b|\bk10\b|phq|smfq|mood and feelings|ces-?d|gad-7|promis/i;
+const EXAMPLES={
+  ex1:{label:'Self-esteem: Rosenberg in MCS, GUI and AStRA',c:'WB_SE',c2:'',s:['MCS','GUI','AStRA']},
+  ex2:{label:'Social media time: ABCD vs UKHLS vs KCYPS',c:'DM_SM',c2:'WB_MOOD',s:['ABCD','Understanding Society','KCYPS']},
+  ex3:{label:'Parent–child relationship: AStRA PBI vs TESS',c:'PC_REL',c2:'',s:['AStRA','TESS']},
+  ex4:{label:'Emotional wellbeing: GUI, GUiNZ, ABCD (informant clash)',c:'WB_MOOD',c2:'DM_ST',s:['GUI','GUiNZ','ABCD']},
+};
+function buildPlanner(){
+  $('#plEx').innerHTML='<option value="">Choose…</option>'+Object.entries(EXAMPLES).map(([k,v])=>`<option value="${k}">${esc(v.label)}</option>`).join('');
+  $('#plStudies').innerHTML=D.studies.map(s=>`<label><input type="checkbox" value="${esc(s.id)}"> ${esc(s.id)}</label>`).join('');
+  const setEx=k=>{const e=EXAMPLES[k];if(!e)return;$('#plCon').value=e.c;$('#plCon2').value=e.c2;$$('#plStudies input').forEach(i=>i.checked=e.s.includes(i.value));plan()};
+  $('#plEx').addEventListener('change',e=>setEx(e.target.value));
+  ['#plCon','#plCon2'].forEach(s=>$(s).addEventListener('change',plan)); $('#plStudies').addEventListener('change',plan);
+  $('#copyR').addEventListener('click',()=>copy($('#plR').textContent,$('#copyR')));
+  $('#plEx').value='ex1'; setEx('ex1');
+}
+function plan(){
+  const c=$('#plCon').value,c2=$('#plCon2').value,picks=$$('#plStudies input:checked').map(i=>i.value);
+  const cn=D.constructs[c][1];
+  const info=picks.map(s=>{const st=D.studies.find(x=>x.id===s),a=(D.atlas[s]||{})[c],its=D.items[s+'|'+c]||[];
+    const waves=a?a.waves:[];const ages=a&&a.age?a.age:null;const inf=a?a.inf.filter(x=>!['Other','Derived'].includes(x)):[];
+    const anch=D.anchors.filter(an=>an.con===c&&an.where.some(w=>w[0]===s)).map(an=>an.inst);
+    const cut=its.some(i=>CUTOFFS.test(i.ins+' '+i.t));
+    const nw=waves.filter(w=>!/unverified|cross-wave/.test(w)).length;
+    const pts=D.timeline.filter(p=>p.s===s&&p.c[c]&&p.a[0]!=null).map(p=>p.y).sort((x,y)=>x-y);
+    const gaps=pts.slice(1).map((y,i)=>+(y-pts[i]).toFixed(1));
+    return {s,st,a,n:a?a.n:0,waves,nw,ages,inf,anch,cut,gaps};});
+  // summary table
+  $('#plSummary').innerHTML=picks.length?`<table class="data"><thead><tr><th>Study</th><th>Dictionary</th><th>Candidate items</th><th>Waves with the construct</th><th>Ages</th><th>Informants</th><th>Shared instruments</th></tr></thead><tbody>${info.map(r=>`<tr><td><b>${esc(r.s)}</b><br><span style="color:var(--muted);font-size:11.5px">${esc(r.st.country)}</span></td><td class="status-${r.st.status}">${r.st.status}</td><td class="num">${r.n}</td><td>${esc(r.waves.slice(0,10).join(', '))}${r.waves.length>10?' …':''}</td><td class="num">${fmtAge(r.ages)}</td><td>${r.inf.map(x=>`<span class="chip ${esc(x.split(' ')[0])}">${esc(x)}</span>`).join('')}</td><td>${r.anch.map(x=>`<span class="chip">${esc(x)}</span>`).join('')||'<span style="color:var(--muted)">none found</span>'}</td></tr>`).join('')}</tbody></table>`:'<div class="note" style="margin:10px">Tick at least two studies.</div>';
+  if(picks.length<2){$('#plMeasure').innerHTML='';$('#plTime').innerHTML='';$('#plR').textContent='';return}
+  const missing=info.filter(r=>!r.n), partial=info.filter(r=>r.st.status!=='full');
+  const sharedAnch=D.anchors.filter(an=>an.con===c&&an.where.filter(w=>picks.includes(w[0])).length>=2);
+  const anchorStudies=sharedAnch.length?[...new Set(sharedAnch.flatMap(an=>an.where.map(w=>w[0]).filter(x=>picks.includes(x))))]:[];
+  const infSets=info.map(r=>r.inf.slice().sort().join('+'));
+  const youthAll=info.every(r=>r.inf.includes('Youth'));
+  const ageOverlap=(()=>{const rs=info.filter(r=>r.ages&&r.ages[0]!=null).map(r=>r.ages);if(rs.length<2)return null;const lo=Math.max(...rs.map(a=>a[0])),hi=Math.min(...rs.map(a=>a[1]));return hi>=lo?[lo,hi]:null})();
+  const opt=(cls,k,v,s,txt)=>`<div class="card opt ${cls}"><span class="k">${k}</span><span class="v">${v}</span><span class="s">${s}</span><span style="font-size:12.5px">${txt}</span></div>`;
+  let M='';
+  M+=opt(missing.length||partial.length?'cond':'ok','0','Data dictionary construction',missing.length||partial.length?'Gaps':'Ready',
+    `${missing.length?`No candidate items in ${missing.map(r=>r.s).join(', ')}. `:''}${partial.length?`${partial.map(r=>r.s+' ('+r.st.status+')').join(', ')}: dictionary not item-complete. `:''}Record reporter, timeframe, item wording, response scale, scoring and age for every row before any option below.`);
+  M+=opt('ok','a','Relative ranking within samples (z-score)','Available',`Standardise within each study × instrument × age band. Answers "who is high within their cohort", not cross-cohort level differences. Use for regression-type aims.`);
+  M+=opt('cond','b','Proportion of maximum possible (0–100)','Conditional',`Needs each scale's documented minimum and maximum. Do not compare POMP means across different instruments as if equal severity.`);
+  const cutAll=info.every(r=>r.cut), cutSome=info.some(r=>r.cut);
+  M+=opt(cutAll?'cond':cutSome?'cond':'no','c','Threshold-based classification',cutAll?'Conditional':cutSome?'Partial':'Not supported',
+    cutAll?`Instruments with published cut-offs appear in every selected study. Check that the cut-off was validated for that age, informant and language.`:cutSome?`Validated cut-offs exist only in ${info.filter(r=>r.cut).map(r=>r.s).join(', ')}.`:`No instrument with an established cut-off was detected for this construct.`);
+  M+=opt(sharedAnch.length&&anchorStudies.length>=2?'cond':'no','d','Cross-cohort latent construct (IRT / multi-group CFA, Θ)',sharedAnch.length?'Candidate':'Not supported',
+    sharedAnch.length?`Shared instrument: ${sharedAnch.map(a=>a.inst).join('; ')} across ${anchorStudies.join(', ')}. Needs item-level data, identical item wording and response options, then configural → metric → scalar (thresholds) invariance and DIF; allow partial invariance. ${sharedAnch.map(a=>a.note).join(' ')}`:`No common anchor items across the selected studies. A shared Θ would rest on similar construct names only. Use a–c, or parallel analysis with synthesis.`);
+  M+=opt(new Set(infSets).size>1||!youthAll?'cond':'ok','e','Alignment of reporter and developmental stage',new Set(infSets).size>1?'Mismatch':'Aligned',
+    new Set(infSets).size>1?`Informants differ: ${info.map(r=>r.s+' = '+(r.inf.join('/')||'n/a')).join('; ')}. Analyse parent and youth report as separate strata, or model reporter as a covariate; never pool them into one score.`:`Same informant mix in every study. Still align by developmental stage (below).`);
+  $('#plMeasure').innerHTML=M;
+  // timing
+  let T='';
+  T+=opt(ageOverlap?'ok':'cond','1','Time harmonisation by age band or time since baseline',ageOverlap?'Available':'Limited overlap',ageOverlap?`Age ranges overlap at about ${ageOverlap[0].toFixed(0)}–${ageOverlap[1].toFixed(0)} years across the selected studies.`:`Age ranges do not overlap for all studies (or ages are unverified). Compare within bands that each study covers.`);
+  const multi=info.filter(r=>r.nw>=3);
+  const uneq=info.filter(r=>r.gaps.length>=2&&Math.max(...r.gaps)-Math.min(...r.gaps)>=1);
+  T+=opt(multi.length>=2?(uneq.length?'ok':'cond'):'no','2','Continuous-time SEM',multi.length>=2?(uneq.length?'Suited':'Optional'):'Not supported',
+    multi.length>=2?`${multi.map(r=>r.s+' ('+r.nw+' waves)').join(', ')}. ${uneq.length?`Unequal intervals in ${uneq.map(r=>r.s).join(', ')}: CT-SEM handles these directly.`:'Intervals look regular, so discrete-time models are also fine.'}`:`Needs at least three waves in two or more studies.`);
+  T+=opt(multi.length?'ok':'no','3','Multilevel / latent growth models on actual timing',multi.length?'Available':'Not supported',multi.length?`Use exact age at interview (not wave number) as the time metric in ${multi.map(r=>r.s).join(', ')}.`:`Fewer than three waves per study.`);
+  const c2ok=c2?picks.filter(s=>(D.atlas[s]||{})[c2]):[];
+  T+=opt(c2&&c2ok.length>=2&&multi.length>=2?'ok':'cond','4','RI-CLPM within cohorts, then meta-analysis',c2?(c2ok.length>=2?'Available':'Partial'):'Needs a second construct',
+    c2?`Pair ${cn} with ${D.constructs[c2][1]}: both present in ${c2ok.join(', ')||'none'}. Estimate within-person cross-lagged paths per cohort, then pool standardised paths by random-effects meta-analysis, moderated by country-year context.`:`Choose a paired construct above (e.g. digital media use × emotional wellbeing).`);
+  T+=opt('ok','5','Sensitivity to time differences','Always',`Re-run with alternative age bands, interval lengths and wave subsets; report whether conclusions change.`);
+  $('#plTime').innerHTML=T;
+  $('#plR').textContent=rTemplate(c,c2,picks,info,sharedAnch);
+}
+function rTemplate(c,c2,picks,info,sharedAnch){
+  const cn=D.constructs[c][1], tag=c.toLowerCase();
+  return `# ---------------------------------------------------------------
+# Cohort Harmoniser: analysis template (UNTESTED, generated from metadata)
+# Construct: ${cn}   Studies: ${picks.join(', ')}
+# Status: never run on data. Variable lists below are placeholders to fill
+#         from the lexicon rows you approve for each study.
+# ---------------------------------------------------------------
+library(tidyverse); library(lavaan); library(semTools); library(mirt)
+
+# 0. Masterfile spine: one row per person x wave, harmonised metadata columns
+spine <- bind_rows(
+${picks.map(s=>`  read_study("${s}") |> mutate(study = "${s}", informant = "<from lexicon>", age = <exact age at interview>, year = <interview year>)`).join(',\n')}
+)
+
+# a. Within-sample z (study x instrument x age band)
+spine <- spine |> group_by(study, instrument, age_band) |>
+  mutate(${tag}_z = as.numeric(scale(${tag}_raw))) |> ungroup()
+
+# b. Proportion of maximum possible (needs documented min/max per scale)
+spine <- spine |> mutate(${tag}_pomp = 100 * (${tag}_raw - scale_min) / (scale_max - scale_min))
+
+# c. Threshold classification (validated cut-off per instrument, age and informant)
+spine <- spine |> mutate(${tag}_case = as.integer(${tag}_raw >= cutoff))
+
+${sharedAnch.length?`# d. Shared latent metric via common items: ${sharedAnch.map(a=>a.inst).join('; ')}
+items <- c("item1", "item2", "item3")   # identical wording and response options only
+cfa_model <- paste("${tag} =~", paste(items, collapse = " + "))
+fit_conf <- cfa(cfa_model, data = spine, group = "study", ordered = items, estimator = "WLSMV")
+syn_scalar <- measEq.syntax(cfa_model, data = spine, group = "study", ordered = items,
+                            parameterization = "theta", ID.fac = "std.lv",
+                            group.equal = c("thresholds", "loadings"), return.fit = TRUE)
+compareFit(fit_conf, syn_scalar)        # then free non-invariant thresholds (partial invariance)
+mg <- multipleGroup(spine[items], 1, group = spine$study, itemtype = "graded",
+                    invariance = c("slopes", "intercepts", "free_means", "free_var"))
+DIF(mg, which.par = c("a1", "d1"), scheme = "drop")
+spine$${tag}_theta <- fscores(mg)[, 1]
+`:`# d. NOT SUPPORTED for this selection: no common anchor items.
+#    Use a-c within cohorts, or parallel models plus meta-analysis.
+`}
+# e. Reporter alignment: keep informants as separate strata
+spine <- spine |> mutate(stratum = paste(study, informant, sep = "_"))
+
+${c2?`# Timing 4. RI-CLPM within each cohort, then random-effects meta-analysis
+riclpm <- '<RI-CLPM syntax for ${tag} x ${c2.toLowerCase()} with one random intercept per construct>'
+fits <- spine |> group_split(study) |> map(~ sem(riclpm, data = .x, missing = "fiml"))
+# pool standardised cross-lagged paths with metafor::rma(), moderator = country-year context
+`:''}# Timing 5. Sensitivity: alternative age bands, interval lengths and wave subsets
+`;
+}
+
+/* ---------- SOURCES ---------- */
+function buildSources(){
+  $('#srcTable').innerHTML=`<thead><tr><th>Study</th><th>Country</th><th>Design</th><th>Status</th><th>Source file</th><th>Geography for context linkage</th><th>Notes</th></tr></thead><tbody>${D.studies.map(s=>`<tr><td><b>${esc(s.name)}</b></td><td>${esc(s.country)}</td><td>${esc(s.design)}</td><td class="status-${s.status}">${s.status}</td><td style="font-family:var(--f-mono);font-size:11px">${esc(s.dict_file)}</td><td>${esc(s.geo)}</td><td style="font-size:12px">${esc(s.note)}</td></tr>`).join('')}</tbody>`;
+  $('#anchorsPanel').innerHTML=`<h2>Shared instruments found so far</h2><p class="lede">Checked against the source dictionaries in this build. These are the candidates for option d; each still needs item-by-item comparison and invariance testing.</p>`+
+    `<table class="data"><thead><tr><th>Instrument</th><th>Construct</th><th>Where</th><th>What to check</th></tr></thead><tbody>${D.anchors.map(a=>`<tr><td><b>${esc(a.inst)}</b></td><td>${esc(D.constructs[a.con][1])}</td><td>${a.where.map(w=>`<div><b>${esc(w[0])}</b>: ${esc(w[1])}</div>`).join('')}</td><td style="font-size:12px">${esc(a.note)}</td></tr>`).join('')}</tbody></table>`;
+  $('#decisions').innerHTML=`<h2>Scope decisions in this build</h2><ul style="margin:0;padding-left:18px;display:grid;gap:4px">
+   <li>Three domains: wellbeing, digital media use, proximate context. Clinical scales appear as items under emotional wellbeing.</li>
+   <li>Twelve studies only. Generation R, HBCD, LSIC, NCDS, BCS70 and Next Steps are excluded from this harmoniser.</li>
+   <li>Household panels (Understanding Society, HILDA, and Ten to Men's adult men) enter through their youth slices; Understanding Society also shows parent and adult self-report items, labelled A, because parents' own wellbeing and digital use are proximate context.</li>
+   <li>Keyword-screen false positives removed by hand in this build (e.g. “needs help or supervision” health items in HILDA, activity-monitor fieldwork items in MCS, childcare and job satisfaction in LSAC and GUiNZ, KIDSCREEN items caught by the word “screen”, which are now under life satisfaction): every removed row is listed in <code>data/removed_false_positives.csv</code>.</li>
+   <li>Digital context for the Australian cohorts includes the Australian Digital Inclusion Index (area and subgroup level, adults 18+); it is never linked to individual participants.</li>
+   <li>Metadata only. No participant records, frequencies or restricted geography are stored or shown.</li>
+   <li>Construct assignment is a keyword screen. Every mapping needs reviewer approval before it reaches the Masterfile.</li></ul>`;
+}
+})();
+</script>
+
+</body></html>

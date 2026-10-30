@@ -1,0 +1,215 @@
+iso3,year,indicator_id,value,unit,dimension,label,source,retrieved
+GBR,2003,es_daily_y16_24,32.94,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2004,es_daily_y16_24,40.22,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2005,es_daily_y16_24,42.31,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2006,es_daily_y16_24,49.99,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2007,es_daily_y16_24,62.95,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2008,es_daily_y16_24,72.21,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2009,es_daily_y16_24,82.78,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2010,es_daily_y16_24,80.01,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2011,es_daily_y16_24,84.59,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2012,es_daily_y16_24,88.82,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2013,es_daily_y16_24,94.38,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2014,es_daily_y16_24,92.13,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2015,es_daily_y16_24,92.87,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2016,es_daily_y16_24,96.42,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2017,es_daily_y16_24,93.48,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2018,es_daily_y16_24,100,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2019,es_daily_y16_24,100,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2020,es_daily_y16_24,100,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2003,es_daily_y16_24,12.19,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2004,es_daily_y16_24,13.44,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2005,es_daily_y16_24,19.21,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2006,es_daily_y16_24,20.39,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2007,es_daily_y16_24,33.67,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2008,es_daily_y16_24,47.16,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2009,es_daily_y16_24,57.4,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2010,es_daily_y16_24,62.17,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2011,es_daily_y16_24,70.91,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2012,es_daily_y16_24,74.08,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2013,es_daily_y16_24,82.16,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2014,es_daily_y16_24,83.56,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2015,es_daily_y16_24,88.54,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2016,es_daily_y16_24,91.67,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2017,es_daily_y16_24,90.8,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2018,es_daily_y16_24,94.83,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2019,es_daily_y16_24,95.24,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2020,es_daily_y16_24,96.11,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2021,es_daily_y16_24,96.12,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2022,es_daily_y16_24,97.94,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2023,es_daily_y16_24,97.7,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2024,es_daily_y16_24,98.17,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GRC,2025,es_daily_y16_24,99.53,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2003,es_daily_y16_24,11.98,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2004,es_daily_y16_24,12.62,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2005,es_daily_y16_24,17.07,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2006,es_daily_y16_24,32.49,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2007,es_daily_y16_24,42.9,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2008,es_daily_y16_24,54.04,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2009,es_daily_y16_24,57.51,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2010,es_daily_y16_24,71.01,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2011,es_daily_y16_24,78.47,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2012,es_daily_y16_24,81.67,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2013,es_daily_y16_24,83.13,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2014,es_daily_y16_24,87.7,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2015,es_daily_y16_24,91.45,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2016,es_daily_y16_24,94.86,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2017,es_daily_y16_24,92.88,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2018,es_daily_y16_24,94.92,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2019,es_daily_y16_24,96.58,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2023,es_daily_y16_24,100,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2024,es_daily_y16_24,99.49,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+IRL,2025,es_daily_y16_24,99.49,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2003,es_daily_y16_24,43.02,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2004,es_daily_y16_24,47.43,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2005,es_daily_y16_24,59.57,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2006,es_daily_y16_24,75.12,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2007,es_daily_y16_24,75.07,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2008,es_daily_y16_24,90.81,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2009,es_daily_y16_24,88.92,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2010,es_daily_y16_24,94.24,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2011,es_daily_y16_24,93.24,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2012,es_daily_y16_24,97.69,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2013,es_daily_y16_24,95.65,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2014,es_daily_y16_24,98.26,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2015,es_daily_y16_24,97.7,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2016,es_daily_y16_24,100,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2017,es_daily_y16_24,97.78,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2018,es_daily_y16_24,98.01,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2019,es_daily_y16_24,98.12,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2020,es_daily_y16_24,100,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2021,es_daily_y16_24,98.3,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2022,es_daily_y16_24,98.84,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2023,es_daily_y16_24,98.87,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2024,es_daily_y16_24,100,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+NOR,2025,es_daily_y16_24,96.45,% of individuals 16-24,Participation,Youth 16-24 daily internet use (Eurostat),Eurostat isoc_ci_ifp_fu I_IDAY Y16_24,2026-10-23
+GBR,2002,es_games_y16_24,27.84,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GBR,2003,es_games_y16_24,44.69,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GBR,2004,es_games_y16_24,51.63,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GBR,2005,es_games_y16_24,55.32,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GBR,2006,es_games_y16_24,54.65,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GBR,2007,es_games_y16_24,52.3,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GBR,2009,es_games_y16_24,67.21,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GBR,2010,es_games_y16_24,59.8,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GBR,2012,es_games_y16_24,67,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GBR,2014,es_games_y16_24,68.47,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GRC,2002,es_games_y16_24,12.62,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GRC,2003,es_games_y16_24,22.92,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GRC,2004,es_games_y16_24,30.59,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GRC,2005,es_games_y16_24,27.89,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GRC,2006,es_games_y16_24,37.28,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GRC,2007,es_games_y16_24,44.31,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GRC,2009,es_games_y16_24,56.24,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GRC,2010,es_games_y16_24,50.28,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GRC,2012,es_games_y16_24,64.48,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GRC,2014,es_games_y16_24,67.43,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+IRL,2003,es_games_y16_24,9.87,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+IRL,2004,es_games_y16_24,11.32,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+IRL,2005,es_games_y16_24,14.6,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+IRL,2006,es_games_y16_24,25.42,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+IRL,2007,es_games_y16_24,29.33,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+IRL,2009,es_games_y16_24,46.19,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+IRL,2010,es_games_y16_24,45.67,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+IRL,2012,es_games_y16_24,39.21,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+IRL,2014,es_games_y16_24,73.05,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+NOR,2003,es_games_y16_24,59.97,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+NOR,2004,es_games_y16_24,64.46,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+NOR,2005,es_games_y16_24,59.92,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+NOR,2006,es_games_y16_24,74.93,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+NOR,2007,es_games_y16_24,72.92,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+NOR,2009,es_games_y16_24,65.36,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+NOR,2010,es_games_y16_24,72.68,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+NOR,2012,es_games_y16_24,86.73,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+NOR,2014,es_games_y16_24,78.73,% of individuals 16-24,Participation,Youth 16-24 games/films/music online (Eurostat),Eurostat isoc_ci_ac_i I_IUGM Y16_24 (definition changed over time),2026-10-23
+GRC,2021,es_mobdev_y16_24,93.24,% of individuals 16-24,Access,Youth 16-24 used internet on a mobile/smart phone (Eurostat),Eurostat isoc_ci_dev_i I_IUG_MP Y16_24 (2021+; new definition),2026-10-23
+GRC,2023,es_mobdev_y16_24,95.01,% of individuals 16-24,Access,Youth 16-24 used internet on a mobile/smart phone (Eurostat),Eurostat isoc_ci_dev_i I_IUG_MP Y16_24 (2021+; new definition),2026-10-23
+GRC,2025,es_mobdev_y16_24,98.03,% of individuals 16-24,Access,Youth 16-24 used internet on a mobile/smart phone (Eurostat),Eurostat isoc_ci_dev_i I_IUG_MP Y16_24 (2021+; new definition),2026-10-23
+IRL,2023,es_mobdev_y16_24,100,% of individuals 16-24,Access,Youth 16-24 used internet on a mobile/smart phone (Eurostat),Eurostat isoc_ci_dev_i I_IUG_MP Y16_24 (2021+; new definition),2026-10-23
+IRL,2025,es_mobdev_y16_24,99.49,% of individuals 16-24,Access,Youth 16-24 used internet on a mobile/smart phone (Eurostat),Eurostat isoc_ci_dev_i I_IUG_MP Y16_24 (2021+; new definition),2026-10-23
+NOR,2021,es_mobdev_y16_24,99.31,% of individuals 16-24,Access,Youth 16-24 used internet on a mobile/smart phone (Eurostat),Eurostat isoc_ci_dev_i I_IUG_MP Y16_24 (2021+; new definition),2026-10-23
+NOR,2023,es_mobdev_y16_24,99.22,% of individuals 16-24,Access,Youth 16-24 used internet on a mobile/smart phone (Eurostat),Eurostat isoc_ci_dev_i I_IUG_MP Y16_24 (2021+; new definition),2026-10-23
+NOR,2025,es_mobdev_y16_24,99.45,% of individuals 16-24,Access,Youth 16-24 used internet on a mobile/smart phone (Eurostat),Eurostat isoc_ci_dev_i I_IUG_MP Y16_24 (2021+; new definition),2026-10-23
+GBR,2011,es_mobint_y16_24,69.83,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GBR,2012,es_mobint_y16_24,86.9,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GBR,2013,es_mobint_y16_24,89.04,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GBR,2014,es_mobint_y16_24,86.32,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GBR,2015,es_mobint_y16_24,92.3,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GBR,2016,es_mobint_y16_24,96.93,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GBR,2017,es_mobint_y16_24,97.26,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GBR,2018,es_mobint_y16_24,91.84,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GBR,2019,es_mobint_y16_24,99.57,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GRC,2011,es_mobint_y16_24,21.26,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GRC,2012,es_mobint_y16_24,37.08,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GRC,2013,es_mobint_y16_24,55.69,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GRC,2014,es_mobint_y16_24,65.3,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GRC,2015,es_mobint_y16_24,80.97,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GRC,2016,es_mobint_y16_24,79.7,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GRC,2017,es_mobint_y16_24,85.07,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GRC,2018,es_mobint_y16_24,91.06,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GRC,2019,es_mobint_y16_24,93.43,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+IRL,2011,es_mobint_y16_24,31.76,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+IRL,2012,es_mobint_y16_24,42.75,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+IRL,2013,es_mobint_y16_24,63.62,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+IRL,2014,es_mobint_y16_24,84.62,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+IRL,2015,es_mobint_y16_24,84.11,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+IRL,2016,es_mobint_y16_24,88.01,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+IRL,2017,es_mobint_y16_24,93.29,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+IRL,2018,es_mobint_y16_24,92.77,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+IRL,2019,es_mobint_y16_24,95.57,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+NOR,2011,es_mobint_y16_24,42.46,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+NOR,2012,es_mobint_y16_24,76.71,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+NOR,2013,es_mobint_y16_24,87.9,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+NOR,2014,es_mobint_y16_24,92.16,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+NOR,2015,es_mobint_y16_24,89.53,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+NOR,2016,es_mobint_y16_24,86,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+NOR,2017,es_mobint_y16_24,94.74,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+NOR,2018,es_mobint_y16_24,94.85,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+NOR,2019,es_mobint_y16_24,97.49,% of individuals 16-24,Access,Youth 16-24 used a mobile phone to access internet (Eurostat),Eurostat isoc_ci_im_i I_IUMP Y16_24 (2011-2019),2026-10-23
+GBR,2011,es_snet_y16_24,90.01,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GBR,2013,es_snet_y16_24,93.27,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GBR,2014,es_snet_y16_24,90.83,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GBR,2015,es_snet_y16_24,91.97,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GBR,2016,es_snet_y16_24,90.36,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GBR,2017,es_snet_y16_24,95.39,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GBR,2018,es_snet_y16_24,92.79,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GBR,2019,es_snet_y16_24,98.35,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GBR,2020,es_snet_y16_24,97.61,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2011,es_snet_y16_24,72.78,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2013,es_snet_y16_24,82.85,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2014,es_snet_y16_24,80.09,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2015,es_snet_y16_24,87.54,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2016,es_snet_y16_24,88.59,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2017,es_snet_y16_24,91.73,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2018,es_snet_y16_24,96.13,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2019,es_snet_y16_24,92.17,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2020,es_snet_y16_24,89.52,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2021,es_snet_y16_24,94.42,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2022,es_snet_y16_24,93.31,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2023,es_snet_y16_24,94.4,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2024,es_snet_y16_24,97.08,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+GRC,2025,es_snet_y16_24,91.63,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+IRL,2011,es_snet_y16_24,79.39,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+IRL,2013,es_snet_y16_24,86.61,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+IRL,2014,es_snet_y16_24,89.55,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+IRL,2015,es_snet_y16_24,85.61,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+IRL,2016,es_snet_y16_24,89.07,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+IRL,2017,es_snet_y16_24,90.81,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+IRL,2018,es_snet_y16_24,89.7,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+IRL,2019,es_snet_y16_24,89.5,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+IRL,2023,es_snet_y16_24,91.51,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+IRL,2024,es_snet_y16_24,95.43,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+IRL,2025,es_snet_y16_24,93.14,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2011,es_snet_y16_24,95.74,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2013,es_snet_y16_24,97.42,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2014,es_snet_y16_24,94.71,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2015,es_snet_y16_24,92.08,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2016,es_snet_y16_24,96.47,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2017,es_snet_y16_24,95.88,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2018,es_snet_y16_24,95.28,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2019,es_snet_y16_24,97.25,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2020,es_snet_y16_24,97.89,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2021,es_snet_y16_24,96.46,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2022,es_snet_y16_24,97.12,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2023,es_snet_y16_24,98.04,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2024,es_snet_y16_24,97.69,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
+NOR,2025,es_snet_y16_24,96.01,% of individuals 16-24,Participation,Youth 16-24 social networking (Eurostat),Eurostat isoc_ci_ac_i I_IUSNET Y16_24,2026-10-23
