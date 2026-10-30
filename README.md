@@ -16,6 +16,23 @@ The key aim is to align, before any data are requested, what major longitudinal 
 - No psychometric equivalence has been tested.
 - The digital-context values (the "invisible room": the digital space young people grow up in, which cohort studies leave largely unmeasured) describe each country and year, and for Australia also state, remoteness and subgroup. They show what young people could be exposed to at the time, not what any individual actually did online.
 
+## Use it online
+
+**Interactive page:** https://vas08011980.github.io/prototype-cohort-harmoniser/app/
+
+The page runs in any modern desktop browser; nothing is installed and nothing you do is stored. It loads about 2 MB, so give it a few seconds.
+
+How to use it:
+
+1. **Atlas** – start here. Rows are constructs, columns are studies. Each cell shows how many candidate items a study has for that construct and who answered (Y youth, P parent, T teacher, A adult, S passive sensing…). Click a cell to read the items.
+2. **Item compare** – pick a construct and up to three studies to read the wording side by side. Check the informant, reference period and response scale before treating two items as equivalent.
+3. **Two clocks** – every wave placed by calendar year (horizontal) and age (vertical). Choose a construct, then shade the bands by a digital-context indicator. Follow a horizontal line to compare the same age in different digital eras.
+4. **Invisible room** – choose an age to see the digital context each study's young people were in when they reached it, with the regulation and platform-launch timeline (and the ADII for Australia).
+5. **Harmonisation planner** – choose a construct and the studies to compare; the planner suggests a measurement option (0, a–e) and a timing strategy, with an untested R template.
+6. **Sources & gaps** – the dictionary behind each study and what is still missing.
+
+Treat every mapping as a candidate: check items against each study's own documentation before using them in an analysis or paper.
+
 ## What it does
 
 The app (`app/index.html`) has six views:

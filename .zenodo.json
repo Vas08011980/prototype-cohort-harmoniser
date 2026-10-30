@@ -1,12 +1,27 @@
 {
   "title": "Prototype Cohort Harmoniser",
   "upload_type": "software",
-  "description": "<p>A prototype cross-cohort harmoniser that aligns, at the metadata level, what major longitudinal cohort and panel studies across eight countries measured on youth wellbeing, digital media use and the proximate (family and parenting) context: which items, at what ages, in which calendar years and from which informant. Each wave is placed against the digital environment of its time (the \"invisible room\"), so researchers can see which cross-cohort comparisons are feasible and design analyses that separate developmental age from digital era (the \"two clocks\").</p><p><strong>Metadata only.</strong> The harmoniser contains data dictionaries, item wording, instruments, informants, waves, ages and fieldwork years, plus public country-level digital-context indicators. It holds no participant records, no individual responses, no frequencies and no restricted geography.</p><p>This is a prototype. It requires further improvement and independent checking, and it is not a validated resource.</p>",
+  "description": "<p>A prototype cross-cohort harmoniser that aligns, at the metadata level, what major longitudinal cohort and panel studies across eight countries measured on youth wellbeing, digital media use and the proximate (family and parenting) context: which items, at what ages, in which calendar years and from which informant. Each wave is placed against the digital environment of its time (the \"invisible room\"), so researchers can see which cross-cohort comparisons are feasible and design analyses that separate developmental age from digital era (the \"two clocks\").</p><p><strong>Metadata only.</strong> The harmoniser contains data dictionaries, item wording, instruments, informants, waves, ages and fieldwork years, plus public country-level digital-context indicators. It holds no participant records, no individual responses, no frequencies and no restricted geography.</p><p><strong>Use it online:</strong> <a href=\"https://vas08011980.github.io/prototype-cohort-harmoniser/app/\">https://vas08011980.github.io/prototype-cohort-harmoniser/app/</a>. Open the page in a desktop browser and move through the six tabs: Atlas (which study measured which construct, and who answered), Item compare (item wording side by side), Two clocks (every wave by calendar year and age), Invisible room (the digital context at a chosen age), Harmonisation planner (options and timing strategies, with an R template) and Sources &amp; gaps.</p><p>This is a prototype. It requires further improvement and independent checking, and it is not a validated resource.</p>",
   "creators": [
     {
       "name": "Stavropoulos, Vasileios",
       "affiliation": "RMIT University",
       "orcid": "0000-0001-6964-4662"
+    },
+    {
+      "name": "Prokofieva, Maria",
+      "affiliation": "Victoria University",
+      "orcid": "0000-0003-1974-3827"
+    },
+    {
+      "name": "Kavvadias, Spyridon",
+      "affiliation": "RMIT University",
+      "orcid": "0000-0001-7270-913X"
+    },
+    {
+      "name": "Hao, Yifei",
+      "affiliation": "RMIT University; The University of Melbourne",
+      "orcid": "0009-0002-7510-2557"
     },
     {
       "name": "Griffiths, Mark",
@@ -38,17 +53,9 @@
       "orcid": "0000-0001-7909-0464"
     },
     {
-      "name": "Prokofieva, Maria",
-      "affiliation": "Victoria University",
-      "orcid": "0000-0003-1974-3827"
-    },
-    {
-      "name": "Hao, Yifei"
-    },
-    {
-      "name": "Kavvadias, Spyridon",
-      "affiliation": "RMIT University",
-      "orcid": "0000-0001-7270-913X"
+      "name": "Doh, Young Yim",
+      "affiliation": "Korea Advanced Institute of Science and Technology",
+      "orcid": "0000-0003-4698-0828"
     }
   ],
   "keywords": [
@@ -61,5 +68,12 @@
     "developmental psychology",
     "digital context"
   ],
-  "license": "cc-by-nc-sa-4.0"
+  "license": "cc-by-nc-sa-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://vas08011980.github.io/prototype-cohort-harmoniser/app/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    }
+  ]
 }
