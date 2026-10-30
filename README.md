@@ -144,7 +144,7 @@ Each lexicon row keeps its source file. The source dictionaries are in the team'
 
 **Lexicon**
 
-- ABCD waves are item-level where possible: the waves in which an item was answered (wave presence only, no counts; parent STQ so far) or REDCap branching logic (1,124 items). Items with neither keep table-level coverage, which over-states waves for items added later (e.g. youth phone-involvement items). Extending the wave-presence check to the youth Screen Time Questionnaire would close this.
+- ABCD waves come from the public ABCD 7.0 data dictionary: item-level where it gives REDCap branching logic (1,124 items), otherwise table-level coverage, which over-states waves for items added later (e.g. youth phone-involvement items).
 - Some timings are approximate. Cohort years for GUiNZ, ABCD and UKHLS are derived from the study design or birth window; TESS years assume biennial visits from T1 in 2007–08. AStRA ages: C1/C2 M age 12.6 at W1 (Motti-Stefanidi et al., 2017), annual waves; C3 Gymnasium grades 1–3 at W1.
 - The keyword screen produces both false positives and false negatives. Every mapping needs reviewer approval before it reaches the Masterfile.
 - LSAC and GUiNZ are loaded from their full dictionaries; GUiNZ fieldwork years are approximate windows from the birth cohort and scheduled collection ages.
