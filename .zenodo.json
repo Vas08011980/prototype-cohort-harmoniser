@@ -9,10 +9,46 @@
       "orcid": "0000-0001-6964-4662"
     },
     {
+      "name": "Griffiths, Mark",
+      "affiliation": "Nottingham Trent University",
+      "orcid": "0000-0001-8880-6524"
+    },
+    {
+      "name": "Kuss, Daria",
+      "affiliation": "Nottingham Trent University",
+      "orcid": "0000-0001-8917-782X"
+    },
+    {
+      "name": "Motti-Stefanidi, Frosso",
+      "affiliation": "National and Kapodistrian University of Athens",
+      "orcid": "0000-0003-4290-4895"
+    },
+    {
+      "name": "Colder Carras, Michelle",
+      "orcid": "0000-0003-0750-524X"
+    },
+    {
+      "name": "Antoniadou, Nafsika",
+      "affiliation": "University of Ioannina",
+      "orcid": "0000-0002-8881-2235"
+    },
+    {
+      "name": "Waldie, Karen",
+      "affiliation": "University of Auckland",
+      "orcid": "0000-0001-7909-0464"
+    },
+    {
+      "name": "Prokofieva, Maria",
+      "affiliation": "Victoria University",
+      "orcid": "0000-0003-1974-3827"
+    },
+    {
       "name": "Hao, Yifei"
     },
     {
-      "name": "Kavvadias, Spiros"
+      "name": "Kavvadias, Spyridon",
+      "affiliation": "RMIT University",
+      "orcid": "0000-0001-7270-913X"
     }
   ],
   "keywords": [
@@ -24,5 +60,6 @@
     "youth wellbeing",
     "developmental psychology",
     "digital context"
-  ]
+  ],
+  "license": "cc-by-nc-sa-4.0"
 }
