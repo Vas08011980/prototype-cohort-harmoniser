@@ -1,0 +1,28 @@
+{
+  "title": "Prototype Cohort Harmoniser",
+  "upload_type": "software",
+  "description": "<p>A prototype cross-cohort harmoniser that aligns, at the metadata level, what major longitudinal cohort and panel studies across eight countries measured on youth wellbeing, digital media use and the proximate (family and parenting) context: which items, at what ages, in which calendar years and from which informant. Each wave is placed against the digital environment of its time (the \"invisible room\"), so researchers can see which cross-cohort comparisons are feasible and design analyses that separate developmental age from digital era (the \"two clocks\").</p><p><strong>Metadata only.</strong> The harmoniser contains data dictionaries, item wording, instruments, informants, waves, ages and fieldwork years, plus public country-level digital-context indicators. It holds no participant records, no individual responses, no frequencies and no restricted geography.</p><p>This is a prototype. It requires further improvement and independent checking, and it is not a validated resource.</p>",
+  "creators": [
+    {
+      "name": "Stavropoulos, Vasileios",
+      "affiliation": "RMIT University",
+      "orcid": "0000-0001-6964-4662"
+    },
+    {
+      "name": "Hao, Yifei"
+    },
+    {
+      "name": "Kavvadias, Spiros"
+    }
+  ],
+  "keywords": [
+    "cohort harmonisation",
+    "longitudinal cohorts",
+    "metadata",
+    "data dictionaries",
+    "digital media use",
+    "youth wellbeing",
+    "developmental psychology",
+    "digital context"
+  ]
+}
