@@ -75,5 +75,6 @@
       "relation": "isDocumentedBy",
       "resource_type": "other"
     }
-  ]
+  ],
+  "notes": "Contributions: Vasileios Stavropoulos led the work. Spyridon Kavvadias and Yifei Hao helped build the harmoniser. Maria Prokofieva was the inspiration for this work. Mark Griffiths, Daria Kuss, Frosso Motti-Stefanidi, Michelle Colder Carras, Nafsika Antoniadou, Karen Waldie and Young Yim Doh reviewed the datasets from their countries and the datasets they have worked on."
 }

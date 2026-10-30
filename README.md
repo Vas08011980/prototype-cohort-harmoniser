@@ -196,7 +196,9 @@ Metadata only: no participant records, no individual responses, no frequencies a
 
 ## Credits
 
-- Vasileios Stavropoulos (lead)
-- Yifei Hao and Spiros Kavvadias (harmoniser rebuild)
+- Vasileios Stavropoulos (RMIT University) – lead.
+- Spyridon Kavvadias and Yifei Hao (RMIT University) – helped build the harmoniser.
+- Maria Prokofieva (Victoria University) – the inspiration for this work.
+- Mark Griffiths and Daria Kuss (Nottingham Trent University), Frosso Motti-Stefanidi (National and Kapodistrian University of Athens), Michelle Colder Carras, Nafsika Antoniadou (University of Ioannina), Karen Waldie (University of Auckland) and Young Yim Doh (KAIST) – reviewed the datasets from their countries and the datasets they have worked on.
 
 Prototype assembled with Claude (Anthropic).
